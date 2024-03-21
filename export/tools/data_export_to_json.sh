@@ -7,22 +7,29 @@
 # 3 - Problem while using `tail`
 
 ## ~ Parameters
+# Timestamp
+TIMESTAMP=$(date +"%F_%T:%N")
+
 # Output folder
-DIST_PATH="./dist/data"
+DIST_PATH="./export/dist/export-${TIMESTAMP}"
+mkdir -p "${DIST_PATH}"
 
 # Sea surface files
 SEA_SURFACE_FILE="sea-surface-temp.csv"
-SEA_SURFACE_JSON="sea_surface_temp.json"
+SEA_SURFACE_JSON="${DIST_PATH}/export.${TIMESTAMP}.sea_surface_temperature.json"
 
 # Carbon dioxide files
 CARBON_DIOXIDE_FILE="carbon_dioxide_kaggle.csv"
-CARBON_DIOXIDE_JSON="carbon_dioxide.json"
+CARBON_DIOXIDE_JSON="${DIST_PATH}/export.${TIMESTAMP}.carbon_dioxide.json"
 
 # Ocean acidity files
 OCEAN_ACIDITY_FILE="ocean-acidity.csv"
-OCEAN_ACIDITY_HAWAII_JSON_FILENAME="ocean_acidity.hawaii.json"
-OCEAN_ACIDITY_CANARY_JSON_FILENAME="ocean_acidity.canary.json"
-OCEAN_ACIDITY_BERMUDA_JSON_FILENAME="ocean_acidity.bermuda.json"
+OCEAN_ACIDITY_HAWAII_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidity.hawaii.json"
+OCEAN_ACIDITY_CANARY_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidity.canary.json"
+OCEAN_ACIDITY_BERMUDA_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidity.bermuda.json"
+
+# Final file
+FINAL_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.merged_data.json"
 
 ## ~ Usage check
 # Check if directory argument is provided
@@ -154,8 +161,6 @@ jq -R -s '
   })' < "${OCEAN_ACIDITY_FILE}.bak" > "${OCEAN_ACIDITY_BERMUDA_JSON_FILENAME}" || exit 2
 
 ## ~ Create the final JSON
-mkdir -p "${DIST_PATH}"
-
 # Combine all JSON files into the final format
   jq \
     --slurpfile co2 "${CARBON_DIOXIDE_JSON}" \
@@ -186,7 +191,7 @@ mkdir -p "${DIST_PATH}"
         bermuda_acidity: ($bermuda[0] | map(select(.year == $year)) | first? | .bermuda_acidity // null), 
         }
     ]
-' > "${DIST_PATH}/export.$(date +"%F.%T:%N").json"
+' > "${FINAL_JSON_FILENAME}"
 
 # Delete useless files
 rm "${SEA_SURFACE_FILE}.bak" "${CARBON_DIOXIDE_FILE}.bak" "${OCEAN_ACIDITY_FILE}.bak"
