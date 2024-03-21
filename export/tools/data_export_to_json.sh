@@ -1,12 +1,28 @@
 #!/bin/bash
 
-DIST_PATH="./dist/data"
-
 ## ~ RC Status
 # 0 - All good
 # 1 - Wrong usage
 # 2 - Problem while using `jq`
 # 3 - Problem while using `tail`
+
+## ~ Parameters
+# Output folder
+DIST_PATH="./dist/data"
+
+# Sea surface files
+SEA_SURFACE_FILE="sea-surface-temp.csv"
+SEA_SURFACE_JSON="sea_surface_temp.json"
+
+# Carbon dioxide files
+CARBON_DIOXIDE_FILE="carbon_dioxide_kaggle.csv"
+CARBON_DIOXIDE_JSON="carbon_dioxide.json"
+
+# Ocean acidity files
+OCEAN_ACIDITY_FILE="ocean-acidity.csv"
+OCEAN_ACIDITY_HAWAII_JSON_FILENAME="ocean_acidity.hawaii.json"
+OCEAN_ACIDITY_CANARY_JSON_FILENAME="ocean_acidity.canary.json"
+OCEAN_ACIDITY_BERMUDA_JSON_FILENAME="ocean_acidity.bermuda.json"
 
 ## ~ Usage check
 # Check if directory argument is provided
@@ -23,20 +39,6 @@ fi
 ## ~ Vars
 # Directory containing the CSV files
 DIR="${1}"
-
-# Sea surface files
-SEA_SURFACE_FILE="sea-surface-temp.csv"
-SEA_SURFACE_JSON="sea_surface_temp.json"
-
-# Carbon dioxide files
-CARBON_DIOXIDE_FILE="carbon_dioxide_kaggle.csv"
-CARBON_DIOXIDE_JSON="carbon_dioxide.json"
-
-# Ocean acidity files
-OCEAN_ACIDITY_FILE="ocean-acidity.csv"
-OCEAN_ACIDITY_HAWAII_JSON_FILENAME="ocean_acidity.hawaii.json"
-OCEAN_ACIDITY_CANARY_JSON_FILENAME="ocean_acidity.canary.json"
-OCEAN_ACIDITY_BERMUDA_JSON_FILENAME="ocean_acidity.bermuda.json"
 
 ## ~ Sea surface file
 # Convert the sea surface temperature CSV to JSON
