@@ -1,25 +1,30 @@
-# 🎓 EPITA PFA (Projet de Fin d'Année)
-Notre dernier projet à ✨ **EPITA** ✨.
+# React + TypeScript + Vite
 
-# 📋 Description
- -> TODO
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# ⚙️Makerules
-- ***help***:           Show this help.
-- ***markdown***:       Show this help but in a markdown styled way. This can be used when updating the Makefile to generate documentation and simplify README.md's 'Make rules' section update.
-- ***autophony***:      Generate a .PHONY rule for your Makefile using all rules in the Makefile(s).
-- ***exportation***:    Export all the data from the CSV found in `./export/data/` into a list of formated Objects.
+Currently, two official plugins are available:
 
-# 👥 Members
-- *Andy* **Le Roy**
-- *Tony* **Blard**
-- *Karim* **Salhi**
-- *Aymen* **Ezzayer**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
-<a href="https://gitmoji.dev">
-  <img
-    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
-    alt="Gitmoji"
-  />
-</a>
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
