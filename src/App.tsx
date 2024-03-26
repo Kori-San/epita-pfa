@@ -10,6 +10,7 @@ import {
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 import faker from 'faker';
+import mergedData from '../export/dist/export-2024-03-25_13-03-12-714847546/merged_data.json';
 
 ChartJS.register(
   CategoryScale,
@@ -51,21 +52,46 @@ export const options = {
   },
 };
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+/*
+const labelsArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_decimal_year));
+let labels: any[] = [];
+labelsArray.forEach(array =>{
+  labels = labels.concat(array)
+})
+
+const carbonArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_carbon_dioxide));
+let carbonLabels: any[] = [];
+carbonArray.forEach(array =>{
+  carbonLabels = carbonLabels.concat(array)
+})
+
+const acidityArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_ph));
+let acidityLabels: any[] = [];
+acidityArray.forEach(array =>{
+  acidityLabels = acidityLabels.concat(array)
+})
+*/
+
+const labels = mergedData.map((x) => x.year);
+
+const carbonLabels = mergedData.map((x) => x.carbon_dioxide_ppm[0]);
+
+const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
+
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
+      label: 'Carbon Dioxidre (ppm)',
+      data: carbonLabels,
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       yAxisID: 'y',
     },
     {
-      label: 'Dataset 2',
-      data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
+      label: 'Ph',
+      data: acidityLabels,
       borderColor: 'rgb(53, 162, 235)',
       backgroundColor: 'rgba(53, 162, 235, 0.5)',
       yAxisID: 'y1',
