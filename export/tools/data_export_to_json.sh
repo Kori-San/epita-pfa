@@ -28,6 +28,10 @@ OCEAN_ACIDITY_HAWAII_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidi
 OCEAN_ACIDITY_CANARY_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidity.canary.json"
 OCEAN_ACIDITY_BERMUDA_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.ocean_acidity.bermuda.json"
 
+# Mollusc abundance files
+MOLLUSC_ABUNDANCE_FILE="INV-GCES-1610_Abundance_3_0.CSV"
+MOLLUSC_ABUNDANCE_JSON="${DIST_PATH}/export.${TIMESTAMP}.mollusc_abundance.json"
+
 # Final file
 FINAL_JSON_FILENAME="${DIST_PATH}/export.${TIMESTAMP}.merged_data.json"
 
@@ -165,6 +169,29 @@ jq -R -s '
     }),
   })' < "${OCEAN_ACIDITY_FILE}.bak" > "${OCEAN_ACIDITY_BERMUDA_JSON_FILENAME}" || exit 2
 
+## ~ Mollusc abundance
+# Convert the mollusc abundance CSV to JSON
+USELESS_LINE_NUMBER=$( grep -nP "^[,]+" "${DIR}/${MOLLUSC_ABUNDANCE_FILE}" | head -n1 | sed "s/:.*//g" )
+if [ -z "${USELESS_LINE_NUMBER}" ]; then
+    USELESS_LINE_NUMBER=0
+fi
+
+TOTAL_LINE_NUMBER=$( wc -l "${DIR}/${MOLLUSC_ABUNDANCE_FILE}" | sed "s/ .*//g" )
+TAIL_LINE_NUMBER=$(( TOTAL_LINE_NUMBER - USELESS_LINE_NUMBER - 3)) # -3 to get rid of columns title
+
+tail -n"${TAIL_LINE_NUMBER}" "${DIR}/${MOLLUSC_ABUNDANCE_FILE}" > "${MOLLUSC_ABUNDANCE_FILE}.bak" || exit 3
+
+jq -R -s '
+split("\n") | map(select(length > 0) | split(",") | {
+  year: (if .[1] != "" then .[1] | tonumber else empty end),
+  mollusc_count: (if .[14] != "" then .[14] | tonumber else empty end),
+  mollusc_density_square_meter: (if .[16] != "" then .[16] | tonumber else empty end),
+}) | group_by(.year) | map({
+  year: .[0].year,
+  mollusc_count: map(.mollusc_count) | add,
+  mollusc_density_square_meter: map(.mollusc_density_square_meter) | add,
+})' < "${MOLLUSC_ABUNDANCE_FILE}.bak" > "${MOLLUSC_ABUNDANCE_JSON}" || exit 2
+
 ## ~ Create the final JSON
 # Combine all JSON files into the final format
   jq \
@@ -173,9 +200,10 @@ jq -R -s '
     --slurpfile hawaii "${OCEAN_ACIDITY_HAWAII_JSON_FILENAME}" \
     --slurpfile canary "${OCEAN_ACIDITY_CANARY_JSON_FILENAME}" \
     --slurpfile bermuda "${OCEAN_ACIDITY_BERMUDA_JSON_FILENAME}" \
+    --slurpfile mollusc "${MOLLUSC_ABUNDANCE_JSON}" \
     -n '
     # Combine the lists and create a unique list of ids
-    ($co2[0] + $sst[0] + $hawaii[0] + $canary[0] + $bermuda[0] | map(.year) | unique) as $years |
+    ($co2[0] + $sst[0] + $hawaii[0] + $canary[0] + $bermuda[0] + $mollusc[0] | map(.year) | unique) as $years |
     
     # Iterate over each unique id
     [ $years[] as $year |
@@ -185,6 +213,9 @@ jq -R -s '
         global_sea_year_anomaly_farenheit: ($sst[0] | map(select(.year == $year)) | first? | .global_sea_year_anomaly_farenheit // null),
         global_sea_year_anomaly_lower_confidence_farenheit: ($sst[0] | map(select(.year == $year)) | first? | .global_sea_year_anomaly_lower_confidence_farenheit // null),
         global_sea_year_anomaly_upper_confidence_farenheit: ($sst[0] | map(select(.year == $year)) | first? | .global_sea_year_anomaly_upper_confidence_farenheit // null),
+
+        mollusc_count: ($mollusc[0] | map(select(.year == $year)) | first? | .mollusc_count // null),
+        mollusc_density_square_meter: ($mollusc[0] | map(select(.year == $year)) | first? | .mollusc_density_square_meter // null),
 
         carbon_dioxide_ppm: ($co2[0] | map(select(.year == $year)) | first? | .carbon_dioxide_ppm // null),
         seasonally_adjusted_carbon_dioxide_ppm: ($co2[0] | map(select(.year == $year)) | first? | .seasonally_adjusted_carbon_dioxide_ppm // null),
@@ -199,4 +230,4 @@ jq -R -s '
 ' > "${FINAL_JSON_FILENAME}"
 
 # Delete useless files
-rm "${SEA_SURFACE_FILE}.bak" "${CARBON_DIOXIDE_FILE}.bak" "${OCEAN_ACIDITY_FILE}.bak"
+rm "${SEA_SURFACE_FILE}.bak" "${CARBON_DIOXIDE_FILE}.bak" "${OCEAN_ACIDITY_FILE}.bak" "${MOLLUSC_ABUNDANCE_FILE}.bak"
