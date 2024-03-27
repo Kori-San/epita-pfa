@@ -12,13 +12,14 @@ import { Line } from "react-chartjs-2";
 import mergedData from "../export/dist/export-2024-03-25_13-03-12-714847546/merged_data.json";
 import {
   Box,
+  Checkbox,
   FormControl,
   InputLabel,
   MenuItem,
   Select,
   SelectChangeEvent,
 } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 
 ChartJS.register(
   CategoryScale,
@@ -59,26 +60,6 @@ export const options = {
     },
   },
 };
-
-/*
-const labelsArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_decimal_year));
-let labels: any[] = [];
-labelsArray.forEach(array =>{
-  labels = labels.concat(array)
-})
-
-const carbonArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_carbon_dioxide));
-let carbonLabels: any[] = [];
-carbonArray.forEach(array =>{
-  carbonLabels = carbonLabels.concat(array)
-})
-
-const acidityArray = mergedData.map((x) => x.hawaii_acidity.map((y) => y.hawaii_ph));
-let acidityLabels: any[] = [];
-acidityArray.forEach(array =>{
-  acidityLabels = acidityLabels.concat(array)
-})
-*/
 
 const labels = mergedData.map((x) => x.year);
 
@@ -139,34 +120,70 @@ export const data = {
 export default function App() {
   const [data1, setData1] = React.useState("");
   const [data2, setData2] = React.useState("");
+  const [checked, setChecked] = useState(false);
 
-  const [displayData, setDisplayData] = React.useState({ labels: [], datasets: [] });
+  const [displayData, setDisplayData] = React.useState({
+    labels: [],
+    datasets: [],
+  });
 
+  const farenheit = (x: string) => (171 / 7250) * Number(x) - 135579 / 2900;
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setChecked(event.target.checked);
+    updatePrevisions();
+  };
+
+  const updatePrevisions = () => {
+      let newDatasets = data.datasets[1];
+      console.log(newDatasets);
+      newDatasets.data = labels.map((x: string) => farenheit(x));
+      console.log(newDatasets);
+      setDisplayData((prevData) => ({
+        labels: data.labels,
+        datasets: [prevData.datasets[0], prevData.datasets[1], newDatasets], // Replace the first dataset
+      }));
+      console.log(displayData)
+  };
 
   const handleChange1 = (event: SelectChangeEvent) => {
     setData1(event.target.value as string);
-    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value && dataset.yAxisID === "y");
+    const newDataset = data.datasets.find(
+      (dataset) =>
+        dataset.label === event.target.value && dataset.yAxisID === "y"
+    );
     if (newDataset) {
-      setDisplayData(prevData => ({
+      setDisplayData((prevData) => ({
         labels: data.labels,
-        datasets: [newDataset, prevData.datasets[1]] // Replace the first dataset
+        datasets: [newDataset, prevData.datasets[1]], // Replace the first dataset
       }));
     }
   };
 
   const handleChange2 = (event: SelectChangeEvent) => {
     setData2(event.target.value as string);
-    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value && dataset.yAxisID === "y1");
+    const newDataset = data.datasets.find(
+      (dataset) =>
+        dataset.label === event.target.value && dataset.yAxisID === "y1"
+    );
     if (newDataset) {
-      setDisplayData(prevData => ({
+      setDisplayData((prevData) => ({
         labels: data.labels,
-        datasets: [prevData.datasets[0], newDataset] // Replace the second dataset
+        datasets: [prevData.datasets[0], newDataset], // Replace the second dataset
       }));
     }
   };
 
-  const selectData1 = [data.datasets[0].label, data.datasets[1].label, data.datasets[2].label];
-  const selectData2 = [data.datasets[0].label, data.datasets[1].label, data.datasets[2].label];
+  const selectData1 = [
+    data.datasets[0].label,
+    data.datasets[1].label,
+    data.datasets[2].label,
+  ];
+  const selectData2 = [
+    data.datasets[0].label,
+    data.datasets[1].label,
+    data.datasets[2].label,
+  ];
   return (
     <>
       <Box sx={{ minWidth: 120 }}>
@@ -186,7 +203,6 @@ export default function App() {
             ))}
           </Select>
         </FormControl>
-
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">Graph Data 2</InputLabel>
           <Select
@@ -203,6 +219,8 @@ export default function App() {
             ))}
           </Select>
         </FormControl>
+        <Checkbox checked={checked} onChange={handleChange} />
+        Display predictions
       </Box>
       <Line options={options} data={displayData} />
     </>
