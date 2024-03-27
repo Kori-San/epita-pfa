@@ -1,4 +1,6 @@
 # 🎓 EPITA PFA (Projet de Fin d'Année)
+![Node.js Badge](https://img.shields.io/badge/Node.js-18-%23339933?logo=node.js&logoColor=%23339933)
+
 Notre dernier projet à ✨ **EPITA** ✨.
 
 # 📋 Description
