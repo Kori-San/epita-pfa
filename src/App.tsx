@@ -114,6 +114,13 @@ export const data = {
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
     },
+    {
+      label: "Farenheit",
+      data: degreeLabels,
+      borderColor: "rgb(10, 50, 150)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+    },
   ],
 };
 
@@ -135,15 +142,20 @@ export default function App() {
   };
 
   const updatePrevisions = () => {
-      let newDatasets = data.datasets[1];
-      console.log(newDatasets);
-      newDatasets.data = labels.map((x: string) => farenheit(x));
-      console.log(newDatasets);
+    if (checked && displayData.datasets.length === 3) {
+      setDisplayData((prevData) => ({
+        labels: data.labels,
+        datasets: [prevData.datasets[0], prevData.datasets[1]], // Remove the first dataset
+      }));
+    } else {
+      let newDatasets = data.datasets[6];
+      let labels2 = labels
+      newDatasets.data = labels2.map((x: string) => farenheit(x));
       setDisplayData((prevData) => ({
         labels: data.labels,
         datasets: [prevData.datasets[0], prevData.datasets[1], newDatasets], // Replace the first dataset
       }));
-      console.log(displayData)
+    }
   };
 
   const handleChange1 = (event: SelectChangeEvent) => {
