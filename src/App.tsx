@@ -47,7 +47,7 @@ export const options = {
       position: 'right' as const,
       grid: {
         drawOnChartArea: false,
-      },
+      }
     },
   },
 };
@@ -78,6 +78,8 @@ const carbonLabels = mergedData.map((x) => x.carbon_dioxide_ppm[0]);
 
 const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
 
+const degreeLabels = mergedData.map((x) => x.global_sea_year_anomaly_farenheit);
+
 
 export const data = {
   labels,
@@ -93,6 +95,13 @@ export const data = {
       label: 'Ph',
       data: acidityLabels,
       borderColor: 'rgb(53, 162, 235)',
+      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+      yAxisID: 'y1',
+    },
+    {
+      label: 'Farenheit',
+      data: degreeLabels,
+      borderColor: 'rgb(10, 50, 150)',
       backgroundColor: 'rgba(53, 162, 235, 0.5)',
       yAxisID: 'y1',
     },
