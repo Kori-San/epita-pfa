@@ -99,11 +99,32 @@ export const data = {
       yAxisID: "y",
     },
     {
+      label: "Carbon Dioxidre (ppm)",
+      data: carbonLabels,
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      yAxisID: "y1",
+    },
+    {
+      label: "Ph",
+      data: acidityLabels,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+    },
+    {
       label: "Ph",
       data: acidityLabels,
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
+    },
+    {
+      label: "Farenheit",
+      data: degreeLabels,
+      borderColor: "rgb(10, 50, 150)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
     },
     {
       label: "Farenheit",
@@ -124,7 +145,7 @@ export default function App() {
 
   const handleChange1 = (event: SelectChangeEvent) => {
     setData1(event.target.value as string);
-    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value);
+    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value && dataset.yAxisID === "y");
     if (newDataset) {
       setDisplayData(prevData => ({
         labels: data.labels,
@@ -135,7 +156,7 @@ export default function App() {
 
   const handleChange2 = (event: SelectChangeEvent) => {
     setData2(event.target.value as string);
-    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value);
+    const newDataset = data.datasets.find(dataset => dataset.label === event.target.value && dataset.yAxisID === "y1");
     if (newDataset) {
       setDisplayData(prevData => ({
         labels: data.labels,
