@@ -6,7 +6,7 @@ Notre dernier projet à ✨ **EPITA** ✨.
 # 📋 Description
  -> TODO
 
-# ⚙️Makerules
+# ⚙️ Makerules
 - ***help***:           Show this help.
 - ***markdown***:       Show this help but in a markdown styled way. This can be used when updating the Makefile to generate documentation and simplify README.md's 'Make rules' section update.
 - ***autophony***:      Generate a .PHONY rule for your Makefile using all rules in the Makefile(s).
