@@ -99,6 +99,20 @@ export const data = {
       yAxisID: "y",
     },
     {
+      label: "Farenheit",
+      data: degreeLabels,
+      borderColor: "rgb(10, 50, 150)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+    },
+    {
+      label: "Ph",
+      data: acidityLabels,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+    },
+    {
       label: "Carbon Dioxidre (ppm)",
       data: carbonLabels,
       borderColor: "rgb(255, 99, 132)",
@@ -110,21 +124,7 @@ export const data = {
       data: acidityLabels,
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
-      yAxisID: "y",
-    },
-    {
-      label: "Ph",
-      data: acidityLabels,
-      borderColor: "rgb(53, 162, 235)",
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
-    },
-    {
-      label: "Farenheit",
-      data: degreeLabels,
-      borderColor: "rgb(10, 50, 150)",
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
-      yAxisID: "y",
     },
     {
       label: "Farenheit",
