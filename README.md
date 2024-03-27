@@ -12,6 +12,11 @@ Notre dernier projet à ✨ **EPITA** ✨.
 - ***autophony***:      Generate a .PHONY rule for your Makefile using all rules in the Makefile(s).
 - ***exportation***:    Export all the data from the CSV found in `./export/data/` into a list of formated Objects.
 
+# ✳️ Requirements
+- [make](https://www.gnu.org/software/make/)
+- [jq](https://jqlang.github.io/jq/)
+- [node.js](https://nodejs.org/en)
+
 # 👥 Members
 - *Andy* **Le Roy**
 - *Tony* **Blard**
