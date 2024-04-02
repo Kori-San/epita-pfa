@@ -41,8 +41,7 @@ export const options = {
   stacked: false,
   plugins: {
     title: {
-      display: true,
-      text: "Chart.js Line Chart - Multi Axis",
+      display: false,
     },
   },
   scales: {
@@ -237,6 +236,11 @@ export default function App() {
     }
   };
 
+console.log(data.datasets.find(
+        (dataset) =>
+          dataset.label === "Ph Prediction"
+      ).data = phPredi.map(x => x / 2));
+  
   const handleChange1 = (event: SelectChangeEvent) => {
     setData1(event.target.value as string);
     const newDataset = data.datasets.find(
@@ -275,45 +279,54 @@ export default function App() {
     data.datasets[1].label,
     data.datasets[2].label,
   ];
+
   return (
     <>
-      <Box sx={{ minWidth: 120 }}>
-        <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Graph Data 1</InputLabel>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={data1}
-            label="Data 1"
-            onChange={handleChange1}
-          >
-            {selectData1.map((value) => (
-              <MenuItem key={value} value={value}>
-                {value}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Graph Data 2</InputLabel>
-          <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
-            value={data2}
-            label="Data 2"
-            onChange={handleChange2}
-          >
-            {selectData2.map((value) => (
-              <MenuItem key={value} value={value}>
-                {value}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <Checkbox checked={checked} onChange={handleChange} />
-        Display predictions
-      </Box>
-      <Line options={options} data={displayData} />
+    <div className="flex flex-col w-full justify-center items-center">
+      <div className="mt-8 w-11/12 flex flex-col justify-center items-center">
+        <div className="w-full flex flex-row gap-2 justify-center items-center">
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Graph Data 1</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={data1}
+              label="Data 1"
+              onChange={handleChange1}
+            >
+              {selectData1.map((value) => (
+                <MenuItem key={value} value={value}>
+                  {value}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Graph Data 2</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={data2}
+              label="Data 2"
+              onChange={handleChange2}
+            >
+              {selectData2.map((value) => (
+                <MenuItem key={value} value={value}>
+                  {value}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        </div>
+        <div>
+          <Checkbox checked={checked} onChange={handleChange} />
+          Display predictions
+        </div>
+        </div>
+      <div className="w-10/12">
+        <Line options={options} data={displayData} />
+      </div>
+    </div>
     </>
   );
 }
