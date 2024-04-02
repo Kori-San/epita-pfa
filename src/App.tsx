@@ -9,7 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
-import mergedData from "../export/dist/export-2024-03-25_13-03-12-714847546/merged_data.json";
+import mergedData from "../export/dist/export-2024-04-03_00:15:31:442296677/merged_data.json";
 import {
   Box,
   Checkbox,
@@ -86,14 +86,18 @@ const degreeRegressionData = degreeLabels.map(function(element, index) {
 });
 const degreeRegression = regression.linear(degreeRegressionData, regressionOptions);
 
-const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
+const mouleLabels = mergedData.map((x) => x.mollusc_density_square_meter);
+const mouleRegressionData = mouleLabels.map(function(element, index) {
+  return [Number(labels[index]), element];
+});
+const mouleRegression = regression.linear(mouleRegressionData, regressionOptions);
 
-console.log(acidityRegressionData);
-console.log(acidityRegression.predict(2009), acidityRegression.predict(2015));
+const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
 
 const degreePredi = labels2.map((x: string) => degreeRegression.predict(Number(x))[1]);
 const phPredi = labels2.map((x: string) => acidityRegression.predict(Number(x))[1]);
 const carbonPredi = labels2.map((x: string) => carbonRegression.predict(Number(x))[1]);
+const moulePredi = labels2.map((x: string) => mouleRegression.predict(Number(x))[1]);
 
 export const data = {
   labels,
@@ -123,6 +127,14 @@ export const data = {
       tension: 0.4
     },
     {
+      label: "Molusk (density per square/meter)",
+      data: mouleLabels,
+      borderColor: "rgb(242, 142, 234)",
+      backgroundColor: "rgba(242, 142, 234, 0.5)",
+      yAxisID: "y",
+      tension: 0.4
+    },
+    {
       label: "Carbon Dioxidre (ppm)",
       data: carbonLabels,
       borderColor: "rgb(255, 99, 132)",
@@ -131,12 +143,20 @@ export const data = {
       tension: 0.4
     },
     {
-      label: "Ph",
-      data: acidityLabels,
-      borderColor: "rgb(53, 162, 235)",
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      label: "Carbon Dioxidre (ppm) Prediction",
+      data: carbonPredi,
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      yAxisID: "y",
+      borderDash: [1, 1],
+    },
+    {
+      label: "Carbon Dioxidre (ppm) Prediction",
+      data: carbonPredi,
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
       yAxisID: "y1",
-      tension: 0.4
+      borderDash: [1, 1],
     },
     {
       label: "Farenheit",
@@ -162,7 +182,22 @@ export const data = {
       yAxisID: "y1",
       borderDash: [1, 1],
     },
-    
+    {
+      label: "Ph",
+      data: acidityLabels,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+      tension: 0.4
+    },
+    {
+      label: "Ph",
+      data: acidityLabels,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y1",
+      tension: 0.4
+    },    
     {
       label: "Ph Prediction",
       data: phPredi,
@@ -180,18 +215,34 @@ export const data = {
       borderDash: [1, 1],
     },
     {
-      label: "Carbon Dioxidre (ppm) Prediction",
-      data: carbonPredi,
-      borderColor: "rgb(255, 99, 132)",
-      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      label: "Molusk",
+      data: mouleLabels,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+      tension: 0.4
+    },
+    {
+      label: "Molusk (density per square/meter)",
+      data: mouleLabels,
+      borderColor: "rgb(242, 142, 234)",
+      backgroundColor: "rgba(242, 142, 234, 0.5)",
+      yAxisID: "y1",
+      tension: 0.4
+    },    
+    {
+      label: "Molusk  (density per square/meter) Prediction",
+      data: moulePredi,
+      borderColor: "rgb(242, 142, 234)",
+      backgroundColor: "rgba(242, 142, 234, 0.5)",
       yAxisID: "y",
       borderDash: [1, 1],
     },
     {
-      label: "Carbon Dioxidre (ppm) Prediction",
-      data: carbonPredi,
-      borderColor: "rgb(255, 99, 132)",
-      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      label: "Molusk  (density per square/meter) Prediction",
+      data: moulePredi,
+      borderColor: "rgb(242, 142, 234)",
+      backgroundColor: "rgba(242, 142, 234, 0.5)",
       yAxisID: "y1",
       borderDash: [1, 1],
     },
@@ -273,11 +324,13 @@ console.log(data.datasets.find(
     data.datasets[0].label,
     data.datasets[1].label,
     data.datasets[2].label,
+    data.datasets[3].label,
   ];
   const selectData2 = [
     data.datasets[0].label,
     data.datasets[1].label,
     data.datasets[2].label,
+    data.datasets[3].label,
   ];
 
   return (
