@@ -20,6 +20,7 @@ import {
   SelectChangeEvent,
 } from "@mui/material";
 import React, { useState } from "react";
+import regression from 'regression';
 
 ChartJS.register(
   CategoryScale,
@@ -64,21 +65,31 @@ export const options = {
 const labels = mergedData.map((x) => x.year);
 
 const carbonLabels = mergedData.map((x) => x.carbon_dioxide_ppm[0]);
+const carbonRegressionData = carbonLabels.map(function(element, index) {
+  return [Number(labels[index]), element];
+});
+const carbonRegression = regression.linear(carbonRegressionData);
 
 const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
+const acidityRegressionData = acidityLabels.map(function(element, index) {
+  return [Number(labels[index]), element];
+});
+const acidityRegression = regression.logarithmic(acidityRegressionData);
 
 const degreeLabels = mergedData.map((x) => x.global_sea_year_anomaly_farenheit);
+const degreeRegressionData = degreeLabels.map(function(element, index) {
+  return [Number(labels[index]), element];
+});
+const degreeRegression = regression.linear(degreeRegressionData);
 
 const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
 
-const farenheit = (x: string) => (171 / 7250) * Number(x) - 135579 / 2900;
-const ph = (x: string) => -(1 / 725) * Number(x) + 31471 / 2900;
-const carbon = (x: string) => (1391 / 725) * Number(x) - 2008997 / 580;
+console.log(acidityRegressionData);
+console.log(acidityRegression.predict(2009), acidityRegression.predict(2015));
 
-const degreePredi = labels2.map((x: string) => farenheit(x));
-const phPredi = labels2.map((x: string) => ph(x));
-const carbonPredi = labels2.map((x: string) => carbon(x));
-
+const degreePredi = labels2.map((x: string) => degreeRegression.predict(Number(x))[1]);
+const phPredi = labels2.map((x: string) => acidityRegression.predict(Number(x))[1]);
+const carbonPredi = labels2.map((x: string) => carbonRegression.predict(Number(x))[1]);
 
 export const data = {
   labels,
@@ -193,12 +204,12 @@ export default function App() {
         datasets: [prevData.datasets[0], prevData.datasets[1]], // Remove the first dataset
       }));
     } else {
-      let newDatasets = data.datasets.find(
+      const newDatasets = data.datasets.find(
         (dataset) =>
           dataset.label === displayData.datasets[0].label + " Prediction" && dataset.yAxisID === displayData.datasets[0].yAxisID
       );
 
-      let newDatasets2 = data.datasets.find(
+      const newDatasets2 = data.datasets.find(
         (dataset) =>
           dataset.label === displayData.datasets[1].label + " Prediction" && dataset.yAxisID === displayData.datasets[1].yAxisID
       );
