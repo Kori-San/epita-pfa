@@ -69,6 +69,17 @@ const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
 
 const degreeLabels = mergedData.map((x) => x.global_sea_year_anomaly_farenheit);
 
+const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
+
+const farenheit = (x: string) => (171 / 7250) * Number(x) - 135579 / 2900;
+const ph = (x: string) => -(1 / 725) * Number(x) + 31471 / 2900;
+const carbon = (x: string) => (1391 / 725) * Number(x) - 2008997 / 580;
+
+const degreePredi = labels2.map((x: string) => farenheit(x));
+const phPredi = labels2.map((x: string) => ph(x));
+const carbonPredi = labels2.map((x: string) => carbon(x));
+
+
 export const data = {
   labels,
   datasets: [
@@ -115,11 +126,47 @@ export const data = {
       yAxisID: "y1",
     },
     {
-      label: "Farenheit",
-      data: degreeLabels,
+      label: "Farenheit Prediction",
+      data: degreePredi,
       borderColor: "rgb(10, 50, 150)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y",
+    },
+    {
+      label: "Farenheit Prediction",
+      data: degreePredi,
+      borderColor: "rgb(10, 50, 150)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y1",
+    },
+    
+    {
+      label: "Ph Prediction",
+      data: phPredi,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y",
+    },
+    {
+      label: "Ph Prediction",
+      data: phPredi,
+      borderColor: "rgb(53, 162, 235)",
+      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      yAxisID: "y1",
+    },
+    {
+      label: "Carbon Dioxidre (ppm) Prediction",
+      data: carbonPredi,
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      yAxisID: "y",
+    },
+    {
+      label: "Carbon Dioxidre (ppm) Prediction",
+      data: carbonPredi,
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.5)",
+      yAxisID: "y1",
     },
   ],
 };
@@ -134,26 +181,30 @@ export default function App() {
     datasets: [],
   });
 
-  const farenheit = (x: string) => (171 / 7250) * Number(x) - 135579 / 2900;
-
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);
     updatePrevisions();
   };
 
   const updatePrevisions = () => {
-    if (checked && displayData.datasets.length === 3) {
+    if (checked && displayData.datasets.length === 4) {
       setDisplayData((prevData) => ({
         labels: data.labels,
         datasets: [prevData.datasets[0], prevData.datasets[1]], // Remove the first dataset
       }));
     } else {
-      let newDatasets = data.datasets[6];
-      let labels2 = labels
-      newDatasets.data = labels2.map((x: string) => farenheit(x));
+      let newDatasets = data.datasets.find(
+        (dataset) =>
+          dataset.label === displayData.datasets[0].label + " Prediction" && dataset.yAxisID === displayData.datasets[0].yAxisID
+      );
+
+      let newDatasets2 = data.datasets.find(
+        (dataset) =>
+          dataset.label === displayData.datasets[1].label + " Prediction" && dataset.yAxisID === displayData.datasets[1].yAxisID
+      );
       setDisplayData((prevData) => ({
-        labels: data.labels,
-        datasets: [prevData.datasets[0], prevData.datasets[1], newDatasets], // Replace the first dataset
+        labels: labels2,
+        datasets: [prevData.datasets[0], prevData.datasets[1], newDatasets, newDatasets2], // Replace the first dataset
       }));
     }
   };
