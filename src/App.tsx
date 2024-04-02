@@ -105,6 +105,7 @@ export const data = {
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
       yAxisID: "y",
+      tension: 0.4
     },
     {
       label: "Farenheit",
@@ -112,6 +113,7 @@ export const data = {
       borderColor: "rgb(10, 50, 150)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y",
+      tension: 0.4
     },
     {
       label: "Ph",
@@ -119,6 +121,7 @@ export const data = {
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y",
+      tension: 0.4
     },
     {
       label: "Carbon Dioxidre (ppm)",
@@ -126,6 +129,7 @@ export const data = {
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
       yAxisID: "y1",
+      tension: 0.4
     },
     {
       label: "Ph",
@@ -133,6 +137,7 @@ export const data = {
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
+      tension: 0.4
     },
     {
       label: "Farenheit",
@@ -140,6 +145,7 @@ export const data = {
       borderColor: "rgb(10, 50, 150)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
+      tension: 0.4
     },
     {
       label: "Farenheit Prediction",
@@ -147,6 +153,7 @@ export const data = {
       borderColor: "rgb(10, 50, 150)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y",
+      borderDash: [1, 1],
     },
     {
       label: "Farenheit Prediction",
@@ -154,6 +161,7 @@ export const data = {
       borderColor: "rgb(10, 50, 150)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
+      borderDash: [1, 1],
     },
     
     {
@@ -162,6 +170,7 @@ export const data = {
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y",
+      borderDash: [1, 1],
     },
     {
       label: "Ph Prediction",
@@ -169,6 +178,7 @@ export const data = {
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
+      borderDash: [1, 1],
     },
     {
       label: "Carbon Dioxidre (ppm) Prediction",
@@ -176,6 +186,7 @@ export const data = {
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
       yAxisID: "y",
+      borderDash: [1, 1],
     },
     {
       label: "Carbon Dioxidre (ppm) Prediction",
@@ -183,6 +194,7 @@ export const data = {
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
       yAxisID: "y1",
+      borderDash: [1, 1],
     },
   ],
 };
