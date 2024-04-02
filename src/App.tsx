@@ -62,25 +62,30 @@ export const options = {
   },
 };
 
+const regressionOptions = {
+  order: 2,
+  precision: 5,
+} 
+
 const labels = mergedData.map((x) => x.year);
 
 const carbonLabels = mergedData.map((x) => x.carbon_dioxide_ppm[0]);
 const carbonRegressionData = carbonLabels.map(function(element, index) {
   return [Number(labels[index]), element];
 });
-const carbonRegression = regression.linear(carbonRegressionData);
+const carbonRegression = regression.linear(carbonRegressionData, regressionOptions);
 
 const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
 const acidityRegressionData = acidityLabels.map(function(element, index) {
   return [Number(labels[index]), element];
 });
-const acidityRegression = regression.logarithmic(acidityRegressionData);
+const acidityRegression = regression.linear(acidityRegressionData, regressionOptions);
 
 const degreeLabels = mergedData.map((x) => x.global_sea_year_anomaly_farenheit);
 const degreeRegressionData = degreeLabels.map(function(element, index) {
   return [Number(labels[index]), element];
 });
-const degreeRegression = regression.linear(degreeRegressionData);
+const degreeRegression = regression.linear(degreeRegressionData, regressionOptions);
 
 const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
 
