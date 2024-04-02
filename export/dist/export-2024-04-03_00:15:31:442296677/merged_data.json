@@ -1,0 +1,6115 @@
+[
+  {
+    "year": "1988",
+    "global_sea_year_anomaly_farenheit": 0.138,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.081552,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.194448,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      350.43,
+      351.73,
+      352.22,
+      353.59,
+      354.22,
+      353.79,
+      352.38,
+      350.43,
+      348.73,
+      348.88,
+      350.07,
+      351.34
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      350.41,
+      351.06,
+      350.77,
+      351,
+      351.13,
+      351.47,
+      351.64,
+      351.84,
+      351.92,
+      352.19,
+      352.15,
+      352.2
+    ],
+    "carbon_dioxide_fit_ppm": [
+      350.42,
+      351.29,
+      352.28,
+      353.63,
+      354.3,
+      353.7,
+      352.28,
+      350.29,
+      348.68,
+      348.74,
+      350.1,
+      351.43
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      350.39,
+      350.61,
+      350.81,
+      351.02,
+      351.21,
+      351.4,
+      351.57,
+      351.74,
+      351.89,
+      352.03,
+      352.16,
+      352.28
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1988.833333,
+        "hawaii_ph": 8.1097,
+        "hawaii_carbon_dioxide": 330.9
+      },
+      {
+        "hawaii_decimal_year": 1988.920765,
+        "hawaii_ph": 8.1092,
+        "hawaii_carbon_dioxide": 330.6
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1988.067,
+        "bermuda_ph": 8.148,
+        "bermuda_carbon_dioxide": 298.881
+      },
+      {
+        "bermuda_decimal_year": 1988.185,
+        "bermuda_ph": 8.146,
+        "bermuda_carbon_dioxide": 302.053
+      },
+      {
+        "bermuda_decimal_year": 1988.36,
+        "bermuda_ph": 8.11,
+        "bermuda_carbon_dioxide": 330.327
+      },
+      {
+        "bermuda_decimal_year": 1988.4478,
+        "bermuda_ph": 8.102,
+        "bermuda_carbon_dioxide": 338.259
+      },
+      {
+        "bermuda_decimal_year": 1988.5518,
+        "bermuda_ph": 8.059,
+        "bermuda_carbon_dioxide": 377.074
+      },
+      {
+        "bermuda_decimal_year": 1988.6449,
+        "bermuda_ph": 8.062,
+        "bermuda_carbon_dioxide": 371.738
+      },
+      {
+        "bermuda_decimal_year": 1988.7195,
+        "bermuda_ph": 8.08,
+        "bermuda_carbon_dioxide": 352.817
+      },
+      {
+        "bermuda_decimal_year": 1988.8069,
+        "bermuda_ph": 8.126,
+        "bermuda_carbon_dioxide": 313.947
+      },
+      {
+        "bermuda_decimal_year": 1988.8181,
+        "bermuda_ph": 8.096,
+        "bermuda_carbon_dioxide": 341.125
+      },
+      {
+        "bermuda_decimal_year": 1988.8992,
+        "bermuda_ph": 8.143,
+        "bermuda_carbon_dioxide": 298.698
+      },
+      {
+        "bermuda_decimal_year": 1988.9692,
+        "bermuda_ph": 8.141,
+        "bermuda_carbon_dioxide": 303.364
+      }
+    ]
+  },
+  {
+    "year": "1989",
+    "global_sea_year_anomaly_farenheit": 0.066,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.020136,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.111864,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      352.76,
+      353.07,
+      353.68,
+      355.42,
+      355.67,
+      355.12,
+      353.9,
+      351.67,
+      349.8,
+      349.99,
+      351.29,
+      352.52
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      352.74,
+      352.39,
+      352.25,
+      352.84,
+      352.57,
+      352.77,
+      353.13,
+      353.06,
+      353,
+      353.31,
+      353.39,
+      353.39
+    ],
+    "carbon_dioxide_fit_ppm": [
+      352.42,
+      353.18,
+      354.03,
+      355.28,
+      355.89,
+      355.22,
+      353.72,
+      351.65,
+      349.96,
+      349.97,
+      351.3,
+      352.62
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      352.39,
+      352.5,
+      352.59,
+      352.69,
+      352.78,
+      352.88,
+      352.98,
+      353.08,
+      353.18,
+      353.27,
+      353.37,
+      353.47
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1989.021918,
+        "hawaii_ph": 8.1168,
+        "hawaii_carbon_dioxide": 324.3
+      },
+      {
+        "hawaii_decimal_year": 1989.156164,
+        "hawaii_ph": 8.1316,
+        "hawaii_carbon_dioxide": 310.9
+      },
+      {
+        "hawaii_decimal_year": 1989.235616,
+        "hawaii_ph": 8.1218,
+        "hawaii_carbon_dioxide": 317.7
+      },
+      {
+        "hawaii_decimal_year": 1989.378082,
+        "hawaii_ph": 8.1158,
+        "hawaii_carbon_dioxide": 326.2
+      },
+      {
+        "hawaii_decimal_year": 1989.479452,
+        "hawaii_ph": 8.1018,
+        "hawaii_carbon_dioxide": 334.3
+      },
+      {
+        "hawaii_decimal_year": 1989.575342,
+        "hawaii_ph": 8.0991,
+        "hawaii_carbon_dioxide": 340.4
+      },
+      {
+        "hawaii_decimal_year": 1989.646575,
+        "hawaii_ph": 8.093,
+        "hawaii_carbon_dioxide": 343.8
+      },
+      {
+        "hawaii_decimal_year": 1989.726027,
+        "hawaii_ph": 8.099,
+        "hawaii_carbon_dioxide": 337.8
+      },
+      {
+        "hawaii_decimal_year": 1989.79726,
+        "hawaii_ph": 8.0858,
+        "hawaii_carbon_dioxide": 350.5
+      },
+      {
+        "hawaii_decimal_year": 1989.906849,
+        "hawaii_ph": 8.1101,
+        "hawaii_carbon_dioxide": 329.7
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1989.0783,
+        "bermuda_ph": 8.181,
+        "bermuda_carbon_dioxide": 272.018
+      },
+      {
+        "bermuda_decimal_year": 1989.1412,
+        "bermuda_ph": 8.177,
+        "bermuda_carbon_dioxide": 275.837
+      },
+      {
+        "bermuda_decimal_year": 1989.2315,
+        "bermuda_ph": 8.154,
+        "bermuda_carbon_dioxide": 293.406
+      },
+      {
+        "bermuda_decimal_year": 1989.295,
+        "bermuda_ph": 8.133,
+        "bermuda_carbon_dioxide": 310.89
+      },
+      {
+        "bermuda_decimal_year": 1989.3737,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 328.879
+      },
+      {
+        "bermuda_decimal_year": 1989.4754,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 369.479
+      },
+      {
+        "bermuda_decimal_year": 1989.55,
+        "bermuda_ph": 8.068,
+        "bermuda_carbon_dioxide": 366.841
+      },
+      {
+        "bermuda_decimal_year": 1989.6255,
+        "bermuda_ph": 8.101,
+        "bermuda_carbon_dioxide": 336.829
+      },
+      {
+        "bermuda_decimal_year": 1989.8041,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 324.45
+      },
+      {
+        "bermuda_decimal_year": 1989.909,
+        "bermuda_ph": 8.111,
+        "bermuda_carbon_dioxide": 330.513
+      },
+      {
+        "bermuda_decimal_year": 1989.9697,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 320.876
+      }
+    ]
+  },
+  {
+    "year": "1990",
+    "global_sea_year_anomaly_farenheit": 0.246,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.19308,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.29892,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      353.66,
+      354.7,
+      355.38,
+      356.2,
+      357.16,
+      356.23,
+      354.81,
+      352.91,
+      350.96,
+      351.18,
+      352.83,
+      354.21
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      353.64,
+      354.02,
+      353.95,
+      353.62,
+      354.05,
+      353.87,
+      354.04,
+      354.3,
+      354.17,
+      354.51,
+      354.93,
+      355.08
+    ],
+    "carbon_dioxide_fit_ppm": [
+      353.61,
+      354.36,
+      355.22,
+      356.47,
+      357.08,
+      356.42,
+      354.95,
+      352.91,
+      351.26,
+      351.31,
+      352.7,
+      354.07
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      353.57,
+      353.68,
+      353.77,
+      353.87,
+      353.97,
+      354.08,
+      354.2,
+      354.34,
+      354.48,
+      354.62,
+      354.78,
+      354.92
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1990.013699,
+        "hawaii_ph": 8.1332,
+        "hawaii_carbon_dioxide": 310.8
+      },
+      {
+        "hawaii_decimal_year": 1990.126027,
+        "hawaii_ph": 8.1229,
+        "hawaii_carbon_dioxide": 317.2
+      },
+      {
+        "hawaii_decimal_year": 1990.213699,
+        "hawaii_ph": 8.134,
+        "hawaii_carbon_dioxide": 310.1
+      },
+      {
+        "hawaii_decimal_year": 1990.282192,
+        "hawaii_ph": 8.1229,
+        "hawaii_carbon_dioxide": 320.2
+      },
+      {
+        "hawaii_decimal_year": 1990.353425,
+        "hawaii_ph": 8.1167,
+        "hawaii_carbon_dioxide": 324.3
+      },
+      {
+        "hawaii_decimal_year": 1990.449315,
+        "hawaii_ph": 8.1232,
+        "hawaii_carbon_dioxide": 318.9
+      },
+      {
+        "hawaii_decimal_year": 1990.564384,
+        "hawaii_ph": 8.1084,
+        "hawaii_carbon_dioxide": 329.7
+      },
+      {
+        "hawaii_decimal_year": 1990.70411,
+        "hawaii_ph": 8.085,
+        "hawaii_carbon_dioxide": 353.6
+      },
+      {
+        "hawaii_decimal_year": 1990.964384,
+        "hawaii_ph": 8.1212,
+        "hawaii_carbon_dioxide": 322.4
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1990.0456,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 310.976
+      },
+      {
+        "bermuda_decimal_year": 1990.1299,
+        "bermuda_ph": 8.137,
+        "bermuda_carbon_dioxide": 309.146
+      },
+      {
+        "bermuda_decimal_year": 1990.201,
+        "bermuda_ph": 8.135,
+        "bermuda_carbon_dioxide": 311.892
+      },
+      {
+        "bermuda_decimal_year": 1990.297,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 319.539
+      },
+      {
+        "bermuda_decimal_year": 1990.3547,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 311.483
+      },
+      {
+        "bermuda_decimal_year": 1990.4758,
+        "bermuda_ph": 8.093,
+        "bermuda_carbon_dioxide": 345.181
+      },
+      {
+        "bermuda_decimal_year": 1990.5434,
+        "bermuda_ph": 8.05,
+        "bermuda_carbon_dioxide": 386.612
+      },
+      {
+        "bermuda_decimal_year": 1990.6181,
+        "bermuda_ph": 8.064,
+        "bermuda_carbon_dioxide": 371.723
+      },
+      {
+        "bermuda_decimal_year": 1990.6948,
+        "bermuda_ph": 8.056,
+        "bermuda_carbon_dioxide": 378.606
+      },
+      {
+        "bermuda_decimal_year": 1990.7876,
+        "bermuda_ph": 8.101,
+        "bermuda_carbon_dioxide": 336.677
+      },
+      {
+        "bermuda_decimal_year": 1990.8455,
+        "bermuda_ph": 8.116,
+        "bermuda_carbon_dioxide": 324.431
+      },
+      {
+        "bermuda_decimal_year": 1990.925,
+        "bermuda_ph": 8.136,
+        "bermuda_carbon_dioxide": 308.284
+      }
+    ]
+  },
+  {
+    "year": "1991",
+    "global_sea_year_anomaly_farenheit": 0.192,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.142608,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.241392,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      354.72,
+      355.75,
+      357.16,
+      358.6,
+      359.34,
+      358.24,
+      356.17,
+      354.02,
+      352.15,
+      352.21,
+      353.75,
+      354.99
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      354.7,
+      355.07,
+      355.72,
+      356,
+      356.21,
+      355.87,
+      355.4,
+      355.41,
+      355.37,
+      355.55,
+      355.85,
+      355.86
+    ],
+    "carbon_dioxide_fit_ppm": [
+      355.11,
+      355.91,
+      356.79,
+      358.06,
+      358.66,
+      357.97,
+      356.43,
+      354.3,
+      352.56,
+      352.53,
+      353.84,
+      355.13
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      355.07,
+      355.22,
+      355.34,
+      355.45,
+      355.54,
+      355.62,
+      355.68,
+      355.74,
+      355.79,
+      355.85,
+      355.92,
+      355.99
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1991.093151,
+        "hawaii_ph": 8.1256,
+        "hawaii_carbon_dioxide": 317.4
+      },
+      {
+        "hawaii_decimal_year": 1991.180822,
+        "hawaii_ph": 8.1263,
+        "hawaii_carbon_dioxide": 318
+      },
+      {
+        "hawaii_decimal_year": 1991.273973,
+        "hawaii_ph": 8.1231,
+        "hawaii_carbon_dioxide": 319.2
+      },
+      {
+        "hawaii_decimal_year": 1991.350685,
+        "hawaii_ph": 8.1144,
+        "hawaii_carbon_dioxide": 326.5
+      },
+      {
+        "hawaii_decimal_year": 1991.427397,
+        "hawaii_ph": 8.1139,
+        "hawaii_carbon_dioxide": 327.3
+      },
+      {
+        "hawaii_decimal_year": 1991.523288,
+        "hawaii_ph": 8.112,
+        "hawaii_carbon_dioxide": 327.8
+      },
+      {
+        "hawaii_decimal_year": 1991.608219,
+        "hawaii_ph": 8.0992,
+        "hawaii_carbon_dioxide": 339.7
+      },
+      {
+        "hawaii_decimal_year": 1991.715068,
+        "hawaii_ph": 8.0943,
+        "hawaii_carbon_dioxide": 344.4
+      },
+      {
+        "hawaii_decimal_year": 1991.805479,
+        "hawaii_ph": 8.0981,
+        "hawaii_carbon_dioxide": 338.6
+      },
+      {
+        "hawaii_decimal_year": 1991.934247,
+        "hawaii_ph": 8.104,
+        "hawaii_carbon_dioxide": 334.7
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1991.045,
+        "bermuda_ph": 8.14,
+        "bermuda_carbon_dioxide": 305.702
+      },
+      {
+        "bermuda_decimal_year": 1991.117,
+        "bermuda_ph": 8.133,
+        "bermuda_carbon_dioxide": 312.719
+      },
+      {
+        "bermuda_decimal_year": 1991.1972,
+        "bermuda_ph": 8.141,
+        "bermuda_carbon_dioxide": 307.172
+      },
+      {
+        "bermuda_decimal_year": 1991.292,
+        "bermuda_ph": 8.13,
+        "bermuda_carbon_dioxide": 315.623
+      },
+      {
+        "bermuda_decimal_year": 1991.3664,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 316.456
+      },
+      {
+        "bermuda_decimal_year": 1991.4678,
+        "bermuda_ph": 8.082,
+        "bermuda_carbon_dioxide": 357.115
+      },
+      {
+        "bermuda_decimal_year": 1991.5388,
+        "bermuda_ph": 8.059,
+        "bermuda_carbon_dioxide": 377.815
+      },
+      {
+        "bermuda_decimal_year": 1991.6155,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 397.842
+      },
+      {
+        "bermuda_decimal_year": 1991.6998,
+        "bermuda_ph": 8.093,
+        "bermuda_carbon_dioxide": 342.844
+      },
+      {
+        "bermuda_decimal_year": 1991.769,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 350.555
+      },
+      {
+        "bermuda_decimal_year": 1991.865,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 318.308
+      },
+      {
+        "bermuda_decimal_year": 1991.9415,
+        "bermuda_ph": 8.14,
+        "bermuda_carbon_dioxide": 305.597
+      }
+    ]
+  },
+  {
+    "year": "1992",
+    "global_sea_year_anomaly_farenheit": 0.048,
+    "global_sea_year_anomaly_lower_confidence_farenheit": -0.011976,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.107976,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      355.99,
+      356.72,
+      357.81,
+      359.15,
+      359.66,
+      359.25,
+      357.02,
+      355,
+      353.01,
+      353.31,
+      354.16,
+      355.4
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      355.96,
+      356.04,
+      356.34,
+      356.52,
+      356.53,
+      356.9,
+      356.27,
+      356.43,
+      356.25,
+      356.65,
+      356.27,
+      356.27
+    ],
+    "carbon_dioxide_fit_ppm": [
+      356.09,
+      356.82,
+      357.68,
+      358.91,
+      359.44,
+      358.69,
+      357.11,
+      354.96,
+      353.2,
+      353.15,
+      354.44,
+      355.71
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      356.06,
+      356.13,
+      356.2,
+      356.26,
+      356.31,
+      356.36,
+      356.39,
+      356.43,
+      356.46,
+      356.49,
+      356.52,
+      356.57
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1992.013661,
+        "hawaii_ph": 8.1177,
+        "hawaii_carbon_dioxide": 324.1
+      },
+      {
+        "hawaii_decimal_year": 1992.125683,
+        "hawaii_ph": 8.1256,
+        "hawaii_carbon_dioxide": 317.8
+      },
+      {
+        "hawaii_decimal_year": 1992.180328,
+        "hawaii_ph": 8.119,
+        "hawaii_carbon_dioxide": 321.9
+      },
+      {
+        "hawaii_decimal_year": 1992.295082,
+        "hawaii_ph": 8.1099,
+        "hawaii_carbon_dioxide": 331.7
+      },
+      {
+        "hawaii_decimal_year": 1992.439891,
+        "hawaii_ph": 8.1152,
+        "hawaii_carbon_dioxide": 325.5
+      },
+      {
+        "hawaii_decimal_year": 1992.510929,
+        "hawaii_ph": 8.0977,
+        "hawaii_carbon_dioxide": 343
+      },
+      {
+        "hawaii_decimal_year": 1992.595628,
+        "hawaii_ph": 8.0956,
+        "hawaii_carbon_dioxide": 342.4
+      },
+      {
+        "hawaii_decimal_year": 1992.729508,
+        "hawaii_ph": 8.0933,
+        "hawaii_carbon_dioxide": 346.2
+      },
+      {
+        "hawaii_decimal_year": 1992.803279,
+        "hawaii_ph": 8.087,
+        "hawaii_carbon_dioxide": 351.6
+      },
+      {
+        "hawaii_decimal_year": 1992.898907,
+        "hawaii_ph": 8.1052,
+        "hawaii_carbon_dioxide": 332.3
+      },
+      {
+        "hawaii_decimal_year": 1992.959016,
+        "hawaii_ph": 8.1161,
+        "hawaii_carbon_dioxide": 324
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1992.0257,
+        "bermuda_ph": 8.14,
+        "bermuda_carbon_dioxide": 306.699
+      },
+      {
+        "bermuda_decimal_year": 1992.1214,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 328.203
+      },
+      {
+        "bermuda_decimal_year": 1992.1925,
+        "bermuda_ph": 8.144,
+        "bermuda_carbon_dioxide": 303.035
+      },
+      {
+        "bermuda_decimal_year": 1992.3071,
+        "bermuda_ph": 8.139,
+        "bermuda_carbon_dioxide": 308.296
+      },
+      {
+        "bermuda_decimal_year": 1992.3818,
+        "bermuda_ph": 8.099,
+        "bermuda_carbon_dioxide": 342.914
+      },
+      {
+        "bermuda_decimal_year": 1992.4628,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 351.755
+      },
+      {
+        "bermuda_decimal_year": 1992.5366,
+        "bermuda_ph": 8.053,
+        "bermuda_carbon_dioxide": 383.795
+      },
+      {
+        "bermuda_decimal_year": 1992.6328,
+        "bermuda_ph": 8.045,
+        "bermuda_carbon_dioxide": 391.882
+      },
+      {
+        "bermuda_decimal_year": 1992.7087,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 364.511
+      },
+      {
+        "bermuda_decimal_year": 1992.7852,
+        "bermuda_ph": 8.098,
+        "bermuda_carbon_dioxide": 338.204
+      },
+      {
+        "bermuda_decimal_year": 1992.8642,
+        "bermuda_ph": 8.111,
+        "bermuda_carbon_dioxide": 329.129
+      },
+      {
+        "bermuda_decimal_year": 1992.9333,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 311.524
+      }
+    ]
+  },
+  {
+    "year": "1993",
+    "global_sea_year_anomaly_farenheit": 0.048,
+    "global_sea_year_anomaly_lower_confidence_farenheit": -0.015504,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.111504,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      356.7,
+      357.16,
+      358.38,
+      359.46,
+      360.28,
+      359.6,
+      357.57,
+      355.52,
+      353.69,
+      353.99,
+      355.33,
+      356.8
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      356.68,
+      356.48,
+      356.93,
+      356.85,
+      357.13,
+      357.21,
+      356.79,
+      356.93,
+      356.93,
+      357.35,
+      357.46,
+      357.68
+    ],
+    "carbon_dioxide_fit_ppm": [
+      356.65,
+      357.37,
+      358.2,
+      359.44,
+      360.04,
+      359.35,
+      357.83,
+      355.75,
+      354.06,
+      354.11,
+      355.51,
+      356.91
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      356.62,
+      356.68,
+      356.74,
+      356.81,
+      356.89,
+      356.98,
+      357.08,
+      357.19,
+      357.32,
+      357.46,
+      357.61,
+      357.77
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1993.054795,
+        "hawaii_ph": 8.1349,
+        "hawaii_carbon_dioxide": 309.6
+      },
+      {
+        "hawaii_decimal_year": 1993.131507,
+        "hawaii_ph": 8.1325,
+        "hawaii_carbon_dioxide": 310.8
+      },
+      {
+        "hawaii_decimal_year": 1993.287671,
+        "hawaii_ph": 8.1074,
+        "hawaii_carbon_dioxide": 333.7
+      },
+      {
+        "hawaii_decimal_year": 1993.386301,
+        "hawaii_ph": 8.1105,
+        "hawaii_carbon_dioxide": 331
+      },
+      {
+        "hawaii_decimal_year": 1993.706849,
+        "hawaii_ph": 8.0802,
+        "hawaii_carbon_dioxide": 360.2
+      },
+      {
+        "hawaii_decimal_year": 1993.830137,
+        "hawaii_ph": 8.094,
+        "hawaii_carbon_dioxide": 345.4
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1993.0325,
+        "bermuda_ph": 8.15,
+        "bermuda_carbon_dioxide": 297.288
+      },
+      {
+        "bermuda_decimal_year": 1993.1078,
+        "bermuda_ph": 8.148,
+        "bermuda_carbon_dioxide": 299.643
+      },
+      {
+        "bermuda_decimal_year": 1993.1521,
+        "bermuda_ph": 8.139,
+        "bermuda_carbon_dioxide": 307.766
+      },
+      {
+        "bermuda_decimal_year": 1993.1879,
+        "bermuda_ph": 8.131,
+        "bermuda_carbon_dioxide": 315.272
+      },
+      {
+        "bermuda_decimal_year": 1993.2424,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 316.676
+      },
+      {
+        "bermuda_decimal_year": 1993.2838,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 313.808
+      },
+      {
+        "bermuda_decimal_year": 1993.3191,
+        "bermuda_ph": 8.133,
+        "bermuda_carbon_dioxide": 312.729
+      },
+      {
+        "bermuda_decimal_year": 1993.3521,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 330.655
+      },
+      {
+        "bermuda_decimal_year": 1993.4538,
+        "bermuda_ph": 8.084,
+        "bermuda_carbon_dioxide": 355.784
+      },
+      {
+        "bermuda_decimal_year": 1993.5303,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 400.698
+      },
+      {
+        "bermuda_decimal_year": 1993.628,
+        "bermuda_ph": 8.052,
+        "bermuda_carbon_dioxide": 385.424
+      },
+      {
+        "bermuda_decimal_year": 1993.7028,
+        "bermuda_ph": 8.066,
+        "bermuda_carbon_dioxide": 368.958
+      },
+      {
+        "bermuda_decimal_year": 1993.7794,
+        "bermuda_ph": 8.086,
+        "bermuda_carbon_dioxide": 350.267
+      },
+      {
+        "bermuda_decimal_year": 1993.8561,
+        "bermuda_ph": 8.093,
+        "bermuda_carbon_dioxide": 345.125
+      },
+      {
+        "bermuda_decimal_year": 1993.9329,
+        "bermuda_ph": 8.115,
+        "bermuda_carbon_dioxide": 325.349
+      }
+    ]
+  },
+  {
+    "year": "1994",
+    "global_sea_year_anomaly_farenheit": 0.084,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.041664,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.126336,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      358.37,
+      358.91,
+      359.97,
+      361.27,
+      361.69,
+      360.94,
+      359.55,
+      357.48,
+      355.84,
+      356,
+      357.58,
+      359.04
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      358.35,
+      358.22,
+      358.52,
+      358.64,
+      358.53,
+      358.55,
+      358.76,
+      358.89,
+      359.09,
+      359.37,
+      359.71,
+      359.92
+    ],
+    "carbon_dioxide_fit_ppm": [
+      357.97,
+      358.8,
+      359.73,
+      361.07,
+      361.74,
+      361.12,
+      359.67,
+      357.64,
+      356,
+      356.08,
+      357.52,
+      358.94
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      357.94,
+      358.11,
+      358.26,
+      358.43,
+      358.59,
+      358.75,
+      358.91,
+      359.09,
+      359.27,
+      359.44,
+      359.63,
+      359.81
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1994.054795,
+        "hawaii_ph": 8.1508,
+        "hawaii_carbon_dioxide": 298.3
+      },
+      {
+        "hawaii_decimal_year": 1994.131507,
+        "hawaii_ph": 8.1357,
+        "hawaii_carbon_dioxide": 309.5
+      },
+      {
+        "hawaii_decimal_year": 1994.186301,
+        "hawaii_ph": 8.1204,
+        "hawaii_carbon_dioxide": 323.4
+      },
+      {
+        "hawaii_decimal_year": 1994.465753,
+        "hawaii_ph": 8.1021,
+        "hawaii_carbon_dioxide": 336.7
+      },
+      {
+        "hawaii_decimal_year": 1994.564384,
+        "hawaii_ph": 8.0858,
+        "hawaii_carbon_dioxide": 351.4
+      },
+      {
+        "hawaii_decimal_year": 1994.663014,
+        "hawaii_ph": 8.0883,
+        "hawaii_carbon_dioxide": 348.4
+      },
+      {
+        "hawaii_decimal_year": 1994.728767,
+        "hawaii_ph": 8.0875,
+        "hawaii_carbon_dioxide": 349.2
+      },
+      {
+        "hawaii_decimal_year": 1994.789041,
+        "hawaii_ph": 8.088,
+        "hawaii_carbon_dioxide": 349.7
+      },
+      {
+        "hawaii_decimal_year": 1994.884932,
+        "hawaii_ph": 8.1048,
+        "hawaii_carbon_dioxide": 335.1
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1994.0316,
+        "bermuda_ph": 8.144,
+        "bermuda_carbon_dioxide": 301.926
+      },
+      {
+        "bermuda_decimal_year": 1994.1329,
+        "bermuda_ph": 8.139,
+        "bermuda_carbon_dioxide": 307.764
+      },
+      {
+        "bermuda_decimal_year": 1994.2176,
+        "bermuda_ph": 8.139,
+        "bermuda_carbon_dioxide": 308.092
+      },
+      {
+        "bermuda_decimal_year": 1994.2617,
+        "bermuda_ph": 8.131,
+        "bermuda_carbon_dioxide": 314.027
+      },
+      {
+        "bermuda_decimal_year": 1994.2973,
+        "bermuda_ph": 8.136,
+        "bermuda_carbon_dioxide": 310.37
+      },
+      {
+        "bermuda_decimal_year": 1994.3739,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 335.854
+      },
+      {
+        "bermuda_decimal_year": 1994.4508,
+        "bermuda_ph": 8.066,
+        "bermuda_carbon_dioxide": 371.043
+      },
+      {
+        "bermuda_decimal_year": 1994.5466,
+        "bermuda_ph": 8.027,
+        "bermuda_carbon_dioxide": 412.287
+      },
+      {
+        "bermuda_decimal_year": 1994.6233,
+        "bermuda_ph": 8.03,
+        "bermuda_carbon_dioxide": 407.573
+      },
+      {
+        "bermuda_decimal_year": 1994.7193,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 364.532
+      },
+      {
+        "bermuda_decimal_year": 1994.7986,
+        "bermuda_ph": 8.109,
+        "bermuda_carbon_dioxide": 329.062
+      },
+      {
+        "bermuda_decimal_year": 1994.8726,
+        "bermuda_ph": 8.119,
+        "bermuda_carbon_dioxide": 322.844
+      },
+      {
+        "bermuda_decimal_year": 1994.9385,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 320.496
+      }
+    ]
+  },
+  {
+    "year": "1995",
+    "global_sea_year_anomaly_farenheit": 0.174,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.131664,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.216336,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      359.97,
+      361,
+      361.64,
+      363.45,
+      363.8,
+      363.26,
+      361.9,
+      359.45,
+      358.05,
+      357.76,
+      359.56,
+      360.7
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      359.95,
+      360.31,
+      360.18,
+      360.82,
+      360.63,
+      360.86,
+      361.11,
+      360.87,
+      361.31,
+      361.14,
+      361.7,
+      361.58
+    ],
+    "carbon_dioxide_fit_ppm": [
+      360.02,
+      360.87,
+      361.8,
+      363.15,
+      363.83,
+      363.21,
+      361.74,
+      359.69,
+      358.03,
+      358.09,
+      359.51,
+      360.91
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      359.99,
+      360.17,
+      360.33,
+      360.5,
+      360.66,
+      360.83,
+      360.98,
+      361.14,
+      361.31,
+      361.46,
+      361.63,
+      361.78
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1995.10137,
+        "hawaii_ph": 8.1099,
+        "hawaii_carbon_dioxide": 326.9
+      },
+      {
+        "hawaii_decimal_year": 1995.172603,
+        "hawaii_ph": 8.1171,
+        "hawaii_carbon_dioxide": 323.6
+      },
+      {
+        "hawaii_decimal_year": 1995.263014,
+        "hawaii_ph": 8.1038,
+        "hawaii_carbon_dioxide": 333.9
+      },
+      {
+        "hawaii_decimal_year": 1995.347945,
+        "hawaii_ph": 8.1149,
+        "hawaii_carbon_dioxide": 325.1
+      },
+      {
+        "hawaii_decimal_year": 1995.578082,
+        "hawaii_ph": 8.0937,
+        "hawaii_carbon_dioxide": 344.7
+      },
+      {
+        "hawaii_decimal_year": 1995.660274,
+        "hawaii_ph": 8.0933,
+        "hawaii_carbon_dioxide": 345.1
+      },
+      {
+        "hawaii_decimal_year": 1995.736986,
+        "hawaii_ph": 8.0886,
+        "hawaii_carbon_dioxide": 349
+      },
+      {
+        "hawaii_decimal_year": 1995.821918,
+        "hawaii_ph": 8.0997,
+        "hawaii_carbon_dioxide": 339.5
+      },
+      {
+        "hawaii_decimal_year": 1995.879452,
+        "hawaii_ph": 8.1135,
+        "hawaii_carbon_dioxide": 326.7
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 1995.7507,
+        "canary_ph": 8.0765,
+        "canary_carbon_dioxide": 377.6526
+      },
+      {
+        "canary_decimal_year": 1995.7562,
+        "canary_ph": 8.0743,
+        "canary_carbon_dioxide": 380.0385
+      },
+      {
+        "canary_decimal_year": 1995.7644,
+        "canary_ph": 8.0713,
+        "canary_carbon_dioxide": 383.1138
+      },
+      {
+        "canary_decimal_year": 1995.9014,
+        "canary_ph": 8.0837,
+        "canary_carbon_dioxide": 370.4347
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1995.0288,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 313.074
+      },
+      {
+        "bermuda_decimal_year": 1995.0316,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 323.66
+      },
+      {
+        "bermuda_decimal_year": 1995.1219,
+        "bermuda_ph": 8.131,
+        "bermuda_carbon_dioxide": 315.846
+      },
+      {
+        "bermuda_decimal_year": 1995.2042,
+        "bermuda_ph": 8.137,
+        "bermuda_carbon_dioxide": 310.366
+      },
+      {
+        "bermuda_decimal_year": 1995.2753,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 313.388
+      },
+      {
+        "bermuda_decimal_year": 1995.3193,
+        "bermuda_ph": 8.119,
+        "bermuda_carbon_dioxide": 326.526
+      },
+      {
+        "bermuda_decimal_year": 1995.3576,
+        "bermuda_ph": 8.141,
+        "bermuda_carbon_dioxide": 306.127
+      },
+      {
+        "bermuda_decimal_year": 1995.448,
+        "bermuda_ph": 8.065,
+        "bermuda_carbon_dioxide": 375.336
+      },
+      {
+        "bermuda_decimal_year": 1995.5248,
+        "bermuda_ph": 8.055,
+        "bermuda_carbon_dioxide": 382.873
+      },
+      {
+        "bermuda_decimal_year": 1995.64,
+        "bermuda_ph": 8.067,
+        "bermuda_carbon_dioxide": 370.898
+      },
+      {
+        "bermuda_decimal_year": 1995.7,
+        "bermuda_ph": 8.063,
+        "bermuda_carbon_dioxide": 374.666
+      },
+      {
+        "bermuda_decimal_year": 1995.7822,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 367.594
+      },
+      {
+        "bermuda_decimal_year": 1995.8614,
+        "bermuda_ph": 8.106,
+        "bermuda_carbon_dioxide": 333.361
+      },
+      {
+        "bermuda_decimal_year": 1995.9546,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 319.719
+      }
+    ]
+  },
+  {
+    "year": "1996",
+    "global_sea_year_anomaly_farenheit": 0.084,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.041664,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.126336,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      362.05,
+      363.24,
+      364.02,
+      364.72,
+      365.41,
+      364.97,
+      363.65,
+      361.48,
+      359.45,
+      359.61,
+      360.76,
+      362.33
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      362.03,
+      362.56,
+      362.53,
+      362.05,
+      362.24,
+      362.58,
+      362.89,
+      362.93,
+      362.73,
+      363,
+      362.89,
+      363.21
+    ],
+    "carbon_dioxide_fit_ppm": [
+      361.97,
+      362.78,
+      363.72,
+      365.02,
+      365.62,
+      364.92,
+      363.38,
+      361.26,
+      359.53,
+      359.53,
+      360.88,
+      362.2
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      361.94,
+      362.08,
+      362.21,
+      362.33,
+      362.45,
+      362.56,
+      362.66,
+      362.75,
+      362.83,
+      362.91,
+      362.99,
+      363.06
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1996.046448,
+        "hawaii_ph": 8.1074,
+        "hawaii_carbon_dioxide": 331.8
+      },
+      {
+        "hawaii_decimal_year": 1996.237705,
+        "hawaii_ph": 8.1122,
+        "hawaii_carbon_dioxide": 328.5
+      },
+      {
+        "hawaii_decimal_year": 1996.314208,
+        "hawaii_ph": 8.1066,
+        "hawaii_carbon_dioxide": 332.8
+      },
+      {
+        "hawaii_decimal_year": 1996.39071,
+        "hawaii_ph": 8.0946,
+        "hawaii_carbon_dioxide": 344.3
+      },
+      {
+        "hawaii_decimal_year": 1996.486339,
+        "hawaii_ph": 8.0902,
+        "hawaii_carbon_dioxide": 344.8
+      },
+      {
+        "hawaii_decimal_year": 1996.571038,
+        "hawaii_ph": 8.0889,
+        "hawaii_carbon_dioxide": 346.8
+      },
+      {
+        "hawaii_decimal_year": 1996.639344,
+        "hawaii_ph": 8.0829,
+        "hawaii_carbon_dioxide": 352.7
+      },
+      {
+        "hawaii_decimal_year": 1996.754098,
+        "hawaii_ph": 8.0836,
+        "hawaii_carbon_dioxide": 352.7
+      },
+      {
+        "hawaii_decimal_year": 1996.830601,
+        "hawaii_ph": 8.0924,
+        "hawaii_carbon_dioxide": 345.8
+      },
+      {
+        "hawaii_decimal_year": 1996.945355,
+        "hawaii_ph": 8.1014,
+        "hawaii_carbon_dioxide": 337.8
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 1996.0656,
+        "canary_ph": 8.1117,
+        "canary_carbon_dioxide": 343.0605
+      },
+      {
+        "canary_decimal_year": 1996.0956,
+        "canary_ph": 8.1117,
+        "canary_carbon_dioxide": 343.7156
+      },
+      {
+        "canary_decimal_year": 1996.1038,
+        "canary_ph": 8.1149,
+        "canary_carbon_dioxide": 340.432
+      },
+      {
+        "canary_decimal_year": 1996.2049,
+        "canary_ph": 8.1254,
+        "canary_carbon_dioxide": 330.2408
+      },
+      {
+        "canary_decimal_year": 1996.3142,
+        "canary_ph": 8.1082,
+        "canary_carbon_dioxide": 347.1527
+      },
+      {
+        "canary_decimal_year": 1996.3716,
+        "canary_ph": 8.1013,
+        "canary_carbon_dioxide": 354.1248
+      },
+      {
+        "canary_decimal_year": 1996.377,
+        "canary_ph": 8.1019,
+        "canary_carbon_dioxide": 353.4874
+      },
+      {
+        "canary_decimal_year": 1996.3907,
+        "canary_ph": 8.1037,
+        "canary_carbon_dioxide": 351.5631
+      },
+      {
+        "canary_decimal_year": 1996.4481,
+        "canary_ph": 8.0979,
+        "canary_carbon_dioxide": 357.3695
+      },
+      {
+        "canary_decimal_year": 1996.5219,
+        "canary_ph": 8.0977,
+        "canary_carbon_dioxide": 357.1688
+      },
+      {
+        "canary_decimal_year": 1996.7404,
+        "canary_ph": 8.0794,
+        "canary_carbon_dioxide": 374.8339
+      },
+      {
+        "canary_decimal_year": 1996.8306,
+        "canary_ph": 8.0776,
+        "canary_carbon_dioxide": 376.8813
+      },
+      {
+        "canary_decimal_year": 1996.9617,
+        "canary_ph": 8.108,
+        "canary_carbon_dioxide": 347.2502
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1996.0809,
+        "bermuda_ph": 8.133,
+        "bermuda_carbon_dioxide": 313.88
+      },
+      {
+        "bermuda_decimal_year": 1996.1248,
+        "bermuda_ph": 8.124,
+        "bermuda_carbon_dioxide": 320.82
+      },
+      {
+        "bermuda_decimal_year": 1996.1604,
+        "bermuda_ph": 8.124,
+        "bermuda_carbon_dioxide": 322.301
+      },
+      {
+        "bermuda_decimal_year": 1996.2016,
+        "bermuda_ph": 8.13,
+        "bermuda_carbon_dioxide": 316.32
+      },
+      {
+        "bermuda_decimal_year": 1996.2371,
+        "bermuda_ph": 8.127,
+        "bermuda_carbon_dioxide": 318.889
+      },
+      {
+        "bermuda_decimal_year": 1996.27,
+        "bermuda_ph": 8.126,
+        "bermuda_carbon_dioxide": 319.283
+      },
+      {
+        "bermuda_decimal_year": 1996.3083,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 324.588
+      },
+      {
+        "bermuda_decimal_year": 1996.3466,
+        "bermuda_ph": 8.106,
+        "bermuda_carbon_dioxide": 337.276
+      },
+      {
+        "bermuda_decimal_year": 1996.4425,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 369.25
+      },
+      {
+        "bermuda_decimal_year": 1996.5193,
+        "bermuda_ph": 8.055,
+        "bermuda_carbon_dioxide": 380.959
+      },
+      {
+        "bermuda_decimal_year": 1996.5959,
+        "bermuda_ph": 8.058,
+        "bermuda_carbon_dioxide": 377.863
+      },
+      {
+        "bermuda_decimal_year": 1996.6728,
+        "bermuda_ph": 8.048,
+        "bermuda_carbon_dioxide": 388.399
+      },
+      {
+        "bermuda_decimal_year": 1996.7713,
+        "bermuda_ph": 8.076,
+        "bermuda_carbon_dioxide": 361.031
+      },
+      {
+        "bermuda_decimal_year": 1996.848,
+        "bermuda_ph": 8.102,
+        "bermuda_carbon_dioxide": 336.893
+      },
+      {
+        "bermuda_decimal_year": 1996.9467,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 323.498
+      }
+    ]
+  },
+  {
+    "year": "1997",
+    "global_sea_year_anomaly_farenheit": 0.354,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.294024,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.413976,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      363.18,
+      363.99,
+      364.56,
+      366.36,
+      366.8,
+      365.63,
+      364.47,
+      362.5,
+      360.19,
+      360.77,
+      362.43,
+      364.28
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      363.16,
+      363.3,
+      363.1,
+      363.71,
+      363.61,
+      363.21,
+      363.68,
+      363.93,
+      363.47,
+      364.18,
+      364.58,
+      365.17
+    ],
+    "carbon_dioxide_fit_ppm": [
+      363.18,
+      363.93,
+      364.8,
+      366.08,
+      366.71,
+      366.06,
+      364.57,
+      362.52,
+      360.89,
+      361.01,
+      362.52,
+      364.03
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      363.14,
+      363.23,
+      363.31,
+      363.41,
+      363.53,
+      363.66,
+      363.81,
+      363.98,
+      364.19,
+      364.4,
+      364.65,
+      364.9
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1997.021918,
+        "hawaii_ph": 8.1102,
+        "hawaii_carbon_dioxide": 330.4
+      },
+      {
+        "hawaii_decimal_year": 1997.134247,
+        "hawaii_ph": 8.0856,
+        "hawaii_carbon_dioxide": 353
+      },
+      {
+        "hawaii_decimal_year": 1997.194521,
+        "hawaii_ph": 8.1138,
+        "hawaii_carbon_dioxide": 328
+      },
+      {
+        "hawaii_decimal_year": 1997.271233,
+        "hawaii_ph": 8.1155,
+        "hawaii_carbon_dioxide": 326.2
+      },
+      {
+        "hawaii_decimal_year": 1997.347945,
+        "hawaii_ph": 8.101,
+        "hawaii_carbon_dioxide": 338.2
+      },
+      {
+        "hawaii_decimal_year": 1997.424658,
+        "hawaii_ph": 8.1058,
+        "hawaii_carbon_dioxide": 333.3
+      },
+      {
+        "hawaii_decimal_year": 1997.520548,
+        "hawaii_ph": 8.0895,
+        "hawaii_carbon_dioxide": 350
+      },
+      {
+        "hawaii_decimal_year": 1997.586301,
+        "hawaii_ph": 8.089,
+        "hawaii_carbon_dioxide": 351
+      },
+      {
+        "hawaii_decimal_year": 1997.734247,
+        "hawaii_ph": 8.0805,
+        "hawaii_carbon_dioxide": 359.2
+      },
+      {
+        "hawaii_decimal_year": 1997.928767,
+        "hawaii_ph": 8.1083,
+        "hawaii_carbon_dioxide": 333.2
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 1997.0301,
+        "canary_ph": 8.1157,
+        "canary_carbon_dioxide": 340.1547
+      },
+      {
+        "canary_decimal_year": 1997.2027,
+        "canary_ph": 8.1001,
+        "canary_carbon_dioxide": 354.4622
+      },
+      {
+        "canary_decimal_year": 1997.2849,
+        "canary_ph": 8.103,
+        "canary_carbon_dioxide": 352.5722
+      },
+      {
+        "canary_decimal_year": 1997.3671,
+        "canary_ph": 8.0985,
+        "canary_carbon_dioxide": 357.0641
+      },
+      {
+        "canary_decimal_year": 1997.4438,
+        "canary_ph": 8.0756,
+        "canary_carbon_dioxide": 379.8772
+      },
+      {
+        "canary_decimal_year": 1997.4493,
+        "canary_ph": 8.0779,
+        "canary_carbon_dioxide": 377.6578
+      },
+      {
+        "canary_decimal_year": 1997.5068,
+        "canary_ph": 8.0729,
+        "canary_carbon_dioxide": 381.6492
+      },
+      {
+        "canary_decimal_year": 1997.8466,
+        "canary_ph": 8.0744,
+        "canary_carbon_dioxide": 379.0713
+      },
+      {
+        "canary_decimal_year": 1997.9233,
+        "canary_ph": 8.0837,
+        "canary_carbon_dioxide": 370.942
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1997.0371,
+        "bermuda_ph": 8.139,
+        "bermuda_carbon_dioxide": 308.444
+      },
+      {
+        "bermuda_decimal_year": 1997.0754,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 317.182
+      },
+      {
+        "bermuda_decimal_year": 1997.1029,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 314.244
+      },
+      {
+        "bermuda_decimal_year": 1997.1411,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 322.378
+      },
+      {
+        "bermuda_decimal_year": 1997.1741,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 323.146
+      },
+      {
+        "bermuda_decimal_year": 1997.2123,
+        "bermuda_ph": 8.133,
+        "bermuda_carbon_dioxide": 313.57
+      },
+      {
+        "bermuda_decimal_year": 1997.2699,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 323.446
+      },
+      {
+        "bermuda_decimal_year": 1997.3439,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 323.302
+      },
+      {
+        "bermuda_decimal_year": 1997.4425,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 352.771
+      },
+      {
+        "bermuda_decimal_year": 1997.5384,
+        "bermuda_ph": 8.047,
+        "bermuda_carbon_dioxide": 390.926
+      },
+      {
+        "bermuda_decimal_year": 1997.6125,
+        "bermuda_ph": 8.041,
+        "bermuda_carbon_dioxide": 399.086
+      },
+      {
+        "bermuda_decimal_year": 1997.6974,
+        "bermuda_ph": 8.072,
+        "bermuda_carbon_dioxide": 364.85
+      },
+      {
+        "bermuda_decimal_year": 1997.7662,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 364.266
+      },
+      {
+        "bermuda_decimal_year": 1997.8649,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 334.27
+      },
+      {
+        "bermuda_decimal_year": 1997.9389,
+        "bermuda_ph": 8.109,
+        "bermuda_carbon_dioxide": 331.866
+      }
+    ]
+  },
+  {
+    "year": "1998",
+    "global_sea_year_anomaly_farenheit": 0.444,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.39108,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.49692,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      365.33,
+      366.15,
+      367.31,
+      368.61,
+      369.3,
+      368.88,
+      367.64,
+      365.77,
+      363.9,
+      364.24,
+      365.46,
+      366.97
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      365.31,
+      365.45,
+      365.84,
+      365.96,
+      366.1,
+      366.45,
+      366.84,
+      367.21,
+      367.2,
+      367.65,
+      367.62,
+      367.86
+    ],
+    "carbon_dioxide_fit_ppm": [
+      365.21,
+      366.16,
+      367.19,
+      368.65,
+      369.44,
+      368.91,
+      367.51,
+      365.52,
+      363.9,
+      363.99,
+      365.44,
+      366.85
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      365.17,
+      365.45,
+      365.7,
+      365.98,
+      366.24,
+      366.51,
+      366.75,
+      366.99,
+      367.21,
+      367.4,
+      367.58,
+      367.73
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1998.030137,
+        "hawaii_ph": 8.1097,
+        "hawaii_carbon_dioxide": 332.5
+      },
+      {
+        "hawaii_decimal_year": 1998.136986,
+        "hawaii_ph": 8.1135,
+        "hawaii_carbon_dioxide": 330.1
+      },
+      {
+        "hawaii_decimal_year": 1998.210959,
+        "hawaii_ph": 8.1044,
+        "hawaii_carbon_dioxide": 337.2
+      },
+      {
+        "hawaii_decimal_year": 1998.287671,
+        "hawaii_ph": 8.1078,
+        "hawaii_carbon_dioxide": 335.4
+      },
+      {
+        "hawaii_decimal_year": 1998.364384,
+        "hawaii_ph": 8.105,
+        "hawaii_carbon_dioxide": 338.1
+      },
+      {
+        "hawaii_decimal_year": 1998.460274,
+        "hawaii_ph": 8.0937,
+        "hawaii_carbon_dioxide": 348.7
+      },
+      {
+        "hawaii_decimal_year": 1998.536986,
+        "hawaii_ph": 8.0805,
+        "hawaii_carbon_dioxide": 361.6
+      },
+      {
+        "hawaii_decimal_year": 1998.608219,
+        "hawaii_ph": 8.0818,
+        "hawaii_carbon_dioxide": 358.5
+      },
+      {
+        "hawaii_decimal_year": 1998.742466,
+        "hawaii_ph": 8.076,
+        "hawaii_carbon_dioxide": 365.5
+      },
+      {
+        "hawaii_decimal_year": 1998.8,
+        "hawaii_ph": 8.0818,
+        "hawaii_carbon_dioxide": 359
+      },
+      {
+        "hawaii_decimal_year": 1998.863014,
+        "hawaii_ph": 8.0825,
+        "hawaii_carbon_dioxide": 359.6
+      },
+      {
+        "hawaii_decimal_year": 1998.939726,
+        "hawaii_ph": 8.0948,
+        "hawaii_carbon_dioxide": 347.8
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 1998.0575,
+        "canary_ph": 8.1005,
+        "canary_carbon_dioxide": 355.0427
+      },
+      {
+        "canary_decimal_year": 1998.1342,
+        "canary_ph": 8.1121,
+        "canary_carbon_dioxide": 343.87
+      },
+      {
+        "canary_decimal_year": 1998.2301,
+        "canary_ph": 8.1007,
+        "canary_carbon_dioxide": 354.4199
+      },
+      {
+        "canary_decimal_year": 1998.2658,
+        "canary_ph": 8.1016,
+        "canary_carbon_dioxide": 353.6248
+      },
+      {
+        "canary_decimal_year": 1998.3151,
+        "canary_ph": 8.1077,
+        "canary_carbon_dioxide": 348.0005
+      },
+      {
+        "canary_decimal_year": 1998.3836,
+        "canary_ph": 8.0967,
+        "canary_carbon_dioxide": 358.619
+      },
+      {
+        "canary_decimal_year": 1998.4822,
+        "canary_ph": 8.087,
+        "canary_carbon_dioxide": 367.2647
+      },
+      {
+        "canary_decimal_year": 1998.5014,
+        "canary_ph": 8.084,
+        "canary_carbon_dioxide": 370.4682
+      },
+      {
+        "canary_decimal_year": 1998.7425,
+        "canary_ph": 8.0669,
+        "canary_carbon_dioxide": 387.4393
+      },
+      {
+        "canary_decimal_year": 1998.7671,
+        "canary_ph": 8.0646,
+        "canary_carbon_dioxide": 389.6913
+      },
+      {
+        "canary_decimal_year": 1998.8822,
+        "canary_ph": 8.09,
+        "canary_carbon_dioxide": 363.6441
+      },
+      {
+        "canary_decimal_year": 1998.9589,
+        "canary_ph": 8.1088,
+        "canary_carbon_dioxide": 346.1028
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1998.0346,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 322.503
+      },
+      {
+        "bermuda_decimal_year": 1998.117,
+        "bermuda_ph": 8.13,
+        "bermuda_carbon_dioxide": 315.981
+      },
+      {
+        "bermuda_decimal_year": 1998.1609,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 322.573
+      },
+      {
+        "bermuda_decimal_year": 1998.1934,
+        "bermuda_ph": 8.127,
+        "bermuda_carbon_dioxide": 317.543
+      },
+      {
+        "bermuda_decimal_year": 1998.2292,
+        "bermuda_ph": 8.127,
+        "bermuda_carbon_dioxide": 317.621
+      },
+      {
+        "bermuda_decimal_year": 1998.2647,
+        "bermuda_ph": 8.117,
+        "bermuda_carbon_dioxide": 327.143
+      },
+      {
+        "bermuda_decimal_year": 1998.3415,
+        "bermuda_ph": 8.116,
+        "bermuda_carbon_dioxide": 327.834
+      },
+      {
+        "bermuda_decimal_year": 1998.4181,
+        "bermuda_ph": 8.082,
+        "bermuda_carbon_dioxide": 357.49
+      },
+      {
+        "bermuda_decimal_year": 1998.514,
+        "bermuda_ph": 8.033,
+        "bermuda_carbon_dioxide": 403.964
+      },
+      {
+        "bermuda_decimal_year": 1998.6099,
+        "bermuda_ph": 8.023,
+        "bermuda_carbon_dioxide": 414.363
+      },
+      {
+        "bermuda_decimal_year": 1998.6922,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 394.244
+      },
+      {
+        "bermuda_decimal_year": 1998.8072,
+        "bermuda_ph": 8.09,
+        "bermuda_carbon_dioxide": 346.426
+      },
+      {
+        "bermuda_decimal_year": 1998.879,
+        "bermuda_ph": 8.102,
+        "bermuda_carbon_dioxide": 337.318
+      },
+      {
+        "bermuda_decimal_year": 1998.9359,
+        "bermuda_ph": 8.115,
+        "bermuda_carbon_dioxide": 326.478
+      }
+    ]
+  },
+  {
+    "year": "1999",
+    "global_sea_year_anomaly_farenheit": 0.084,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.034608,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.133392,
+    "mollusc_count": null,
+    "mollusc_density_square_meter": null,
+    "carbon_dioxide_ppm": [
+      368.15,
+      368.87,
+      369.59,
+      371.14,
+      371,
+      370.35,
+      369.27,
+      366.93,
+      364.64,
+      365.13,
+      366.68,
+      368.01
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      368.13,
+      368.17,
+      368.11,
+      368.47,
+      367.79,
+      367.92,
+      368.47,
+      368.37,
+      367.94,
+      368.56,
+      368.84,
+      368.9
+    ],
+    "carbon_dioxide_fit_ppm": [
+      367.89,
+      368.68,
+      369.54,
+      370.81,
+      371.4,
+      370.67,
+      369.09,
+      366.92,
+      365.15,
+      365.13,
+      366.5,
+      367.84
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      367.86,
+      367.97,
+      368.05,
+      368.13,
+      368.19,
+      368.26,
+      368.33,
+      368.4,
+      368.47,
+      368.55,
+      368.64,
+      368.72
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 1999.035616,
+        "hawaii_ph": 8.0895,
+        "hawaii_carbon_dioxide": 352.7
+      },
+      {
+        "hawaii_decimal_year": 1999.134247,
+        "hawaii_ph": 8.0997,
+        "hawaii_carbon_dioxide": 344.5
+      },
+      {
+        "hawaii_decimal_year": 1999.208219,
+        "hawaii_ph": 8.135,
+        "hawaii_carbon_dioxide": 311.8
+      },
+      {
+        "hawaii_decimal_year": 1999.284932,
+        "hawaii_ph": 8.123,
+        "hawaii_carbon_dioxide": 323.7
+      },
+      {
+        "hawaii_decimal_year": 1999.356164,
+        "hawaii_ph": 8.1,
+        "hawaii_carbon_dioxide": 345
+      },
+      {
+        "hawaii_decimal_year": 1999.534247,
+        "hawaii_ph": 8.0938,
+        "hawaii_carbon_dioxide": 345.9
+      },
+      {
+        "hawaii_decimal_year": 1999.616438,
+        "hawaii_ph": 8.0759,
+        "hawaii_carbon_dioxide": 365.4
+      },
+      {
+        "hawaii_decimal_year": 1999.789041,
+        "hawaii_ph": 8.0711,
+        "hawaii_carbon_dioxide": 368.5
+      },
+      {
+        "hawaii_decimal_year": 1999.857534,
+        "hawaii_ph": 8.0824,
+        "hawaii_carbon_dioxide": 359.7
+      },
+      {
+        "hawaii_decimal_year": 1999.956164,
+        "hawaii_ph": 8.0818,
+        "hawaii_carbon_dioxide": 359.5
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 1999.0904,
+        "canary_ph": 8.1224,
+        "canary_carbon_dioxide": 333.7297
+      },
+      {
+        "canary_decimal_year": 1999.0986,
+        "canary_ph": 8.1329,
+        "canary_carbon_dioxide": 324.0626
+      },
+      {
+        "canary_decimal_year": 1999.1315,
+        "canary_ph": 8.1331,
+        "canary_carbon_dioxide": 323.7588
+      },
+      {
+        "canary_decimal_year": 1999.2164,
+        "canary_ph": 8.1223,
+        "canary_carbon_dioxide": 333.2992
+      },
+      {
+        "canary_decimal_year": 1999.811,
+        "canary_ph": 8.0678,
+        "canary_carbon_dioxide": 386.4509
+      },
+      {
+        "canary_decimal_year": 1999.8411,
+        "canary_ph": 8.0772,
+        "canary_carbon_dioxide": 375.6484
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 1999.041,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 328.797
+      },
+      {
+        "bermuda_decimal_year": 1999.1166,
+        "bermuda_ph": 8.13,
+        "bermuda_carbon_dioxide": 315.599
+      },
+      {
+        "bermuda_decimal_year": 1999.2116,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 330.333
+      },
+      {
+        "bermuda_decimal_year": 1999.2235,
+        "bermuda_ph": 8.147,
+        "bermuda_carbon_dioxide": 300.619
+      },
+      {
+        "bermuda_decimal_year": 1999.2646,
+        "bermuda_ph": 8.115,
+        "bermuda_carbon_dioxide": 328.643
+      },
+      {
+        "bermuda_decimal_year": 1999.3386,
+        "bermuda_ph": 8.099,
+        "bermuda_carbon_dioxide": 342.804
+      },
+      {
+        "bermuda_decimal_year": 1999.4156,
+        "bermuda_ph": 8.071,
+        "bermuda_carbon_dioxide": 369.348
+      },
+      {
+        "bermuda_decimal_year": 1999.5112,
+        "bermuda_ph": 8.046,
+        "bermuda_carbon_dioxide": 394.18
+      },
+      {
+        "bermuda_decimal_year": 1999.5879,
+        "bermuda_ph": 8.038,
+        "bermuda_carbon_dioxide": 401.924
+      },
+      {
+        "bermuda_decimal_year": 1999.7056,
+        "bermuda_ph": 8.05,
+        "bermuda_carbon_dioxide": 386.064
+      },
+      {
+        "bermuda_decimal_year": 1999.7795,
+        "bermuda_ph": 8.076,
+        "bermuda_carbon_dioxide": 360.925
+      },
+      {
+        "bermuda_decimal_year": 1999.8593,
+        "bermuda_ph": 8.095,
+        "bermuda_carbon_dioxide": 343.541
+      },
+      {
+        "bermuda_decimal_year": 1999.9388,
+        "bermuda_ph": 8.11,
+        "bermuda_carbon_dioxide": 331.625
+      }
+    ]
+  },
+  {
+    "year": "2000",
+    "global_sea_year_anomaly_farenheit": 0.12,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.06708,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.17292,
+    "mollusc_count": 1378,
+    "mollusc_density_square_meter": 6178,
+    "carbon_dioxide_ppm": [
+      369.14,
+      369.46,
+      370.51,
+      371.66,
+      371.83,
+      371.69,
+      370.12,
+      368.12,
+      366.62,
+      366.73,
+      368.29,
+      369.53
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      369.12,
+      368.76,
+      369,
+      368.96,
+      368.61,
+      369.28,
+      369.35,
+      369.59,
+      369.95,
+      370.17,
+      370.46,
+      370.42
+    ],
+    "carbon_dioxide_fit_ppm": [
+      368.85,
+      369.61,
+      370.53,
+      371.83,
+      372.44,
+      371.75,
+      370.23,
+      368.13,
+      366.45,
+      366.51,
+      367.93,
+      369.33
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      368.81,
+      368.91,
+      369,
+      369.11,
+      369.22,
+      369.36,
+      369.49,
+      369.64,
+      369.79,
+      369.93,
+      370.08,
+      370.2
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2000.092896,
+        "hawaii_ph": 8.0966,
+        "hawaii_carbon_dioxide": 346.3
+      },
+      {
+        "hawaii_decimal_year": 2000.166667,
+        "hawaii_ph": 8.0946,
+        "hawaii_carbon_dioxide": 347.6
+      },
+      {
+        "hawaii_decimal_year": 2000.243169,
+        "hawaii_ph": 8.0942,
+        "hawaii_carbon_dioxide": 348.6
+      },
+      {
+        "hawaii_decimal_year": 2000.319672,
+        "hawaii_ph": 8.0941,
+        "hawaii_carbon_dioxide": 346.5
+      },
+      {
+        "hawaii_decimal_year": 2000.398907,
+        "hawaii_ph": 8.0677,
+        "hawaii_carbon_dioxide": 371.1
+      },
+      {
+        "hawaii_decimal_year": 2000.472678,
+        "hawaii_ph": 8.0831,
+        "hawaii_carbon_dioxide": 358.4
+      },
+      {
+        "hawaii_decimal_year": 2000.568306,
+        "hawaii_ph": 8.0872,
+        "hawaii_carbon_dioxide": 354.3
+      },
+      {
+        "hawaii_decimal_year": 2000.644809,
+        "hawaii_ph": 8.0827,
+        "hawaii_carbon_dioxide": 359.1
+      },
+      {
+        "hawaii_decimal_year": 2000.797814,
+        "hawaii_ph": 8.0678,
+        "hawaii_carbon_dioxide": 373.2
+      },
+      {
+        "hawaii_decimal_year": 2000.915301,
+        "hawaii_ph": 8.095,
+        "hawaii_carbon_dioxide": 346
+      },
+      {
+        "hawaii_decimal_year": 2000.969945,
+        "hawaii_ph": 8.0922,
+        "hawaii_carbon_dioxide": 347.5
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2000.0656,
+        "canary_ph": 8.1269,
+        "canary_carbon_dioxide": 328.6619
+      },
+      {
+        "canary_decimal_year": 2000.0847,
+        "canary_ph": 8.1196,
+        "canary_carbon_dioxide": 336.2406
+      },
+      {
+        "canary_decimal_year": 2000.1967,
+        "canary_ph": 8.1123,
+        "canary_carbon_dioxide": 343.7966
+      },
+      {
+        "canary_decimal_year": 2000.2568,
+        "canary_ph": 8.1053,
+        "canary_carbon_dioxide": 350.2729
+      },
+      {
+        "canary_decimal_year": 2000.5383,
+        "canary_ph": 8.0815,
+        "canary_carbon_dioxide": 372.961
+      },
+      {
+        "canary_decimal_year": 2000.653,
+        "canary_ph": 8.0748,
+        "canary_carbon_dioxide": 379.5525
+      },
+      {
+        "canary_decimal_year": 2000.7131,
+        "canary_ph": 8.0721,
+        "canary_carbon_dioxide": 382.4901
+      },
+      {
+        "canary_decimal_year": 2000.8852,
+        "canary_ph": 8.0968,
+        "canary_carbon_dioxide": 358.3191
+      },
+      {
+        "canary_decimal_year": 2000.9126,
+        "canary_ph": 8.0898,
+        "canary_carbon_dioxide": 365.4017
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2000.0784,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 326.75
+      },
+      {
+        "bermuda_decimal_year": 2000.1249,
+        "bermuda_ph": 8.131,
+        "bermuda_carbon_dioxide": 314.937
+      },
+      {
+        "bermuda_decimal_year": 2000.199,
+        "bermuda_ph": 8.14,
+        "bermuda_carbon_dioxide": 307.334
+      },
+      {
+        "bermuda_decimal_year": 2000.2369,
+        "bermuda_ph": 8.131,
+        "bermuda_carbon_dioxide": 315.381
+      },
+      {
+        "bermuda_decimal_year": 2000.2755,
+        "bermuda_ph": 8.138,
+        "bermuda_carbon_dioxide": 309.452
+      },
+      {
+        "bermuda_decimal_year": 2000.3549,
+        "bermuda_ph": 8.091,
+        "bermuda_carbon_dioxide": 350.4
+      },
+      {
+        "bermuda_decimal_year": 2000.4289,
+        "bermuda_ph": 8.068,
+        "bermuda_carbon_dioxide": 371.738
+      },
+      {
+        "bermuda_decimal_year": 2000.5247,
+        "bermuda_ph": 8.062,
+        "bermuda_carbon_dioxide": 375.259
+      },
+      {
+        "bermuda_decimal_year": 2000.6016,
+        "bermuda_ph": 8.029,
+        "bermuda_carbon_dioxide": 409.254
+      },
+      {
+        "bermuda_decimal_year": 2000.7003,
+        "bermuda_ph": 8.067,
+        "bermuda_carbon_dioxide": 366.967
+      },
+      {
+        "bermuda_decimal_year": 2000.7962,
+        "bermuda_ph": 8.085,
+        "bermuda_carbon_dioxide": 353.754
+      },
+      {
+        "bermuda_decimal_year": 2000.8702,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 335.171
+      },
+      {
+        "bermuda_decimal_year": 2000.9469,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 328.719
+      }
+    ]
+  },
+  {
+    "year": "2001",
+    "global_sea_year_anomaly_farenheit": 0.354,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.30108,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.40692,
+    "mollusc_count": 1568,
+    "mollusc_density_square_meter": 5968,
+    "carbon_dioxide_ppm": [
+      370.28,
+      371.5,
+      372.12,
+      372.87,
+      374.02,
+      373.31,
+      371.62,
+      369.55,
+      367.96,
+      368.1,
+      369.68,
+      371.24
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      370.26,
+      370.79,
+      370.63,
+      370.18,
+      370.79,
+      370.86,
+      370.81,
+      371,
+      371.29,
+      371.55,
+      371.86,
+      372.14
+    ],
+    "carbon_dioxide_fit_ppm": [
+      370.36,
+      371.16,
+      372.06,
+      373.37,
+      374.02,
+      373.34,
+      371.82,
+      369.71,
+      368,
+      368.06,
+      369.52,
+      370.95
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      370.33,
+      370.45,
+      370.55,
+      370.67,
+      370.79,
+      370.92,
+      371.05,
+      371.19,
+      371.35,
+      371.51,
+      371.67,
+      371.83
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2001.046575,
+        "hawaii_ph": 8.0929,
+        "hawaii_carbon_dioxide": 348.1
+      },
+      {
+        "hawaii_decimal_year": 2001.123288,
+        "hawaii_ph": 8.0881,
+        "hawaii_carbon_dioxide": 353.9
+      },
+      {
+        "hawaii_decimal_year": 2001.219178,
+        "hawaii_ph": 8.0894,
+        "hawaii_carbon_dioxide": 350.8
+      },
+      {
+        "hawaii_decimal_year": 2001.29589,
+        "hawaii_ph": 8.0938,
+        "hawaii_carbon_dioxide": 347.7
+      },
+      {
+        "hawaii_decimal_year": 2001.372603,
+        "hawaii_ph": 8.0948,
+        "hawaii_carbon_dioxide": 347.7
+      },
+      {
+        "hawaii_decimal_year": 2001.452055,
+        "hawaii_ph": 8.0984,
+        "hawaii_carbon_dioxide": 344.1
+      },
+      {
+        "hawaii_decimal_year": 2001.526027,
+        "hawaii_ph": 8.0857,
+        "hawaii_carbon_dioxide": 353.8
+      },
+      {
+        "hawaii_decimal_year": 2001.60274,
+        "hawaii_ph": 8.0757,
+        "hawaii_carbon_dioxide": 364.7
+      },
+      {
+        "hawaii_decimal_year": 2001.753425,
+        "hawaii_ph": 8.068,
+        "hawaii_carbon_dioxide": 372.1
+      },
+      {
+        "hawaii_decimal_year": 2001.810959,
+        "hawaii_ph": 8.0885,
+        "hawaii_carbon_dioxide": 353.9
+      },
+      {
+        "hawaii_decimal_year": 2001.879452,
+        "hawaii_ph": 8.0814,
+        "hawaii_carbon_dioxide": 358.5
+      },
+      {
+        "hawaii_decimal_year": 2001.953425,
+        "hawaii_ph": 8.0925,
+        "hawaii_carbon_dioxide": 349.4
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2001.0685,
+        "canary_ph": 8.0981,
+        "canary_carbon_dioxide": 356.8848
+      },
+      {
+        "canary_decimal_year": 2001.137,
+        "canary_ph": 8.0973,
+        "canary_carbon_dioxide": 357.6541
+      },
+      {
+        "canary_decimal_year": 2001.1425,
+        "canary_ph": 8.1003,
+        "canary_carbon_dioxide": 354.6521
+      },
+      {
+        "canary_decimal_year": 2001.2247,
+        "canary_ph": 8.1006,
+        "canary_carbon_dioxide": 354.5687
+      },
+      {
+        "canary_decimal_year": 2001.2384,
+        "canary_ph": 8.1045,
+        "canary_carbon_dioxide": 350.5347
+      },
+      {
+        "canary_decimal_year": 2001.3096,
+        "canary_ph": 8.1033,
+        "canary_carbon_dioxide": 351.7244
+      },
+      {
+        "canary_decimal_year": 2001.3753,
+        "canary_ph": 8.1017,
+        "canary_carbon_dioxide": 352.8775
+      },
+      {
+        "canary_decimal_year": 2001.4904,
+        "canary_ph": 8.0807,
+        "canary_carbon_dioxide": 372.9672
+      },
+      {
+        "canary_decimal_year": 2001.6658,
+        "canary_ph": 8.057,
+        "canary_carbon_dioxide": 397.9218
+      },
+      {
+        "canary_decimal_year": 2001.7397,
+        "canary_ph": 8.0535,
+        "canary_carbon_dioxide": 402.2744
+      },
+      {
+        "canary_decimal_year": 2001.7753,
+        "canary_ph": 8.0597,
+        "canary_carbon_dioxide": 394.1292
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2001.0811,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 312.308
+      },
+      {
+        "bermuda_decimal_year": 2001.1387,
+        "bermuda_ph": 8.117,
+        "bermuda_carbon_dioxide": 326.821
+      },
+      {
+        "bermuda_decimal_year": 2001.1851,
+        "bermuda_ph": 8.119,
+        "bermuda_carbon_dioxide": 326.188
+      },
+      {
+        "bermuda_decimal_year": 2001.2154,
+        "bermuda_ph": 8.107,
+        "bermuda_carbon_dioxide": 335.792
+      },
+      {
+        "bermuda_decimal_year": 2001.2567,
+        "bermuda_ph": 8.092,
+        "bermuda_carbon_dioxide": 349.071
+      },
+      {
+        "bermuda_decimal_year": 2001.2947,
+        "bermuda_ph": 8.125,
+        "bermuda_carbon_dioxide": 321.731
+      },
+      {
+        "bermuda_decimal_year": 2001.369,
+        "bermuda_ph": 8.103,
+        "bermuda_carbon_dioxide": 340.335
+      },
+      {
+        "bermuda_decimal_year": 2001.4262,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 370.787
+      },
+      {
+        "bermuda_decimal_year": 2001.5439,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 366.934
+      },
+      {
+        "bermuda_decimal_year": 2001.5987,
+        "bermuda_ph": 8.05,
+        "bermuda_carbon_dioxide": 387.439
+      },
+      {
+        "bermuda_decimal_year": 2001.6974,
+        "bermuda_ph": 8.062,
+        "bermuda_carbon_dioxide": 374.657
+      },
+      {
+        "bermuda_decimal_year": 2001.7906,
+        "bermuda_ph": 8.088,
+        "bermuda_carbon_dioxide": 350.235
+      },
+      {
+        "bermuda_decimal_year": 2001.8564,
+        "bermuda_ph": 8.11,
+        "bermuda_carbon_dioxide": 330.165
+      },
+      {
+        "bermuda_decimal_year": 2001.9441,
+        "bermuda_ph": 8.116,
+        "bermuda_carbon_dioxide": 326.493
+      }
+    ]
+  },
+  {
+    "year": "2002",
+    "global_sea_year_anomaly_farenheit": 0.408,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.340968,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.475032,
+    "mollusc_count": 2155,
+    "mollusc_density_square_meter": 9906,
+    "carbon_dioxide_ppm": [
+      372.44,
+      373.08,
+      373.52,
+      374.86,
+      375.55,
+      375.4,
+      374.02,
+      371.48,
+      370.7,
+      370.25,
+      372.08,
+      373.78
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      372.41,
+      372.38,
+      372.03,
+      372.16,
+      372.31,
+      372.94,
+      373.21,
+      372.93,
+      374.04,
+      373.71,
+      374.26,
+      374.69
+    ],
+    "carbon_dioxide_fit_ppm": [
+      372.03,
+      372.88,
+      373.84,
+      375.22,
+      375.94,
+      375.35,
+      373.9,
+      371.87,
+      370.24,
+      370.37,
+      371.9,
+      373.4
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      372,
+      372.17,
+      372.33,
+      372.51,
+      372.7,
+      372.91,
+      373.13,
+      373.36,
+      373.59,
+      373.82,
+      374.06,
+      374.28
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2002.043836,
+        "hawaii_ph": 8.0959,
+        "hawaii_carbon_dioxide": 347
+      },
+      {
+        "hawaii_decimal_year": 2002.142466,
+        "hawaii_ph": 8.108,
+        "hawaii_carbon_dioxide": 335.9
+      },
+      {
+        "hawaii_decimal_year": 2002.19726,
+        "hawaii_ph": 8.1085,
+        "hawaii_carbon_dioxide": 336.8
+      },
+      {
+        "hawaii_decimal_year": 2002.386301,
+        "hawaii_ph": 8.0811,
+        "hawaii_carbon_dioxide": 358.4
+      },
+      {
+        "hawaii_decimal_year": 2002.493151,
+        "hawaii_ph": 8.071,
+        "hawaii_carbon_dioxide": 367.1
+      },
+      {
+        "hawaii_decimal_year": 2002.657534,
+        "hawaii_ph": 8.0706,
+        "hawaii_carbon_dioxide": 367.5
+      },
+      {
+        "hawaii_decimal_year": 2002.767123,
+        "hawaii_ph": 8.0862,
+        "hawaii_carbon_dioxide": 352.6
+      },
+      {
+        "hawaii_decimal_year": 2002.843836,
+        "hawaii_ph": 8.0876,
+        "hawaii_carbon_dioxide": 351.9
+      },
+      {
+        "hawaii_decimal_year": 2002.90137,
+        "hawaii_ph": 8.0876,
+        "hawaii_carbon_dioxide": 352.6
+      },
+      {
+        "hawaii_decimal_year": 2002.967123,
+        "hawaii_ph": 8.0937,
+        "hawaii_carbon_dioxide": 347.4
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2002.1589,
+        "canary_ph": 8.1076,
+        "canary_carbon_dioxide": 347.3098
+      },
+      {
+        "canary_decimal_year": 2002.1753,
+        "canary_ph": 8.1098,
+        "canary_carbon_dioxide": 346.034
+      },
+      {
+        "canary_decimal_year": 2002.2877,
+        "canary_ph": 8.1103,
+        "canary_carbon_dioxide": 345.4762
+      },
+      {
+        "canary_decimal_year": 2002.3726,
+        "canary_ph": 8.1145,
+        "canary_carbon_dioxide": 340.7661
+      },
+      {
+        "canary_decimal_year": 2002.4959,
+        "canary_ph": 8.0875,
+        "canary_carbon_dioxide": 366.8528
+      },
+      {
+        "canary_decimal_year": 2002.7041,
+        "canary_ph": 8.0687,
+        "canary_carbon_dioxide": 384.7756
+      },
+      {
+        "canary_decimal_year": 2002.7945,
+        "canary_ph": 8.0619,
+        "canary_carbon_dioxide": 393.9321
+      },
+      {
+        "canary_decimal_year": 2002.8986,
+        "canary_ph": 8.0721,
+        "canary_carbon_dioxide": 382.7021
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2002.06,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 322.722
+      },
+      {
+        "bermuda_decimal_year": 2002.1583,
+        "bermuda_ph": 8.137,
+        "bermuda_carbon_dioxide": 311.05
+      },
+      {
+        "bermuda_decimal_year": 2002.2126,
+        "bermuda_ph": 8.119,
+        "bermuda_carbon_dioxide": 325.779
+      },
+      {
+        "bermuda_decimal_year": 2002.2892,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 312.392
+      },
+      {
+        "bermuda_decimal_year": 2002.3659,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 322.704
+      },
+      {
+        "bermuda_decimal_year": 2002.4235,
+        "bermuda_ph": 8.077,
+        "bermuda_carbon_dioxide": 361.735
+      },
+      {
+        "bermuda_decimal_year": 2002.5002,
+        "bermuda_ph": 8.037,
+        "bermuda_carbon_dioxide": 403.795
+      },
+      {
+        "bermuda_decimal_year": 2002.6344,
+        "bermuda_ph": 8.042,
+        "bermuda_carbon_dioxide": 394.032
+      },
+      {
+        "bermuda_decimal_year": 2002.7111,
+        "bermuda_ph": 8.054,
+        "bermuda_carbon_dioxide": 379.338
+      },
+      {
+        "bermuda_decimal_year": 2002.7687,
+        "bermuda_ph": 8.082,
+        "bermuda_carbon_dioxide": 352.971
+      },
+      {
+        "bermuda_decimal_year": 2002.8674,
+        "bermuda_ph": 8.091,
+        "bermuda_carbon_dioxide": 347.419
+      },
+      {
+        "bermuda_decimal_year": 2002.9414,
+        "bermuda_ph": 8.12,
+        "bermuda_carbon_dioxide": 322.688
+      }
+    ]
+  },
+  {
+    "year": "2003",
+    "global_sea_year_anomaly_farenheit": 0.462,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.412608,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.511392,
+    "mollusc_count": 804,
+    "mollusc_density_square_meter": 6066,
+    "carbon_dioxide_ppm": [
+      374.68,
+      375.62,
+      376.11,
+      377.65,
+      378.35,
+      378.13,
+      376.61,
+      374.48,
+      372.98,
+      373,
+      374.34,
+      375.69
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      374.66,
+      374.92,
+      374.61,
+      374.95,
+      375.1,
+      375.66,
+      375.8,
+      375.94,
+      376.33,
+      376.48,
+      376.54,
+      376.6
+    ],
+    "carbon_dioxide_fit_ppm": [
+      374.54,
+      375.44,
+      376.43,
+      377.85,
+      378.58,
+      377.98,
+      376.5,
+      374.42,
+      372.73,
+      372.8,
+      374.26,
+      375.68
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      374.51,
+      374.72,
+      374.91,
+      375.12,
+      375.33,
+      375.53,
+      375.72,
+      375.92,
+      376.1,
+      376.27,
+      376.43,
+      376.57
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2003.046575,
+        "hawaii_ph": 8.1025,
+        "hawaii_carbon_dioxide": 340.6
+      },
+      {
+        "hawaii_decimal_year": 2003.156164,
+        "hawaii_ph": 8.104,
+        "hawaii_carbon_dioxide": 339.5
+      },
+      {
+        "hawaii_decimal_year": 2003.241096,
+        "hawaii_ph": 8.1016,
+        "hawaii_carbon_dioxide": 341.8
+      },
+      {
+        "hawaii_decimal_year": 2003.312329,
+        "hawaii_ph": 8.0963,
+        "hawaii_carbon_dioxide": 343.6
+      },
+      {
+        "hawaii_decimal_year": 2003.386301,
+        "hawaii_ph": 8.0905,
+        "hawaii_carbon_dioxide": 349.5
+      },
+      {
+        "hawaii_decimal_year": 2003.468493,
+        "hawaii_ph": 8.0824,
+        "hawaii_carbon_dioxide": 357.3
+      },
+      {
+        "hawaii_decimal_year": 2003.550685,
+        "hawaii_ph": 8.0777,
+        "hawaii_carbon_dioxide": 363.6
+      },
+      {
+        "hawaii_decimal_year": 2003.638356,
+        "hawaii_ph": 8.0829,
+        "hawaii_carbon_dioxide": 355.7
+      },
+      {
+        "hawaii_decimal_year": 2003.789041,
+        "hawaii_ph": 8.0873,
+        "hawaii_carbon_dioxide": 351.8
+      },
+      {
+        "hawaii_decimal_year": 2003.860274,
+        "hawaii_ph": 8.0884,
+        "hawaii_carbon_dioxide": 351.3
+      },
+      {
+        "hawaii_decimal_year": 2003.969863,
+        "hawaii_ph": 8.1134,
+        "hawaii_carbon_dioxide": 330.2
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2003.0849,
+        "canary_ph": 8.0925,
+        "canary_carbon_dioxide": 362.2842
+      },
+      {
+        "canary_decimal_year": 2003.1397,
+        "canary_ph": 8.0987,
+        "canary_carbon_dioxide": 356.2971
+      },
+      {
+        "canary_decimal_year": 2003.1479,
+        "canary_ph": 8.105,
+        "canary_carbon_dioxide": 350.0205
+      },
+      {
+        "canary_decimal_year": 2003.211,
+        "canary_ph": 8.1072,
+        "canary_carbon_dioxide": 347.6251
+      },
+      {
+        "canary_decimal_year": 2003.2658,
+        "canary_ph": 8.1045,
+        "canary_carbon_dioxide": 350.6318
+      },
+      {
+        "canary_decimal_year": 2003.3699,
+        "canary_ph": 8.1081,
+        "canary_carbon_dioxide": 346.8474
+      },
+      {
+        "canary_decimal_year": 2003.4521,
+        "canary_ph": 8.0834,
+        "canary_carbon_dioxide": 371.6667
+      },
+      {
+        "canary_decimal_year": 2003.5425,
+        "canary_ph": 8.0697,
+        "canary_carbon_dioxide": 385.6165
+      },
+      {
+        "canary_decimal_year": 2003.6986,
+        "canary_ph": 8.0558,
+        "canary_carbon_dioxide": 399.0883
+      },
+      {
+        "canary_decimal_year": 2003.8301,
+        "canary_ph": 8.053,
+        "canary_carbon_dioxide": 402.5334
+      },
+      {
+        "canary_decimal_year": 2003.8438,
+        "canary_ph": 8.0539,
+        "canary_carbon_dioxide": 400.7921
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2003.1414,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 317.086
+      },
+      {
+        "bermuda_decimal_year": 2003.1715,
+        "bermuda_ph": 8.134,
+        "bermuda_carbon_dioxide": 312.712
+      },
+      {
+        "bermuda_decimal_year": 2003.2181,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 315.082
+      },
+      {
+        "bermuda_decimal_year": 2003.2537,
+        "bermuda_ph": 8.132,
+        "bermuda_carbon_dioxide": 314.763
+      },
+      {
+        "bermuda_decimal_year": 2003.3086,
+        "bermuda_ph": 8.114,
+        "bermuda_carbon_dioxide": 329.397
+      },
+      {
+        "bermuda_decimal_year": 2003.3851,
+        "bermuda_ph": 8.07,
+        "bermuda_carbon_dioxide": 371.268
+      },
+      {
+        "bermuda_decimal_year": 2003.5085,
+        "bermuda_ph": 8.044,
+        "bermuda_carbon_dioxide": 395.345
+      },
+      {
+        "bermuda_decimal_year": 2003.5386,
+        "bermuda_ph": 8.032,
+        "bermuda_carbon_dioxide": 407.213
+      },
+      {
+        "bermuda_decimal_year": 2003.6152,
+        "bermuda_ph": 8.029,
+        "bermuda_carbon_dioxide": 411.266
+      },
+      {
+        "bermuda_decimal_year": 2003.7194,
+        "bermuda_ph": 8.049,
+        "bermuda_carbon_dioxide": 389.192
+      },
+      {
+        "bermuda_decimal_year": 2003.7686,
+        "bermuda_ph": 8.047,
+        "bermuda_carbon_dioxide": 389.189
+      },
+      {
+        "bermuda_decimal_year": 2003.8455,
+        "bermuda_ph": 8.088,
+        "bermuda_carbon_dioxide": 350.026
+      },
+      {
+        "bermuda_decimal_year": 2003.9222,
+        "bermuda_ph": 8.081,
+        "bermuda_carbon_dioxide": 357.609
+      }
+    ]
+  },
+  {
+    "year": "2004",
+    "global_sea_year_anomaly_farenheit": 0.426,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.37308,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.47892,
+    "mollusc_count": 975,
+    "mollusc_density_square_meter": 3744,
+    "carbon_dioxide_ppm": [
+      376.79,
+      377.36,
+      378.39,
+      380.5,
+      380.61,
+      379.55,
+      377.76,
+      375.84,
+      374.05,
+      374.22,
+      375.84,
+      377.44
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      376.76,
+      376.65,
+      376.87,
+      377.76,
+      377.35,
+      377.1,
+      376.99,
+      377.32,
+      377.42,
+      377.7,
+      378.04,
+      378.35
+    ],
+    "carbon_dioxide_fit_ppm": [
+      376.74,
+      377.56,
+      378.5,
+      379.83,
+      380.44,
+      379.73,
+      378.17,
+      376.03,
+      374.32,
+      374.4,
+      375.88,
+      377.35
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      376.71,
+      376.84,
+      376.96,
+      377.07,
+      377.18,
+      377.3,
+      377.42,
+      377.55,
+      377.71,
+      377.87,
+      378.05,
+      378.24
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2004.060109,
+        "hawaii_ph": 8.0967,
+        "hawaii_carbon_dioxide": 344.7
+      },
+      {
+        "hawaii_decimal_year": 2004.153005,
+        "hawaii_ph": 8.1096,
+        "hawaii_carbon_dioxide": 332.9
+      },
+      {
+        "hawaii_decimal_year": 2004.218579,
+        "hawaii_ph": 8.1244,
+        "hawaii_carbon_dioxide": 321.3
+      },
+      {
+        "hawaii_decimal_year": 2004.306011,
+        "hawaii_ph": 8.0988,
+        "hawaii_carbon_dioxide": 341.8
+      },
+      {
+        "hawaii_decimal_year": 2004.382514,
+        "hawaii_ph": 8.0878,
+        "hawaii_carbon_dioxide": 349.4
+      },
+      {
+        "hawaii_decimal_year": 2004.459016,
+        "hawaii_ph": 8.0852,
+        "hawaii_carbon_dioxide": 352.5
+      },
+      {
+        "hawaii_decimal_year": 2004.532787,
+        "hawaii_ph": 8.0701,
+        "hawaii_carbon_dioxide": 365.6
+      },
+      {
+        "hawaii_decimal_year": 2004.625683,
+        "hawaii_ph": 8.071,
+        "hawaii_carbon_dioxide": 366.1
+      },
+      {
+        "hawaii_decimal_year": 2004.745902,
+        "hawaii_ph": 8.0705,
+        "hawaii_carbon_dioxide": 366
+      },
+      {
+        "hawaii_decimal_year": 2004.833333,
+        "hawaii_ph": 8.0836,
+        "hawaii_carbon_dioxide": 356.9
+      },
+      {
+        "hawaii_decimal_year": 2004.909836,
+        "hawaii_ph": 8.0898,
+        "hawaii_carbon_dioxide": 347.6
+      },
+      {
+        "hawaii_decimal_year": 2004.972678,
+        "hawaii_ph": 8.0992,
+        "hawaii_carbon_dioxide": 341.1
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2004.0656,
+        "canary_ph": 8.0921,
+        "canary_carbon_dioxide": 362.8408
+      },
+      {
+        "canary_decimal_year": 2004.0822,
+        "canary_ph": 8.0823,
+        "canary_carbon_dioxide": 373.4633
+      },
+      {
+        "canary_decimal_year": 2004.1491,
+        "canary_ph": 8.0973,
+        "canary_carbon_dioxide": 358.5007
+      },
+      {
+        "canary_decimal_year": 2004.3048,
+        "canary_ph": 8.0866,
+        "canary_carbon_dioxide": 369.3062
+      },
+      {
+        "canary_decimal_year": 2004.3185,
+        "canary_ph": 8.0957,
+        "canary_carbon_dioxide": 360.0884
+      },
+      {
+        "canary_decimal_year": 2004.8443,
+        "canary_ph": 8.0511,
+        "canary_carbon_dioxide": 406.0189
+      },
+      {
+        "canary_decimal_year": 2004.9523,
+        "canary_ph": 8.085,
+        "canary_carbon_dioxide": 370.6192
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2004.0754,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 316.906
+      },
+      {
+        "bermuda_decimal_year": 2004.125,
+        "bermuda_ph": 8.129,
+        "bermuda_carbon_dioxide": 317.056
+      },
+      {
+        "bermuda_decimal_year": 2004.1491,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 324.213
+      },
+      {
+        "bermuda_decimal_year": 2004.1885,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 323.788
+      },
+      {
+        "bermuda_decimal_year": 2004.2242,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 339.45
+      },
+      {
+        "bermuda_decimal_year": 2004.2665,
+        "bermuda_ph": 8.114,
+        "bermuda_carbon_dioxide": 331.507
+      },
+      {
+        "bermuda_decimal_year": 2004.3076,
+        "bermuda_ph": 8.111,
+        "bermuda_carbon_dioxide": 332.785
+      },
+      {
+        "bermuda_decimal_year": 2004.3813,
+        "bermuda_ph": 8.075,
+        "bermuda_carbon_dioxide": 366.432
+      },
+      {
+        "bermuda_decimal_year": 2004.4578,
+        "bermuda_ph": 8.079,
+        "bermuda_carbon_dioxide": 362.139
+      },
+      {
+        "bermuda_decimal_year": 2004.5371,
+        "bermuda_ph": 8.034,
+        "bermuda_carbon_dioxide": 407.558
+      },
+      {
+        "bermuda_decimal_year": 2004.6299,
+        "bermuda_ph": 8.027,
+        "bermuda_carbon_dioxide": 413.179
+      },
+      {
+        "bermuda_decimal_year": 2004.7064,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 398.224
+      },
+      {
+        "bermuda_decimal_year": 2004.7857,
+        "bermuda_ph": 8.071,
+        "bermuda_carbon_dioxide": 367.62
+      },
+      {
+        "bermuda_decimal_year": 2004.865,
+        "bermuda_ph": 8.09,
+        "bermuda_carbon_dioxide": 350.175
+      },
+      {
+        "bermuda_decimal_year": 2004.9361,
+        "bermuda_ph": 8.098,
+        "bermuda_carbon_dioxide": 343.38
+      }
+    ]
+  },
+  {
+    "year": "2005",
+    "global_sea_year_anomaly_farenheit": 0.426,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.39072,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.46128,
+    "mollusc_count": 1265,
+    "mollusc_density_square_meter": 5060,
+    "carbon_dioxide_ppm": [
+      378.34,
+      379.61,
+      380.17,
+      382.05,
+      382.24,
+      382.08,
+      380.67,
+      378.67,
+      376.42,
+      376.8,
+      378.31,
+      379.96
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      378.31,
+      378.9,
+      378.67,
+      379.33,
+      378.96,
+      379.6,
+      379.85,
+      380.13,
+      379.79,
+      380.3,
+      380.51,
+      380.87
+    ],
+    "carbon_dioxide_fit_ppm": [
+      378.48,
+      379.38,
+      380.38,
+      381.81,
+      382.56,
+      381.97,
+      380.5,
+      378.43,
+      376.76,
+      376.86,
+      378.36,
+      379.84
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      378.44,
+      378.66,
+      378.85,
+      379.07,
+      379.29,
+      379.51,
+      379.72,
+      379.94,
+      380.15,
+      380.35,
+      380.55,
+      380.73
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2005.090411,
+        "hawaii_ph": 8.0963,
+        "hawaii_carbon_dioxide": 343.5
+      },
+      {
+        "hawaii_decimal_year": 2005.175342,
+        "hawaii_ph": 8.1065,
+        "hawaii_carbon_dioxide": 334.9
+      },
+      {
+        "hawaii_decimal_year": 2005.378082,
+        "hawaii_ph": 8.0899,
+        "hawaii_carbon_dioxide": 350.2
+      },
+      {
+        "hawaii_decimal_year": 2005.454795,
+        "hawaii_ph": 8.0809,
+        "hawaii_carbon_dioxide": 361
+      },
+      {
+        "hawaii_decimal_year": 2005.542466,
+        "hawaii_ph": 8.0664,
+        "hawaii_carbon_dioxide": 373.7
+      },
+      {
+        "hawaii_decimal_year": 2005.619178,
+        "hawaii_ph": 8.0751,
+        "hawaii_carbon_dioxide": 365
+      },
+      {
+        "hawaii_decimal_year": 2005.693151,
+        "hawaii_ph": 8.0601,
+        "hawaii_carbon_dioxide": 380
+      },
+      {
+        "hawaii_decimal_year": 2005.772603,
+        "hawaii_ph": 8.0777,
+        "hawaii_carbon_dioxide": 362.5
+      },
+      {
+        "hawaii_decimal_year": 2005.865753,
+        "hawaii_ph": 8.0843,
+        "hawaii_carbon_dioxide": 356.3
+      },
+      {
+        "hawaii_decimal_year": 2005.950685,
+        "hawaii_ph": 8.0888,
+        "hawaii_carbon_dioxide": 352.2
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2005.0301,
+        "canary_ph": 8.107,
+        "canary_carbon_dioxide": 348.7244
+      },
+      {
+        "canary_decimal_year": 2005.1244,
+        "canary_ph": 8.1014,
+        "canary_carbon_dioxide": 353.6434
+      },
+      {
+        "canary_decimal_year": 2005.1941,
+        "canary_ph": 8.0816,
+        "canary_carbon_dioxide": 373.4802
+      },
+      {
+        "canary_decimal_year": 2005.2856,
+        "canary_ph": 8.0975,
+        "canary_carbon_dioxide": 357.1741274
+      },
+      {
+        "canary_decimal_year": 2005.5342,
+        "canary_ph": 8.0728,
+        "canary_carbon_dioxide": 382.1555
+      },
+      {
+        "canary_decimal_year": 2005.574,
+        "canary_ph": 8.0673,
+        "canary_carbon_dioxide": 387.0980002
+      },
+      {
+        "canary_decimal_year": 2005.6546,
+        "canary_ph": 8.0529,
+        "canary_carbon_dioxide": 403.2501788
+      },
+      {
+        "canary_decimal_year": 2005.6712,
+        "canary_ph": 8.056,
+        "canary_carbon_dioxide": 398.1445
+      },
+      {
+        "canary_decimal_year": 2005.7434,
+        "canary_ph": 8.0516,
+        "canary_carbon_dioxide": 404.9946
+      },
+      {
+        "canary_decimal_year": 2005.8267,
+        "canary_ph": 8.0564,
+        "canary_carbon_dioxide": 399.9962684
+      },
+      {
+        "canary_decimal_year": 2005.8936,
+        "canary_ph": 8.0745,
+        "canary_carbon_dioxide": 380.2393183
+      },
+      {
+        "canary_decimal_year": 2005.9331,
+        "canary_ph": 8.0856,
+        "canary_carbon_dioxide": 369.7826484
+      },
+      {
+        "canary_decimal_year": 2005.9973,
+        "canary_ph": 8.0937,
+        "canary_carbon_dioxide": 360.1749
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2005.0728,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 343.391
+      },
+      {
+        "bermuda_decimal_year": 2005.1057,
+        "bermuda_ph": 8.12,
+        "bermuda_carbon_dioxide": 325.815
+      },
+      {
+        "bermuda_decimal_year": 2005.1496,
+        "bermuda_ph": 8.117,
+        "bermuda_carbon_dioxide": 329.053
+      },
+      {
+        "bermuda_decimal_year": 2005.1824,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 323.918
+      },
+      {
+        "bermuda_decimal_year": 2005.2181,
+        "bermuda_ph": 8.12,
+        "bermuda_carbon_dioxide": 326.433
+      },
+      {
+        "bermuda_decimal_year": 2005.2618,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 327.877
+      },
+      {
+        "bermuda_decimal_year": 2005.2974,
+        "bermuda_ph": 8.124,
+        "bermuda_carbon_dioxide": 321.633
+      },
+      {
+        "bermuda_decimal_year": 2005.3741,
+        "bermuda_ph": 8.097,
+        "bermuda_carbon_dioxide": 346.989
+      },
+      {
+        "bermuda_decimal_year": 2005.4508,
+        "bermuda_ph": 8.056,
+        "bermuda_carbon_dioxide": 386.745
+      },
+      {
+        "bermuda_decimal_year": 2005.5467,
+        "bermuda_ph": 8.021,
+        "bermuda_carbon_dioxide": 422.757
+      },
+      {
+        "bermuda_decimal_year": 2005.6045,
+        "bermuda_ph": 8.033,
+        "bermuda_carbon_dioxide": 409.557
+      },
+      {
+        "bermuda_decimal_year": 2005.681,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 396.061
+      },
+      {
+        "bermuda_decimal_year": 2005.7768,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 369.807
+      },
+      {
+        "bermuda_decimal_year": 2005.8591,
+        "bermuda_ph": 8.078,
+        "bermuda_carbon_dioxide": 362.315
+      },
+      {
+        "bermuda_decimal_year": 2005.9379,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 338.513
+      }
+    ]
+  },
+  {
+    "year": "2006",
+    "global_sea_year_anomaly_farenheit": 0.426,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.394248,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.457752,
+    "mollusc_count": 1709,
+    "mollusc_density_square_meter": 6818,
+    "carbon_dioxide_ppm": [
+      381.37,
+      382.02,
+      382.56,
+      384.37,
+      384.92,
+      384.03,
+      382.28,
+      380.48,
+      378.81,
+      379.06,
+      380.14,
+      381.66
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      381.34,
+      381.3,
+      381.05,
+      381.64,
+      381.64,
+      381.54,
+      381.47,
+      381.94,
+      382.19,
+      382.57,
+      382.35,
+      382.57
+    ],
+    "carbon_dioxide_fit_ppm": [
+      380.95,
+      381.81,
+      382.76,
+      384.13,
+      384.81,
+      384.14,
+      382.6,
+      380.46,
+      378.72,
+      378.76,
+      380.22,
+      381.66
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      380.91,
+      381.08,
+      381.23,
+      381.38,
+      381.53,
+      381.67,
+      381.81,
+      381.96,
+      382.11,
+      382.26,
+      382.41,
+      382.56
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2006.068493,
+        "hawaii_ph": 8.1135,
+        "hawaii_carbon_dioxide": 330.3
+      },
+      {
+        "hawaii_decimal_year": 2006.126027,
+        "hawaii_ph": 8.0953,
+        "hawaii_carbon_dioxide": 347.5
+      },
+      {
+        "hawaii_decimal_year": 2006.189041,
+        "hawaii_ph": 8.1084,
+        "hawaii_carbon_dioxide": 335.4
+      },
+      {
+        "hawaii_decimal_year": 2006.252055,
+        "hawaii_ph": 8.104,
+        "hawaii_carbon_dioxide": 334.9
+      },
+      {
+        "hawaii_decimal_year": 2006.40274,
+        "hawaii_ph": 8.0901,
+        "hawaii_carbon_dioxide": 352.4
+      },
+      {
+        "hawaii_decimal_year": 2006.452055,
+        "hawaii_ph": 8.0646,
+        "hawaii_carbon_dioxide": 373.5
+      },
+      {
+        "hawaii_decimal_year": 2006.531507,
+        "hawaii_ph": 8.0804,
+        "hawaii_carbon_dioxide": 359.2
+      },
+      {
+        "hawaii_decimal_year": 2006.605479,
+        "hawaii_ph": 8.0723,
+        "hawaii_carbon_dioxide": 365.6
+      },
+      {
+        "hawaii_decimal_year": 2006.709589,
+        "hawaii_ph": 8.077,
+        "hawaii_carbon_dioxide": 363.3
+      },
+      {
+        "hawaii_decimal_year": 2006.805479,
+        "hawaii_ph": 8.0679,
+        "hawaii_carbon_dioxide": 372.2
+      },
+      {
+        "hawaii_decimal_year": 2006.857534,
+        "hawaii_ph": 8.0772,
+        "hawaii_carbon_dioxide": 362.6
+      },
+      {
+        "hawaii_decimal_year": 2006.942466,
+        "hawaii_ph": 8.0908,
+        "hawaii_carbon_dioxide": 350.1
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2006.0329,
+        "canary_ph": 8.1012,
+        "canary_carbon_dioxide": 354.1613
+      },
+      {
+        "canary_decimal_year": 2006.1776,
+        "canary_ph": 8.1087,
+        "canary_carbon_dioxide": 347.1851607
+      },
+      {
+        "canary_decimal_year": 2006.263,
+        "canary_ph": 8.109,
+        "canary_carbon_dioxide": 347.2435
+      },
+      {
+        "canary_decimal_year": 2006.324,
+        "canary_ph": 8.0887,
+        "canary_carbon_dioxide": 366.5458798
+      },
+      {
+        "canary_decimal_year": 2006.3945,
+        "canary_ph": 8.0722,
+        "canary_carbon_dioxide": 382.8236
+      },
+      {
+        "canary_decimal_year": 2006.4329,
+        "canary_ph": 8.0707,
+        "canary_carbon_dioxide": 383.6783
+      },
+      {
+        "canary_decimal_year": 2006.4358,
+        "canary_ph": 8.0762,
+        "canary_carbon_dioxide": 378.7970578
+      },
+      {
+        "canary_decimal_year": 2006.5342,
+        "canary_ph": 8.0676,
+        "canary_carbon_dioxide": 387.0225
+      },
+      {
+        "canary_decimal_year": 2006.608,
+        "canary_ph": 8.0528,
+        "canary_carbon_dioxide": 404.1360693
+      },
+      {
+        "canary_decimal_year": 2006.6658,
+        "canary_ph": 8.0461,
+        "canary_carbon_dioxide": 410.2121
+      },
+      {
+        "canary_decimal_year": 2006.7014,
+        "canary_ph": 8.0531,
+        "canary_carbon_dioxide": 400.8464
+      },
+      {
+        "canary_decimal_year": 2006.7582,
+        "canary_ph": 8.0468,
+        "canary_carbon_dioxide": 410.5319715
+      },
+      {
+        "canary_decimal_year": 2006.8635,
+        "canary_ph": 8.0614,
+        "canary_carbon_dioxide": 394.3559378
+      },
+      {
+        "canary_decimal_year": 2006.9753,
+        "canary_ph": 8.0861,
+        "canary_carbon_dioxide": 368.1979
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2006.0784,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 331.632
+      },
+      {
+        "bermuda_decimal_year": 2006.1057,
+        "bermuda_ph": 8.125,
+        "bermuda_carbon_dioxide": 320.494
+      },
+      {
+        "bermuda_decimal_year": 2006.1441,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 327.86
+      },
+      {
+        "bermuda_decimal_year": 2006.2591,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 324.497
+      },
+      {
+        "bermuda_decimal_year": 2006.3534,
+        "bermuda_ph": 8.021,
+        "bermuda_carbon_dioxide": 424.215
+      },
+      {
+        "bermuda_decimal_year": 2006.4865,
+        "bermuda_ph": 8.036,
+        "bermuda_carbon_dioxide": 404.341
+      },
+      {
+        "bermuda_decimal_year": 2006.5468,
+        "bermuda_ph": 8.021,
+        "bermuda_carbon_dioxide": 420.798
+      },
+      {
+        "bermuda_decimal_year": 2006.6043,
+        "bermuda_ph": 8.039,
+        "bermuda_carbon_dioxide": 400.151
+      },
+      {
+        "bermuda_decimal_year": 2006.6811,
+        "bermuda_ph": 8.018,
+        "bermuda_carbon_dioxide": 425.674
+      },
+      {
+        "bermuda_decimal_year": 2006.7039,
+        "bermuda_ph": 8.067,
+        "bermuda_carbon_dioxide": 372.132
+      },
+      {
+        "bermuda_decimal_year": 2006.7399,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 400.352
+      },
+      {
+        "bermuda_decimal_year": 2006.7796,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 335.319
+      },
+      {
+        "bermuda_decimal_year": 2006.8537,
+        "bermuda_ph": 8.081,
+        "bermuda_carbon_dioxide": 358.536
+      },
+      {
+        "bermuda_decimal_year": 2006.9112,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 352.128
+      },
+      {
+        "bermuda_decimal_year": 2006.9277,
+        "bermuda_ph": 8.08,
+        "bermuda_carbon_dioxide": 359.331
+      }
+    ]
+  },
+  {
+    "year": "2007",
+    "global_sea_year_anomaly_farenheit": 0.3,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.268248,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.331752,
+    "mollusc_count": 2193,
+    "mollusc_density_square_meter": 7976,
+    "carbon_dioxide_ppm": [
+      382.58,
+      383.71,
+      384.34,
+      386.23,
+      386.41,
+      385.87,
+      384.45,
+      381.84,
+      380.86,
+      380.86,
+      382.35,
+      383.61
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      382.56,
+      383,
+      382.82,
+      383.49,
+      383.12,
+      383.37,
+      383.63,
+      383.32,
+      384.25,
+      384.38,
+      384.58,
+      384.53
+    ],
+    "carbon_dioxide_fit_ppm": [
+      382.74,
+      383.59,
+      384.54,
+      385.92,
+      386.61,
+      385.96,
+      384.43,
+      382.3,
+      380.56,
+      380.62,
+      382.09,
+      383.54
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      382.71,
+      382.86,
+      383,
+      383.16,
+      383.32,
+      383.48,
+      383.64,
+      383.81,
+      383.97,
+      384.13,
+      384.29,
+      384.44
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2007.10411,
+        "hawaii_ph": 8.1047,
+        "hawaii_carbon_dioxide": 338
+      },
+      {
+        "hawaii_decimal_year": 2007.219178,
+        "hawaii_ph": 8.0973,
+        "hawaii_carbon_dioxide": 345.1
+      },
+      {
+        "hawaii_decimal_year": 2007.342466,
+        "hawaii_ph": 8.0808,
+        "hawaii_carbon_dioxide": 358.9
+      },
+      {
+        "hawaii_decimal_year": 2007.517808,
+        "hawaii_ph": 8.0631,
+        "hawaii_carbon_dioxide": 377.1
+      },
+      {
+        "hawaii_decimal_year": 2007.591781,
+        "hawaii_ph": 8.066,
+        "hawaii_carbon_dioxide": 373.8
+      },
+      {
+        "hawaii_decimal_year": 2007.673973,
+        "hawaii_ph": 8.0616,
+        "hawaii_carbon_dioxide": 378.6
+      },
+      {
+        "hawaii_decimal_year": 2007.756164,
+        "hawaii_ph": 8.0639,
+        "hawaii_carbon_dioxide": 376.4
+      },
+      {
+        "hawaii_decimal_year": 2007.920548,
+        "hawaii_ph": 8.0678,
+        "hawaii_carbon_dioxide": 372.1
+      },
+      {
+        "hawaii_decimal_year": 2007.972603,
+        "hawaii_ph": 8.0856,
+        "hawaii_carbon_dioxide": 355.5
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2007.0164,
+        "canary_ph": 8.0885,
+        "canary_carbon_dioxide": 365.8547
+      },
+      {
+        "canary_decimal_year": 2007.1452,
+        "canary_ph": 8.1001,
+        "canary_carbon_dioxide": 354.697
+      },
+      {
+        "canary_decimal_year": 2007.2215,
+        "canary_ph": 8.0948,
+        "canary_carbon_dioxide": 361.0718335
+      },
+      {
+        "canary_decimal_year": 2007.2692,
+        "canary_ph": 8.0922,
+        "canary_carbon_dioxide": 362.5021
+      },
+      {
+        "canary_decimal_year": 2007.3753,
+        "canary_ph": 8.0798,
+        "canary_carbon_dioxide": 374.8182
+      },
+      {
+        "canary_decimal_year": 2007.4137,
+        "canary_ph": 8.0739,
+        "canary_carbon_dioxide": 381.0968
+      },
+      {
+        "canary_decimal_year": 2007.5096,
+        "canary_ph": 8.0781,
+        "canary_carbon_dioxide": 377.1886
+      },
+      {
+        "canary_decimal_year": 2007.6438,
+        "canary_ph": 8.0606,
+        "canary_carbon_dioxide": 394.6435
+      },
+      {
+        "canary_decimal_year": 2007.7719,
+        "canary_ph": 8.0505,
+        "canary_carbon_dioxide": 405.480935
+      },
+      {
+        "canary_decimal_year": 2007.7836,
+        "canary_ph": 8.0558,
+        "canary_carbon_dioxide": 399.094
+      },
+      {
+        "canary_decimal_year": 2007.8164,
+        "canary_ph": 8.0574,
+        "canary_carbon_dioxide": 397.2262
+      },
+      {
+        "canary_decimal_year": 2007.8295,
+        "canary_ph": 8.0576,
+        "canary_carbon_dioxide": 398.6015887
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2007.0761,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 338.456
+      },
+      {
+        "bermuda_decimal_year": 2007.1077,
+        "bermuda_ph": 8.082,
+        "bermuda_carbon_dioxide": 362.727
+      },
+      {
+        "bermuda_decimal_year": 2007.1441,
+        "bermuda_ph": 8.088,
+        "bermuda_carbon_dioxide": 355.421
+      },
+      {
+        "bermuda_decimal_year": 2007.1796,
+        "bermuda_ph": 8.108,
+        "bermuda_carbon_dioxide": 337.491
+      },
+      {
+        "bermuda_decimal_year": 2007.2181,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 332.724
+      },
+      {
+        "bermuda_decimal_year": 2007.2534,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 340.326
+      },
+      {
+        "bermuda_decimal_year": 2007.2868,
+        "bermuda_ph": 8.108,
+        "bermuda_carbon_dioxide": 336.909
+      },
+      {
+        "bermuda_decimal_year": 2007.3742,
+        "bermuda_ph": 8.091,
+        "bermuda_carbon_dioxide": 352.901
+      },
+      {
+        "bermuda_decimal_year": 2007.47,
+        "bermuda_ph": 8.057,
+        "bermuda_carbon_dioxide": 384.834
+      },
+      {
+        "bermuda_decimal_year": 2007.5468,
+        "bermuda_ph": 8.029,
+        "bermuda_carbon_dioxide": 414.101
+      },
+      {
+        "bermuda_decimal_year": 2007.6266,
+        "bermuda_ph": 8.02,
+        "bermuda_carbon_dioxide": 421.467
+      },
+      {
+        "bermuda_decimal_year": 2007.6866,
+        "bermuda_ph": 8.057,
+        "bermuda_carbon_dioxide": 378.535
+      },
+      {
+        "bermuda_decimal_year": 2007.7633,
+        "bermuda_ph": 8.076,
+        "bermuda_carbon_dioxide": 360.382
+      },
+      {
+        "bermuda_decimal_year": 2007.8701,
+        "bermuda_ph": 8.08,
+        "bermuda_carbon_dioxide": 358.75
+      },
+      {
+        "bermuda_decimal_year": 2007.9305,
+        "bermuda_ph": 8.089,
+        "bermuda_carbon_dioxide": 352.436
+      }
+    ]
+  },
+  {
+    "year": "2008",
+    "global_sea_year_anomaly_farenheit": 0.264,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.232248,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.295752,
+    "mollusc_count": 1338,
+    "mollusc_density_square_meter": 4578,
+    "carbon_dioxide_ppm": [
+      385.07,
+      385.84,
+      385.83,
+      386.77,
+      388.51,
+      388.05,
+      386.25,
+      384.08,
+      383.09,
+      382.78,
+      384.01,
+      385.11
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      385.05,
+      385.13,
+      384.29,
+      384,
+      385.21,
+      385.57,
+      385.46,
+      385.59,
+      386.5,
+      386.31,
+      386.23,
+      386.03
+    ],
+    "carbon_dioxide_fit_ppm": [
+      384.62,
+      385.45,
+      386.43,
+      387.8,
+      388.47,
+      387.8,
+      386.26,
+      384.13,
+      382.42,
+      382.49,
+      383.96,
+      385.41
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      384.58,
+      384.72,
+      384.86,
+      385.01,
+      385.17,
+      385.34,
+      385.51,
+      385.68,
+      385.85,
+      386.01,
+      386.16,
+      386.31
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2008.081967,
+        "hawaii_ph": 8.0957,
+        "hawaii_carbon_dioxide": 347.4
+      },
+      {
+        "hawaii_decimal_year": 2008.150273,
+        "hawaii_ph": 8.0957,
+        "hawaii_carbon_dioxide": 347.4
+      },
+      {
+        "hawaii_decimal_year": 2008.407104,
+        "hawaii_ph": 8.0694,
+        "hawaii_carbon_dioxide": 371.1
+      },
+      {
+        "hawaii_decimal_year": 2008.486339,
+        "hawaii_ph": 8.0735,
+        "hawaii_carbon_dioxide": 367
+      },
+      {
+        "hawaii_decimal_year": 2008.571038,
+        "hawaii_ph": 8.0635,
+        "hawaii_carbon_dioxide": 376.9
+      },
+      {
+        "hawaii_decimal_year": 2008.628415,
+        "hawaii_ph": 8.0729,
+        "hawaii_carbon_dioxide": 366.7
+      },
+      {
+        "hawaii_decimal_year": 2008.778689,
+        "hawaii_ph": 8.0799,
+        "hawaii_carbon_dioxide": 361
+      },
+      {
+        "hawaii_decimal_year": 2008.918033,
+        "hawaii_ph": 8.0816,
+        "hawaii_carbon_dioxide": 360.5
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2008.1721,
+        "canary_ph": 8.0999,
+        "canary_carbon_dioxide": 356.0044193
+      },
+      {
+        "canary_decimal_year": 2008.1831,
+        "canary_ph": 8.1055,
+        "canary_carbon_dioxide": 350.0102
+      },
+      {
+        "canary_decimal_year": 2008.2884,
+        "canary_ph": 8.0899,
+        "canary_carbon_dioxide": 366.6794075
+      },
+      {
+        "canary_decimal_year": 2008.3158,
+        "canary_ph": 8.0884,
+        "canary_carbon_dioxide": 367.3838
+      },
+      {
+        "canary_decimal_year": 2008.6436,
+        "canary_ph": 8.0669,
+        "canary_carbon_dioxide": 388.0299742
+      },
+      {
+        "canary_decimal_year": 2008.9249,
+        "canary_ph": 8.0784,
+        "canary_carbon_dioxide": 377.8633
+      },
+      {
+        "canary_decimal_year": 2008.9331,
+        "canary_ph": 8.081,
+        "canary_carbon_dioxide": 374.9906
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2008.0453,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 339.63
+      },
+      {
+        "bermuda_decimal_year": 2008.1165,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 332.257
+      },
+      {
+        "bermuda_decimal_year": 2008.1464,
+        "bermuda_ph": 8.106,
+        "bermuda_carbon_dioxide": 338.583
+      },
+      {
+        "bermuda_decimal_year": 2008.1986,
+        "bermuda_ph": 8.11,
+        "bermuda_carbon_dioxide": 333.934
+      },
+      {
+        "bermuda_decimal_year": 2008.2312,
+        "bermuda_ph": 8.108,
+        "bermuda_carbon_dioxide": 336.587
+      },
+      {
+        "bermuda_decimal_year": 2008.2886,
+        "bermuda_ph": 8.09,
+        "bermuda_carbon_dioxide": 353.935
+      },
+      {
+        "bermuda_decimal_year": 2008.4113,
+        "bermuda_ph": 8.083,
+        "bermuda_carbon_dioxide": 359.211
+      },
+      {
+        "bermuda_decimal_year": 2008.4742,
+        "bermuda_ph": 8.047,
+        "bermuda_carbon_dioxide": 395.73
+      },
+      {
+        "bermuda_decimal_year": 2008.5455,
+        "bermuda_ph": 8.04,
+        "bermuda_carbon_dioxide": 401.826
+      },
+      {
+        "bermuda_decimal_year": 2008.619,
+        "bermuda_ph": 8.023,
+        "bermuda_carbon_dioxide": 419.156
+      },
+      {
+        "bermuda_decimal_year": 2008.6982,
+        "bermuda_ph": 8.028,
+        "bermuda_carbon_dioxide": 409.8
+      },
+      {
+        "bermuda_decimal_year": 2008.772,
+        "bermuda_ph": 8.048,
+        "bermuda_carbon_dioxide": 391.184
+      },
+      {
+        "bermuda_decimal_year": 2008.8595,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 354.046
+      },
+      {
+        "bermuda_decimal_year": 2008.9579,
+        "bermuda_ph": 8.097,
+        "bermuda_carbon_dioxide": 345.669
+      }
+    ]
+  },
+  {
+    "year": "2009",
+    "global_sea_year_anomaly_farenheit": 0.498,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.46272,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.53328,
+    "mollusc_count": 2122,
+    "mollusc_density_square_meter": 5344,
+    "carbon_dioxide_ppm": [
+      386.65,
+      387.12,
+      388.51,
+      389.57,
+      390.16,
+      389.62,
+      388.07,
+      386.08,
+      384.65,
+      384.33,
+      386.05,
+      387.49
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      386.63,
+      386.4,
+      386.99,
+      386.81,
+      386.85,
+      387.1,
+      387.24,
+      387.57,
+      388.07,
+      387.88,
+      388.28,
+      388.41
+    ],
+    "carbon_dioxide_fit_ppm": [
+      386.5,
+      387.35,
+      388.3,
+      389.7,
+      390.4,
+      389.76,
+      388.25,
+      386.14,
+      384.44,
+      384.55,
+      386.1,
+      387.63
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      386.46,
+      386.62,
+      386.76,
+      386.92,
+      387.09,
+      387.27,
+      387.46,
+      387.66,
+      387.87,
+      388.09,
+      388.31,
+      388.53
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2009.057534,
+        "hawaii_ph": 8.0996,
+        "hawaii_carbon_dioxide": 344.1
+      },
+      {
+        "hawaii_decimal_year": 2009.134247,
+        "hawaii_ph": 8.1084,
+        "hawaii_carbon_dioxide": 337
+      },
+      {
+        "hawaii_decimal_year": 2009.326027,
+        "hawaii_ph": 8.0898,
+        "hawaii_carbon_dioxide": 354.6
+      },
+      {
+        "hawaii_decimal_year": 2009.405479,
+        "hawaii_ph": 8.0693,
+        "hawaii_carbon_dioxide": 374.7
+      },
+      {
+        "hawaii_decimal_year": 2009.506849,
+        "hawaii_ph": 8.0676,
+        "hawaii_carbon_dioxide": 375.3
+      },
+      {
+        "hawaii_decimal_year": 2009.564384,
+        "hawaii_ph": 8.0584,
+        "hawaii_carbon_dioxide": 384.4
+      },
+      {
+        "hawaii_decimal_year": 2009.632877,
+        "hawaii_ph": 8.0614,
+        "hawaii_carbon_dioxide": 381.3
+      },
+      {
+        "hawaii_decimal_year": 2009.734247,
+        "hawaii_ph": 8.0541,
+        "hawaii_carbon_dioxide": 390.8
+      },
+      {
+        "hawaii_decimal_year": 2009.843836,
+        "hawaii_ph": 8.0667,
+        "hawaii_carbon_dioxide": 375.7
+      },
+      {
+        "hawaii_decimal_year": 2009.942466,
+        "hawaii_ph": 8.0801,
+        "hawaii_carbon_dioxide": 363.7
+      }
+    ],
+    "canary_acidity": [
+      {
+        "canary_decimal_year": 2009.0712,
+        "canary_ph": 8.0894,
+        "canary_carbon_dioxide": 366.7552
+      },
+      {
+        "canary_decimal_year": 2009.1436,
+        "canary_ph": 8.0975,
+        "canary_carbon_dioxide": 358.0527915
+      },
+      {
+        "canary_decimal_year": 2009.2324,
+        "canary_ph": 8.0897,
+        "canary_carbon_dioxide": 366.1135131
+      },
+      {
+        "canary_decimal_year": 2009.2692,
+        "canary_ph": 8.1017,
+        "canary_carbon_dioxide": 353.4303011
+      },
+      {
+        "canary_decimal_year": 2009.3854,
+        "canary_ph": 8.089,
+        "canary_carbon_dioxide": 367.2136969
+      },
+      {
+        "canary_decimal_year": 2009.824,
+        "canary_ph": 8.0451,
+        "canary_carbon_dioxide": 412.6208109
+      },
+      {
+        "canary_decimal_year": 2009.8607,
+        "canary_ph": 8.045,
+        "canary_carbon_dioxide": 412.5473
+      }
+    ],
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2009.1085,
+        "bermuda_ph": 8.09,
+        "bermuda_carbon_dioxide": 353.512
+      },
+      {
+        "bermuda_decimal_year": 2009.1442,
+        "bermuda_ph": 8.101,
+        "bermuda_carbon_dioxide": 342.956
+      },
+      {
+        "bermuda_decimal_year": 2009.1763,
+        "bermuda_ph": 8.108,
+        "bermuda_carbon_dioxide": 337.31
+      },
+      {
+        "bermuda_decimal_year": 2009.2125,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 340.139
+      },
+      {
+        "bermuda_decimal_year": 2009.2481,
+        "bermuda_ph": 8.103,
+        "bermuda_carbon_dioxide": 341.439
+      },
+      {
+        "bermuda_decimal_year": 2009.2865,
+        "bermuda_ph": 8.091,
+        "bermuda_carbon_dioxide": 353.712
+      },
+      {
+        "bermuda_decimal_year": 2009.3714,
+        "bermuda_ph": 8.065,
+        "bermuda_carbon_dioxide": 380.656
+      },
+      {
+        "bermuda_decimal_year": 2009.4426,
+        "bermuda_ph": 8.042,
+        "bermuda_carbon_dioxide": 401.408
+      },
+      {
+        "bermuda_decimal_year": 2009.5358,
+        "bermuda_ph": 8.039,
+        "bermuda_carbon_dioxide": 399.007
+      },
+      {
+        "bermuda_decimal_year": 2009.6207,
+        "bermuda_ph": 8.013,
+        "bermuda_carbon_dioxide": 428.538
+      },
+      {
+        "bermuda_decimal_year": 2009.6975,
+        "bermuda_ph": 8.019,
+        "bermuda_carbon_dioxide": 421.949
+      },
+      {
+        "bermuda_decimal_year": 2009.7741,
+        "bermuda_ph": 8.05,
+        "bermuda_carbon_dioxide": 387.191
+      },
+      {
+        "bermuda_decimal_year": 2009.8541,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 368.843
+      },
+      {
+        "bermuda_decimal_year": 2009.9389,
+        "bermuda_ph": 8.084,
+        "bermuda_carbon_dioxide": 356.96
+      }
+    ]
+  },
+  {
+    "year": "2010",
+    "global_sea_year_anomaly_farenheit": 0.516,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.48072,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.55128,
+    "mollusc_count": 2333,
+    "mollusc_density_square_meter": 4666,
+    "carbon_dioxide_ppm": [
+      388.55,
+      390.07,
+      391.01,
+      392.38,
+      393.22,
+      392.24,
+      390.33,
+      388.52,
+      386.84,
+      387.16,
+      388.67,
+      389.81
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      388.53,
+      389.35,
+      389.48,
+      389.62,
+      389.89,
+      389.71,
+      389.51,
+      390.01,
+      390.26,
+      390.72,
+      390.91,
+      390.74
+    ],
+    "carbon_dioxide_fit_ppm": [
+      388.8,
+      389.72,
+      390.73,
+      392.17,
+      392.9,
+      392.26,
+      390.73,
+      388.58,
+      386.83,
+      386.89,
+      388.36,
+      389.8
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      388.76,
+      388.98,
+      389.18,
+      389.39,
+      389.58,
+      389.76,
+      389.94,
+      390.11,
+      390.28,
+      390.43,
+      390.58,
+      390.71
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2010.189041,
+        "hawaii_ph": 8.0969,
+        "hawaii_carbon_dioxide": 347.4
+      },
+      {
+        "hawaii_decimal_year": 2010.265753,
+        "hawaii_ph": 8.0968,
+        "hawaii_carbon_dioxide": 347.8
+      },
+      {
+        "hawaii_decimal_year": 2010.380822,
+        "hawaii_ph": 8.0839,
+        "hawaii_carbon_dioxide": 359.9
+      },
+      {
+        "hawaii_decimal_year": 2010.438356,
+        "hawaii_ph": 8.0688,
+        "hawaii_carbon_dioxide": 375.9
+      },
+      {
+        "hawaii_decimal_year": 2010.520548,
+        "hawaii_ph": 8.0703,
+        "hawaii_carbon_dioxide": 373.1
+      },
+      {
+        "hawaii_decimal_year": 2010.60274,
+        "hawaii_ph": 8.0785,
+        "hawaii_carbon_dioxide": 364.1
+      },
+      {
+        "hawaii_decimal_year": 2010.676712,
+        "hawaii_ph": 8.0691,
+        "hawaii_carbon_dioxide": 373.2
+      },
+      {
+        "hawaii_decimal_year": 2010.758904,
+        "hawaii_ph": 8.0651,
+        "hawaii_carbon_dioxide": 377
+      },
+      {
+        "hawaii_decimal_year": 2010.890411,
+        "hawaii_ph": 8.0715,
+        "hawaii_carbon_dioxide": 370.4
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2010.0979,
+        "bermuda_ph": 8.107,
+        "bermuda_carbon_dioxide": 338.256
+      },
+      {
+        "bermuda_decimal_year": 2010.1507,
+        "bermuda_ph": 8.096,
+        "bermuda_carbon_dioxide": 348.691
+      },
+      {
+        "bermuda_decimal_year": 2010.189,
+        "bermuda_ph": 8.094,
+        "bermuda_carbon_dioxide": 350.477
+      },
+      {
+        "bermuda_decimal_year": 2010.2329,
+        "bermuda_ph": 8.073,
+        "bermuda_carbon_dioxide": 371.541
+      },
+      {
+        "bermuda_decimal_year": 2010.2685,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 332.993
+      },
+      {
+        "bermuda_decimal_year": 2010.3068,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 344.66
+      },
+      {
+        "bermuda_decimal_year": 2010.3671,
+        "bermuda_ph": 8.095,
+        "bermuda_carbon_dioxide": 348.786
+      },
+      {
+        "bermuda_decimal_year": 2010.4767,
+        "bermuda_ph": 7.998,
+        "bermuda_carbon_dioxide": 451.785
+      },
+      {
+        "bermuda_decimal_year": 2010.5618,
+        "bermuda_ph": 8.018,
+        "bermuda_carbon_dioxide": 426.623
+      },
+      {
+        "bermuda_decimal_year": 2010.6384,
+        "bermuda_ph": 8.027,
+        "bermuda_carbon_dioxide": 413.341
+      },
+      {
+        "bermuda_decimal_year": 2010.6795,
+        "bermuda_ph": 8.046,
+        "bermuda_carbon_dioxide": 389.502
+      },
+      {
+        "bermuda_decimal_year": 2010.766,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 368.396
+      },
+      {
+        "bermuda_decimal_year": 2010.862,
+        "bermuda_ph": 8.086,
+        "bermuda_carbon_dioxide": 354.316
+      },
+      {
+        "bermuda_decimal_year": 2010.9389,
+        "bermuda_ph": 8.11,
+        "bermuda_carbon_dioxide": 332.204
+      }
+    ]
+  },
+  {
+    "year": "2011",
+    "global_sea_year_anomaly_farenheit": 0.318,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.28272,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.35328,
+    "mollusc_count": 2546,
+    "mollusc_density_square_meter": 6790,
+    "carbon_dioxide_ppm": [
+      391.3,
+      391.92,
+      392.45,
+      393.37,
+      394.28,
+      393.69,
+      392.6,
+      390.21,
+      389,
+      388.93,
+      390.24,
+      391.8
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      391.27,
+      391.2,
+      390.92,
+      390.6,
+      390.95,
+      391.16,
+      391.77,
+      391.7,
+      392.44,
+      392.5,
+      392.49,
+      392.73
+    ],
+    "carbon_dioxide_fit_ppm": [
+      390.88,
+      391.71,
+      392.64,
+      394.01,
+      394.69,
+      394.02,
+      392.48,
+      390.33,
+      388.59,
+      388.67,
+      390.18,
+      391.67
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      390.84,
+      390.97,
+      391.08,
+      391.22,
+      391.36,
+      391.52,
+      391.68,
+      391.86,
+      392.04,
+      392.22,
+      392.41,
+      392.58
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2011.079452,
+        "hawaii_ph": 8.0891,
+        "hawaii_carbon_dioxide": 355.4
+      },
+      {
+        "hawaii_decimal_year": 2011.164384,
+        "hawaii_ph": 8.0918,
+        "hawaii_carbon_dioxide": 351.2
+      },
+      {
+        "hawaii_decimal_year": 2011.279452,
+        "hawaii_ph": 8.0885,
+        "hawaii_carbon_dioxide": 353.3
+      },
+      {
+        "hawaii_decimal_year": 2011.356164,
+        "hawaii_ph": 8.0797,
+        "hawaii_carbon_dioxide": 362.9
+      },
+      {
+        "hawaii_decimal_year": 2011.550685,
+        "hawaii_ph": 8.0696,
+        "hawaii_carbon_dioxide": 370.5
+      },
+      {
+        "hawaii_decimal_year": 2011.663014,
+        "hawaii_ph": 8.0717,
+        "hawaii_carbon_dioxide": 369.2
+      },
+      {
+        "hawaii_decimal_year": 2011.739726,
+        "hawaii_ph": 8.0645,
+        "hawaii_carbon_dioxide": 377
+      },
+      {
+        "hawaii_decimal_year": 2011.846575,
+        "hawaii_ph": 8.0674,
+        "hawaii_carbon_dioxide": 373.3
+      },
+      {
+        "hawaii_decimal_year": 2011.912329,
+        "hawaii_ph": 8.0802,
+        "hawaii_carbon_dioxide": 361.6
+      },
+      {
+        "hawaii_decimal_year": 2011.969863,
+        "hawaii_ph": 8.0811,
+        "hawaii_carbon_dioxide": 362
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2011.1477,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 328.095
+      },
+      {
+        "bermuda_decimal_year": 2011.2345,
+        "bermuda_ph": 8.13,
+        "bermuda_carbon_dioxide": 317.582
+      },
+      {
+        "bermuda_decimal_year": 2011.27,
+        "bermuda_ph": 8.106,
+        "bermuda_carbon_dioxide": 338.803
+      },
+      {
+        "bermuda_decimal_year": 2011.3194,
+        "bermuda_ph": 8.099,
+        "bermuda_carbon_dioxide": 345.329
+      },
+      {
+        "bermuda_decimal_year": 2011.377,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 339.015
+      },
+      {
+        "bermuda_decimal_year": 2011.5141,
+        "bermuda_ph": 8.017,
+        "bermuda_carbon_dioxide": 426.869
+      },
+      {
+        "bermuda_decimal_year": 2011.6318,
+        "bermuda_ph": 8.042,
+        "bermuda_carbon_dioxide": 397.492
+      },
+      {
+        "bermuda_decimal_year": 2011.7005,
+        "bermuda_ph": 8.031,
+        "bermuda_carbon_dioxide": 410.2
+      },
+      {
+        "bermuda_decimal_year": 2011.8337,
+        "bermuda_ph": 8.074,
+        "bermuda_carbon_dioxide": 361.95
+      },
+      {
+        "bermuda_decimal_year": 2011.8813,
+        "bermuda_ph": 8.094,
+        "bermuda_carbon_dioxide": 346.82
+      },
+      {
+        "bermuda_decimal_year": 2011.9357,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 331.13
+      }
+    ]
+  },
+  {
+    "year": "2012",
+    "global_sea_year_anomaly_farenheit": 0.444,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.40872,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.47928,
+    "mollusc_count": 2609,
+    "mollusc_density_square_meter": 6132,
+    "carbon_dioxide_ppm": [
+      393.07,
+      393.35,
+      394.36,
+      396.43,
+      396.87,
+      395.88,
+      394.52,
+      392.54,
+      391.13,
+      391.01,
+      392.95,
+      394.34
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      393.05,
+      392.63,
+      392.79,
+      393.62,
+      393.52,
+      393.36,
+      393.72,
+      394.06,
+      394.58,
+      394.59,
+      395.2,
+      395.27
+    ],
+    "carbon_dioxide_fit_ppm": [
+      392.8,
+      393.69,
+      394.72,
+      396.15,
+      396.87,
+      396.24,
+      394.73,
+      392.64,
+      390.97,
+      391.13,
+      392.71,
+      394.25
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      392.76,
+      392.95,
+      393.13,
+      393.33,
+      393.53,
+      393.75,
+      393.97,
+      394.2,
+      394.45,
+      394.69,
+      394.93,
+      395.16
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2012.051913,
+        "hawaii_ph": 8.0876,
+        "hawaii_carbon_dioxide": 356.3
+      },
+      {
+        "hawaii_decimal_year": 2012.23224,
+        "hawaii_ph": 8.0905,
+        "hawaii_carbon_dioxide": 353.5
+      },
+      {
+        "hawaii_decimal_year": 2012.336066,
+        "hawaii_ph": 8.0789,
+        "hawaii_carbon_dioxide": 364.5
+      },
+      {
+        "hawaii_decimal_year": 2012.415301,
+        "hawaii_ph": 8.0725,
+        "hawaii_carbon_dioxide": 370.4
+      },
+      {
+        "hawaii_decimal_year": 2012.489071,
+        "hawaii_ph": 8.0664,
+        "hawaii_carbon_dioxide": 377.6
+      },
+      {
+        "hawaii_decimal_year": 2012.584699,
+        "hawaii_ph": 8.0563,
+        "hawaii_carbon_dioxide": 387.1
+      },
+      {
+        "hawaii_decimal_year": 2012.631148,
+        "hawaii_ph": 8.0499,
+        "hawaii_carbon_dioxide": 392.1
+      },
+      {
+        "hawaii_decimal_year": 2012.70765,
+        "hawaii_ph": 8.0477,
+        "hawaii_carbon_dioxide": 394.6
+      },
+      {
+        "hawaii_decimal_year": 2012.770492,
+        "hawaii_ph": 8.0587,
+        "hawaii_carbon_dioxide": 384.1
+      },
+      {
+        "hawaii_decimal_year": 2012.92623,
+        "hawaii_ph": 8.0697,
+        "hawaii_carbon_dioxide": 374.7
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2012.08107,
+        "bermuda_ph": 8.117,
+        "bermuda_carbon_dioxide": 328.02
+      },
+      {
+        "bermuda_decimal_year": 2012.11112,
+        "bermuda_ph": 8.113,
+        "bermuda_carbon_dioxide": 332.39
+      },
+      {
+        "bermuda_decimal_year": 2012.18762,
+        "bermuda_ph": 8.106,
+        "bermuda_carbon_dioxide": 337.82
+      },
+      {
+        "bermuda_decimal_year": 2012.24193,
+        "bermuda_ph": 8.118,
+        "bermuda_carbon_dioxide": 327.36
+      },
+      {
+        "bermuda_decimal_year": 2012.28033,
+        "bermuda_ph": 8.105,
+        "bermuda_carbon_dioxide": 339.06
+      },
+      {
+        "bermuda_decimal_year": 2012.31866,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 355.06
+      },
+      {
+        "bermuda_decimal_year": 2012.38428,
+        "bermuda_ph": 8.081,
+        "bermuda_carbon_dioxide": 359.78
+      },
+      {
+        "bermuda_decimal_year": 2012.4662,
+        "bermuda_ph": 8.061,
+        "bermuda_carbon_dioxide": 377.32
+      },
+      {
+        "bermuda_decimal_year": 2012.53178,
+        "bermuda_ph": 8.025,
+        "bermuda_carbon_dioxide": 416.4
+      },
+      {
+        "bermuda_decimal_year": 2012.6373,
+        "bermuda_ph": 8.025,
+        "bermuda_carbon_dioxide": 414.64
+      },
+      {
+        "bermuda_decimal_year": 2012.7012,
+        "bermuda_ph": 8.044,
+        "bermuda_carbon_dioxide": 395.19
+      },
+      {
+        "bermuda_decimal_year": 2012.8005,
+        "bermuda_ph": 8.058,
+        "bermuda_carbon_dioxide": 379.58
+      },
+      {
+        "bermuda_decimal_year": 2012.874,
+        "bermuda_ph": 8.074,
+        "bermuda_carbon_dioxide": 363.07
+      },
+      {
+        "bermuda_decimal_year": 2012.9469,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 353.43
+      }
+    ]
+  },
+  {
+    "year": "2013",
+    "global_sea_year_anomaly_farenheit": 0.48,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.441192,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.518808,
+    "mollusc_count": 2350,
+    "mollusc_density_square_meter": 5148,
+    "carbon_dioxide_ppm": [
+      395.61,
+      396.85,
+      397.26,
+      398.35,
+      399.98,
+      398.87,
+      397.37,
+      395.41,
+      393.39,
+      393.7,
+      395.19,
+      396.82
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      395.58,
+      396.12,
+      395.71,
+      395.56,
+      396.62,
+      396.32,
+      396.54,
+      396.91,
+      396.85,
+      397.29,
+      397.46,
+      397.76
+    ],
+    "carbon_dioxide_fit_ppm": [
+      395.43,
+      396.36,
+      397.38,
+      398.84,
+      399.59,
+      398.96,
+      397.43,
+      395.28,
+      393.54,
+      393.62,
+      395.13,
+      396.62
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      395.4,
+      395.62,
+      395.82,
+      396.03,
+      396.23,
+      396.44,
+      396.63,
+      396.82,
+      397.01,
+      397.19,
+      397.37,
+      397.54
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2013.120548,
+        "hawaii_ph": 8.0821,
+        "hawaii_carbon_dioxide": 362.7
+      },
+      {
+        "hawaii_decimal_year": 2013.180822,
+        "hawaii_ph": 8.084,
+        "hawaii_carbon_dioxide": 361.4
+      },
+      {
+        "hawaii_decimal_year": 2013.263014,
+        "hawaii_ph": 8.0822,
+        "hawaii_carbon_dioxide": 363.7
+      },
+      {
+        "hawaii_decimal_year": 2013.378082,
+        "hawaii_ph": 8.0571,
+        "hawaii_carbon_dioxide": 384.5
+      },
+      {
+        "hawaii_decimal_year": 2013.484932,
+        "hawaii_ph": 8.0581,
+        "hawaii_carbon_dioxide": 385.5
+      },
+      {
+        "hawaii_decimal_year": 2013.69863,
+        "hawaii_ph": 8.0499,
+        "hawaii_carbon_dioxide": 394.5
+      },
+      {
+        "hawaii_decimal_year": 2013.753425,
+        "hawaii_ph": 8.0633,
+        "hawaii_carbon_dioxide": 379.5
+      },
+      {
+        "hawaii_decimal_year": 2013.824658,
+        "hawaii_ph": 8.0563,
+        "hawaii_carbon_dioxide": 386.4
+      },
+      {
+        "hawaii_decimal_year": 2013.906849,
+        "hawaii_ph": 8.0733,
+        "hawaii_carbon_dioxide": 370.8
+      },
+      {
+        "hawaii_decimal_year": 2013.972603,
+        "hawaii_ph": 8.0824,
+        "hawaii_carbon_dioxide": 361.6
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2013.062,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 341.27
+      },
+      {
+        "bermuda_decimal_year": 2013.119,
+        "bermuda_ph": 8.102,
+        "bermuda_carbon_dioxide": 351.05
+      },
+      {
+        "bermuda_decimal_year": 2013.155,
+        "bermuda_ph": 8.111,
+        "bermuda_carbon_dioxide": 341.882
+      },
+      {
+        "bermuda_decimal_year": 2013.196,
+        "bermuda_ph": 8.123,
+        "bermuda_carbon_dioxide": 332.536
+      },
+      {
+        "bermuda_decimal_year": 2013.235,
+        "bermuda_ph": 8.116,
+        "bermuda_carbon_dioxide": 337.535
+      },
+      {
+        "bermuda_decimal_year": 2013.267,
+        "bermuda_ph": 8.116,
+        "bermuda_carbon_dioxide": 337.892
+      },
+      {
+        "bermuda_decimal_year": 2013.311,
+        "bermuda_ph": 8.112,
+        "bermuda_carbon_dioxide": 342.468
+      },
+      {
+        "bermuda_decimal_year": 2013.372,
+        "bermuda_ph": 8.089,
+        "bermuda_carbon_dioxide": 362.674
+      },
+      {
+        "bermuda_decimal_year": 2013.457,
+        "bermuda_ph": 8.056,
+        "bermuda_carbon_dioxide": 397.85
+      },
+      {
+        "bermuda_decimal_year": 2013.511,
+        "bermuda_ph": 8.022,
+        "bermuda_carbon_dioxide": 435.967
+      },
+      {
+        "bermuda_decimal_year": 2013.588,
+        "bermuda_ph": 8.016,
+        "bermuda_carbon_dioxide": 439.25
+      },
+      {
+        "bermuda_decimal_year": 2013.714,
+        "bermuda_ph": 8.047,
+        "bermuda_carbon_dioxide": 403.523
+      },
+      {
+        "bermuda_decimal_year": 2013.802,
+        "bermuda_ph": 8.069,
+        "bermuda_carbon_dioxide": 376.416
+      },
+      {
+        "bermuda_decimal_year": 2013.873,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 361.097
+      },
+      {
+        "bermuda_decimal_year": 2013.942,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 349.987
+      }
+    ]
+  },
+  {
+    "year": "2014",
+    "global_sea_year_anomaly_farenheit": 0.642,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.60672,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.67728,
+    "mollusc_count": 2497,
+    "mollusc_density_square_meter": 5760,
+    "carbon_dioxide_ppm": [
+      397.93,
+      398.1,
+      399.47,
+      401.33,
+      401.88,
+      401.31,
+      399.07,
+      397.21,
+      395.4,
+      395.65,
+      397.22,
+      398.79
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      397.9,
+      397.37,
+      397.92,
+      398.53,
+      398.51,
+      398.75,
+      398.23,
+      398.72,
+      398.87,
+      399.25,
+      399.5,
+      399.73
+    ],
+    "carbon_dioxide_fit_ppm": [
+      397.75,
+      398.62,
+      399.6,
+      401.01,
+      401.72,
+      401.04,
+      399.47,
+      397.29,
+      395.51,
+      395.58,
+      397.1,
+      398.6
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      397.71,
+      397.88,
+      398.03,
+      398.19,
+      398.35,
+      398.51,
+      398.67,
+      398.83,
+      399,
+      399.17,
+      399.34,
+      399.52
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2014.043836,
+        "hawaii_ph": 8.0817,
+        "hawaii_carbon_dioxide": 363.4
+      },
+      {
+        "hawaii_decimal_year": 2014.126027,
+        "hawaii_ph": 8.0888,
+        "hawaii_carbon_dioxide": 356.5
+      },
+      {
+        "hawaii_decimal_year": 2014.178082,
+        "hawaii_ph": 8.0806,
+        "hawaii_carbon_dioxide": 362.8
+      },
+      {
+        "hawaii_decimal_year": 2014.276712,
+        "hawaii_ph": 8.0857,
+        "hawaii_carbon_dioxide": 358.7
+      },
+      {
+        "hawaii_decimal_year": 2014.416438,
+        "hawaii_ph": 8.0751,
+        "hawaii_carbon_dioxide": 368.2
+      },
+      {
+        "hawaii_decimal_year": 2014.49863,
+        "hawaii_ph": 8.06,
+        "hawaii_carbon_dioxide": 383.2
+      },
+      {
+        "hawaii_decimal_year": 2014.706849,
+        "hawaii_ph": 8.0417,
+        "hawaii_carbon_dioxide": 398.7
+      },
+      {
+        "hawaii_decimal_year": 2014.786301,
+        "hawaii_ph": 8.0516,
+        "hawaii_carbon_dioxide": 388.6
+      },
+      {
+        "hawaii_decimal_year": 2014.893151,
+        "hawaii_ph": 8.0709,
+        "hawaii_carbon_dioxide": 371.2
+      },
+      {
+        "hawaii_decimal_year": 2014.961644,
+        "hawaii_ph": 8.0744,
+        "hawaii_carbon_dioxide": 369.1
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2014.18,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 350.939
+      },
+      {
+        "bermuda_decimal_year": 2014.278,
+        "bermuda_ph": 8.14,
+        "bermuda_carbon_dioxide": 318.005
+      },
+      {
+        "bermuda_decimal_year": 2014.328,
+        "bermuda_ph": 8.121,
+        "bermuda_carbon_dioxide": 333.405
+      },
+      {
+        "bermuda_decimal_year": 2014.448,
+        "bermuda_ph": 8.076,
+        "bermuda_carbon_dioxide": 375.796
+      },
+      {
+        "bermuda_decimal_year": 2014.525,
+        "bermuda_ph": 8.037,
+        "bermuda_carbon_dioxide": 414.065
+      },
+      {
+        "bermuda_decimal_year": 2014.64,
+        "bermuda_ph": 8.039,
+        "bermuda_carbon_dioxide": 409.325
+      },
+      {
+        "bermuda_decimal_year": 2014.703,
+        "bermuda_ph": 8.046,
+        "bermuda_carbon_dioxide": 403.492
+      },
+      {
+        "bermuda_decimal_year": 2014.826,
+        "bermuda_ph": 8.094,
+        "bermuda_carbon_dioxide": 356.439
+      },
+      {
+        "bermuda_decimal_year": 2014.89,
+        "bermuda_ph": 8.088,
+        "bermuda_carbon_dioxide": 361.28
+      },
+      {
+        "bermuda_decimal_year": 2014.944,
+        "bermuda_ph": 8.1,
+        "bermuda_carbon_dioxide": 351.927
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "global_sea_year_anomaly_farenheit": 0.858,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.819192,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.896808,
+    "mollusc_count": 1388,
+    "mollusc_density_square_meter": 4398,
+    "carbon_dioxide_ppm": [
+      399.85,
+      400.31,
+      401.51,
+      403.45,
+      404.11,
+      402.88,
+      401.6,
+      399,
+      397.5,
+      398.28,
+      400.24,
+      401.89
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      399.83,
+      399.57,
+      399.96,
+      400.64,
+      400.73,
+      400.31,
+      400.76,
+      400.51,
+      400.98,
+      401.9,
+      402.52,
+      402.83
+    ],
+    "carbon_dioxide_fit_ppm": [
+      399.73,
+      400.63,
+      401.64,
+      403.1,
+      403.86,
+      403.25,
+      401.76,
+      399.68,
+      398.03,
+      398.23,
+      399.9,
+      401.54
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      399.7,
+      399.89,
+      400.06,
+      400.27,
+      400.48,
+      400.71,
+      400.96,
+      401.23,
+      401.53,
+      401.83,
+      402.16,
+      402.47
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2015.153425,
+        "hawaii_ph": 8.0781,
+        "hawaii_carbon_dioxide": 365.4
+      },
+      {
+        "hawaii_decimal_year": 2015.241096,
+        "hawaii_ph": 8.0776,
+        "hawaii_carbon_dioxide": 366.3
+      },
+      {
+        "hawaii_decimal_year": 2015.306849,
+        "hawaii_ph": 8.0822,
+        "hawaii_carbon_dioxide": 360.3
+      },
+      {
+        "hawaii_decimal_year": 2015.394521,
+        "hawaii_ph": 8.0764,
+        "hawaii_carbon_dioxide": 367.2
+      },
+      {
+        "hawaii_decimal_year": 2015.468493,
+        "hawaii_ph": 8.058,
+        "hawaii_carbon_dioxide": 383.5
+      },
+      {
+        "hawaii_decimal_year": 2015.550685,
+        "hawaii_ph": 8.0424,
+        "hawaii_carbon_dioxide": 400.2
+      },
+      {
+        "hawaii_decimal_year": 2015.616438,
+        "hawaii_ph": 8.0536,
+        "hawaii_carbon_dioxide": 389.9
+      },
+      {
+        "hawaii_decimal_year": 2015.786301,
+        "hawaii_ph": 8.0639,
+        "hawaii_carbon_dioxide": 378.4
+      },
+      {
+        "hawaii_decimal_year": 2015.871233,
+        "hawaii_ph": 8.067,
+        "hawaii_carbon_dioxide": 374.8
+      },
+      {
+        "hawaii_decimal_year": 2015.939726,
+        "hawaii_ph": 8.0711,
+        "hawaii_carbon_dioxide": 369
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": [
+      {
+        "bermuda_decimal_year": 2015.095,
+        "bermuda_ph": 8.117,
+        "bermuda_carbon_dioxide": 337.077
+      },
+      {
+        "bermuda_decimal_year": 2015.196,
+        "bermuda_ph": 8.122,
+        "bermuda_carbon_dioxide": 332.419
+      },
+      {
+        "bermuda_decimal_year": 2015.27,
+        "bermuda_ph": 8.104,
+        "bermuda_carbon_dioxide": 348.12
+      },
+      {
+        "bermuda_decimal_year": 2015.363,
+        "bermuda_ph": 8.087,
+        "bermuda_carbon_dioxide": 366.07
+      },
+      {
+        "bermuda_decimal_year": 2015.479,
+        "bermuda_ph": 8.029,
+        "bermuda_carbon_dioxide": 426.45
+      },
+      {
+        "bermuda_decimal_year": 2015.534,
+        "bermuda_ph": 8.043,
+        "bermuda_carbon_dioxide": 409.26
+      },
+      {
+        "bermuda_decimal_year": 2015.627,
+        "bermuda_ph": 8.017,
+        "bermuda_carbon_dioxide": 437.05
+      },
+      {
+        "bermuda_decimal_year": 2015.7,
+        "bermuda_ph": 8.039,
+        "bermuda_carbon_dioxide": 410.04
+      },
+      {
+        "bermuda_decimal_year": 2015.863,
+        "bermuda_ph": 8.089,
+        "bermuda_carbon_dioxide": 361.66
+      },
+      {
+        "bermuda_decimal_year": 2015.911,
+        "bermuda_ph": 8.099,
+        "bermuda_carbon_dioxide": 352.68
+      },
+      {
+        "bermuda_decimal_year": 2015.95,
+        "bermuda_ph": 8.095,
+        "bermuda_carbon_dioxide": 355.49
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "global_sea_year_anomaly_farenheit": 0.93,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.891192,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.968808,
+    "mollusc_count": 2481,
+    "mollusc_density_square_meter": 5348,
+    "carbon_dioxide_ppm": [
+      402.65,
+      404.16,
+      404.86,
+      407.57,
+      407.65,
+      407,
+      404.5,
+      402.24,
+      401.01,
+      401.5,
+      403.64,
+      404.55
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      402.62,
+      403.42,
+      403.27,
+      404.73,
+      404.26,
+      404.46,
+      403.69,
+      403.78,
+      404.52,
+      405.12,
+      405.92,
+      405.49
+    ],
+    "carbon_dioxide_fit_ppm": [
+      402.82,
+      403.84,
+      404.98,
+      406.51,
+      407.28,
+      406.66,
+      405.14,
+      403.02,
+      401.33,
+      401.48,
+      403.08,
+      404.66
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      402.78,
+      403.09,
+      403.37,
+      403.64,
+      403.89,
+      404.14,
+      404.37,
+      404.6,
+      404.85,
+      405.09,
+      405.34,
+      405.58
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2016.035519,
+        "hawaii_ph": 8.0818,
+        "hawaii_carbon_dioxide": 358.8
+      },
+      {
+        "hawaii_decimal_year": 2016.112022,
+        "hawaii_ph": 8.0814,
+        "hawaii_carbon_dioxide": 360
+      },
+      {
+        "hawaii_decimal_year": 2016.188525,
+        "hawaii_ph": 8.0832,
+        "hawaii_carbon_dioxide": 359
+      },
+      {
+        "hawaii_decimal_year": 2016.289617,
+        "hawaii_ph": 8.0779,
+        "hawaii_carbon_dioxide": 362.7
+      },
+      {
+        "hawaii_decimal_year": 2016.409836,
+        "hawaii_ph": 8.0642,
+        "hawaii_carbon_dioxide": 376.2
+      },
+      {
+        "hawaii_decimal_year": 2016.530055,
+        "hawaii_ph": 8.0581,
+        "hawaii_carbon_dioxide": 382.3
+      },
+      {
+        "hawaii_decimal_year": 2016.60929,
+        "hawaii_ph": 8.0572,
+        "hawaii_carbon_dioxide": 383
+      },
+      {
+        "hawaii_decimal_year": 2016.79235,
+        "hawaii_ph": 8.0551,
+        "hawaii_carbon_dioxide": 385.8
+      },
+      {
+        "hawaii_decimal_year": 2016.907104,
+        "hawaii_ph": 8.0676,
+        "hawaii_carbon_dioxide": 374
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": null
+  },
+  {
+    "year": "2017",
+    "global_sea_year_anomaly_farenheit": 0.822,
+    "global_sea_year_anomaly_lower_confidence_farenheit": 0.779664,
+    "global_sea_year_anomaly_upper_confidence_farenheit": 0.864336,
+    "mollusc_count": 1193,
+    "mollusc_density_square_meter": 3360,
+    "carbon_dioxide_ppm": [
+      406.07,
+      406.64,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "seasonally_adjusted_carbon_dioxide_ppm": [
+      406.04,
+      405.9,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "carbon_dioxide_fit_ppm": [
+      405.87,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "seasonally_adjusted_carbon_dioxide_fit_ppm": [
+      405.83,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "hawaii_acidity": [
+      {
+        "hawaii_decimal_year": 2017.065753,
+        "hawaii_ph": 8.0702,
+        "hawaii_carbon_dioxide": 371.8
+      },
+      {
+        "hawaii_decimal_year": 2017.147945,
+        "hawaii_ph": 8.0742,
+        "hawaii_carbon_dioxide": 366.7
+      },
+      {
+        "hawaii_decimal_year": 2017.241096,
+        "hawaii_ph": 8.0775,
+        "hawaii_carbon_dioxide": 363.5
+      },
+      {
+        "hawaii_decimal_year": 2017.317808,
+        "hawaii_ph": 8.0652,
+        "hawaii_carbon_dioxide": 375.2
+      },
+      {
+        "hawaii_decimal_year": 2017.394521,
+        "hawaii_ph": 8.0634,
+        "hawaii_carbon_dioxide": 376.9
+      },
+      {
+        "hawaii_decimal_year": 2017.471233,
+        "hawaii_ph": 8.0511,
+        "hawaii_carbon_dioxide": 387.8
+      },
+      {
+        "hawaii_decimal_year": 2017.605479,
+        "hawaii_ph": 8.0494,
+        "hawaii_carbon_dioxide": 390.4
+      },
+      {
+        "hawaii_decimal_year": 2017.767123,
+        "hawaii_ph": 8.0517,
+        "hawaii_carbon_dioxide": 389.4
+      },
+      {
+        "hawaii_decimal_year": 2017.857534,
+        "hawaii_ph": 8.0622,
+        "hawaii_carbon_dioxide": 378.6
+      },
+      {
+        "hawaii_decimal_year": 2017.950685,
+        "hawaii_ph": 8.0811,
+        "hawaii_carbon_dioxide": 361.3
+      }
+    ],
+    "canary_acidity": null,
+    "bermuda_acidity": null
+  }
+]
