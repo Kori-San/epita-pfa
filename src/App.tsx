@@ -61,6 +61,26 @@ export const options = {
   },
 };
 
+function deriveRelation(m1, b1, m2, b2) {
+  // Solves for x in terms of y1 from the first function: y1 = m1*x + b1
+  // x = (y1 - b1) / m1
+  
+  // Substitutes x in the second function to get y2 in terms of y1: y2 = m2*((y1 - b1) / m1) + b2
+  // Simplifies to: y2 = (m2/m1)*y1 + (b2 - (m2*b1)/m1)
+  
+  const slope = m2 / m1;
+  const intercept = b2 - (m2 * b1) / m1;
+  
+  // Return the derived function as an object
+  return {
+    slope: slope,
+    intercept: intercept,
+    evaluate: function(y1) {
+      return this.slope * y1 + this.intercept;
+    }
+  };
+}
+
 const regressionOptions = {
   order: 2,
   precision: 5,
@@ -93,6 +113,8 @@ const mouleRegressionData = mouleLabels.map(function(element, index) {
 const mouleRegression = regression.linear(mouleRegressionData, regressionOptions);
 
 const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
+
+console.log(carbonRegression, acidityRegression);
 
 const degreePredi = labels2.map((x: string) => degreeRegression.predict(Number(x))[1]);
 const phPredi = labels2.map((x: string) => acidityRegression.predict(Number(x))[1]);
@@ -127,7 +149,7 @@ export const data = {
       tension: 0.4
     },
     {
-      label: "Molusk (density per square/meter)",
+      label: "Mollusk (density per square/meter)",
       data: mouleLabels,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
@@ -215,7 +237,7 @@ export const data = {
       borderDash: [1, 1],
     },
     {
-      label: "Molusk",
+      label: "Mollusk",
       data: mouleLabels,
       borderColor: "rgb(53, 162, 235)",
       backgroundColor: "rgba(53, 162, 235, 0.5)",
@@ -223,7 +245,7 @@ export const data = {
       tension: 0.4
     },
     {
-      label: "Molusk (density per square/meter)",
+      label: "Mollusk (density per square/meter)",
       data: mouleLabels,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
@@ -231,7 +253,7 @@ export const data = {
       tension: 0.4
     },    
     {
-      label: "Molusk  (density per square/meter) Prediction",
+      label: "Mollusk  (density per square/meter) Prediction",
       data: moulePredi,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
@@ -239,7 +261,7 @@ export const data = {
       borderDash: [1, 1],
     },
     {
-      label: "Molusk  (density per square/meter) Prediction",
+      label: "Mollusk  (density per square/meter) Prediction",
       data: moulePredi,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
@@ -258,6 +280,8 @@ export default function App() {
     labels: [],
     datasets: [],
   });
+
+  const [changeFactor, setChangeFactor] = React.useState(100);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);
@@ -287,11 +311,6 @@ export default function App() {
     }
   };
 
-console.log(data.datasets.find(
-        (dataset) =>
-          dataset.label === "Ph Prediction"
-      ).data = phPredi.map(x => x / 2));
-  
   const handleChange1 = (event: SelectChangeEvent) => {
     setData1(event.target.value as string);
     const newDataset = data.datasets.find(
@@ -320,12 +339,71 @@ console.log(data.datasets.find(
     }
   };
 
+  const changePercentagePredi = (percentage: number) => {
+    setChangeFactor(percentage);
+    const coef = percentage / 100;
+    
+    if (!data1 || !data2) {
+      return;
+    }
+
+    const prediDataset1 = data.datasets.find(
+        (dataset) => dataset.label === data1 + " Prediction" && dataset.yAxisID === "y"
+    );
+    
+    const prediDataset2 = data.datasets.find(
+        (dataset) => dataset.label === data2 + " Prediction" && dataset.yAxisID === "y1"
+    );
+     
+    let predi1 = null
+    let predi2 = null
+    let regression1 = null
+    let regression2 = null
+    
+    if (prediDataset1?.label.includes("Carbon")) {
+      predi1 = carbonPredi;
+      regression1 = carbonRegression;
+    } else if (prediDataset1?.label.includes("Ph")) {
+      predi1 = phPredi;
+      regression1 = acidityRegression;
+    } else if (prediDataset1?.label.includes("Farenheit")) {
+      predi1 = degreePredi;
+      regression1 = degreeRegression;
+    } else if (prediDataset1?.label.includes("Mollusk")) {
+      predi1 = moulePredi;
+      regression1 = mouleRegression;
+    } 
+
+    if (prediDataset2?.label.includes("Ph")) {
+      predi2 = phPredi;
+      regression2 = acidityRegression;
+    } else if (prediDataset2?.label.includes("Carbon")) {
+      predi2 = carbonPredi;
+      regression2 = carbonRegression;
+    } else if (prediDataset2?.label.includes("Farenheit")) {
+      predi2 = degreePredi;
+      regression2 = degreeRegression;
+    } else if (prediDataset2?.label.includes("Mollusk")) {
+      predi2 = moulePredi;
+      regression2 = mouleRegression;
+    } 
+
+    const derive = deriveRelation(regression1.equation[0], regression1.equation[1], regression2.equation[0], regression2.equation[1])
+
+    prediDataset1.data = predi1.map((x: number) => x * coef);
+    prediDataset2.data = prediDataset1.data.map((x, index) => predi2[index] + ((Math.abs(predi1[index] - x)) * derive.slope));
+
+    updatePrevisions();
+    console.log(percentage, coef, data1, prediDataset1);
+  }
+
   const selectData1 = [
     data.datasets[0].label,
     data.datasets[1].label,
     data.datasets[2].label,
     data.datasets[3].label,
   ];
+
   const selectData2 = [
     data.datasets[0].label,
     data.datasets[1].label,
@@ -371,7 +449,14 @@ console.log(data.datasets.find(
             </Select>
           </FormControl>
         </div>
-        <div>
+        <div className="flex flex-row justify-center items-center">
+          <div className="flex flex-row gap-2">
+            <label className=" text-xl text-slate-900 " htmlFor="percentagePredi">Percentage for Prediction</label>
+            <input className=" text-center w-20 rounded text-xl" id="percentagePredi" type="number" defaultValue={changeFactor} onChange={(event) => {
+              changePercentagePredi(Number(event.target.value));
+            }} />
+            %
+          </div>
           <Checkbox checked={checked} onChange={handleChange} />
           Display predictions
         </div>
