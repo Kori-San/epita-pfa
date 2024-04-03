@@ -20,7 +20,7 @@ import {
   SelectChangeEvent,
 } from "@mui/material";
 import React, { useState } from "react";
-import regression from 'regression';
+import regression from "regression";
 
 ChartJS.register(
   CategoryScale,
@@ -64,18 +64,18 @@ export const options = {
 function deriveRelation(m1, b1, m2, b2) {
   // Solves for x in terms of y1 from the first function: y1 = m1*x + b1
   // x = (y1 - b1) / m1
-  
+
   // Substitutes x in the second function to get y2 in terms of y1: y2 = m2*((y1 - b1) / m1) + b2
   // Simplifies to: y2 = (m2/m1)*y1 + (b2 - (m2*b1)/m1)
-  
+
   const slope = m2 / m1;
   const intercept = b2 - (m2 * b1) / m1;
-  
+
   // Return the derived function as an object
   return {
     slope: slope,
     intercept: intercept,
-    evaluate: function(y1) {
+    evaluate: function (y1) {
       return this.slope * y1 + this.intercept;
     }
   };
@@ -84,35 +84,35 @@ function deriveRelation(m1, b1, m2, b2) {
 const regressionOptions = {
   order: 2,
   precision: 5,
-} 
+}
 
 const labels = mergedData.map((x) => x.year);
 
 const carbonLabels = mergedData.map((x) => x.carbon_dioxide_ppm[0]);
-const carbonRegressionData = carbonLabels.map(function(element, index) {
+const carbonRegressionData = carbonLabels.map(function (element, index) {
   return [Number(labels[index]), element];
 });
 const carbonRegression = regression.linear(carbonRegressionData, regressionOptions);
 
 const acidityLabels = mergedData.map((x) => x.hawaii_acidity[0].hawaii_ph);
-const acidityRegressionData = acidityLabels.map(function(element, index) {
+const acidityRegressionData = acidityLabels.map(function (element, index) {
   return [Number(labels[index]), element];
 });
 const acidityRegression = regression.linear(acidityRegressionData, regressionOptions);
 
 const degreeLabels = mergedData.map((x) => x.global_sea_year_anomaly_farenheit);
-const degreeRegressionData = degreeLabels.map(function(element, index) {
+const degreeRegressionData = degreeLabels.map(function (element, index) {
   return [Number(labels[index]), element];
 });
 const degreeRegression = regression.linear(degreeRegressionData, regressionOptions);
 
 const mouleLabels = mergedData.map((x) => x.mollusc_density_square_meter);
-const mouleRegressionData = mouleLabels.map(function(element, index) {
+const mouleRegressionData = mouleLabels.map(function (element, index) {
   return [Number(labels[index]), element];
 });
 const mouleRegression = regression.linear(mouleRegressionData, regressionOptions);
 
-const labels2 =  [...labels, ...labels.map((x) => String(Number(x) + 30))];
+const labels2 = [...labels, ...labels.map((x) => String(Number(x) + 30))];
 
 console.log(carbonRegression, acidityRegression);
 
@@ -219,7 +219,7 @@ export const data = {
       backgroundColor: "rgba(53, 162, 235, 0.5)",
       yAxisID: "y1",
       tension: 0.4
-    },    
+    },
     {
       label: "Ph Prediction",
       data: phPredi,
@@ -251,7 +251,7 @@ export const data = {
       backgroundColor: "rgba(242, 142, 234, 0.5)",
       yAxisID: "y1",
       tension: 0.4
-    },    
+    },
     {
       label: "Mollusk (density per square/meter) Prediction",
       data: moulePredi,
@@ -342,24 +342,24 @@ export default function App() {
   const changePercentagePredi = (percentage: number) => {
     setChangeFactor(percentage);
     const coef = percentage / 100;
-    
+
     if (!data1 || !data2 || !checked) {
       return;
     }
 
     const prediDataset1 = data.datasets.find(
-        (dataset) => dataset.label === data1 + " Prediction" && dataset.yAxisID === "y"
+      (dataset) => dataset.label === data1 + " Prediction" && dataset.yAxisID === "y"
     );
-    
+
     const prediDataset2 = data.datasets.find(
-        (dataset) => dataset.label === data2 + " Prediction" && dataset.yAxisID === "y1"
+      (dataset) => dataset.label === data2 + " Prediction" && dataset.yAxisID === "y1"
     );
-     
+
     let predi1 = null
     let predi2 = null
     let regression1 = null
     let regression2 = null
-    
+
     if (prediDataset1?.label.includes("Carbon")) {
       predi1 = carbonPredi;
       regression1 = carbonRegression;
@@ -372,7 +372,7 @@ export default function App() {
     } else if (prediDataset1?.label.includes("Mollusk")) {
       predi1 = moulePredi;
       regression1 = mouleRegression;
-    } 
+    }
 
     if (prediDataset2?.label.includes("Ph")) {
       predi2 = phPredi;
@@ -386,7 +386,7 @@ export default function App() {
     } else if (prediDataset2?.label.includes("Mollusk")) {
       predi2 = moulePredi;
       regression2 = mouleRegression;
-    } 
+    }
 
     const derive = deriveRelation(regression1.equation[0], regression1.equation[1], regression2.equation[0], regression2.equation[1])
 
@@ -416,58 +416,76 @@ export default function App() {
 
   return (
     <>
-    <div className="flex flex-col w-full justify-center items-center">
-      <div className="mt-8 w-11/12 flex flex-col justify-center items-center">
-        <div className="w-full flex flex-row gap-2 justify-center items-center">
-          <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Graph Data 1</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={data1}
-              label="Data 1"
-              onChange={handleChange1}
-            >
-              {selectData1.map((value) => (
-                <MenuItem key={value} value={value}>
-                  {value}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Graph Data 2</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={data2}
-              label="Data 2"
-              onChange={handleChange2}
-            >
-              {selectData2.map((value) => (
-                <MenuItem key={value} value={value}>
-                  {value}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        </div>
-        <div className="flex flex-row justify-center items-center">
-          <div className="flex flex-row gap-2">
-            <label className=" text-xl text-slate-900 " htmlFor="percentagePredi">Percentage for Prediction</label>
-            <input className=" text-center w-20 rounded text-xl" id="percentagePredi" type="number" defaultValue={changeFactor} onChange={(event) => {
-              changePercentagePredi(Number(event.target.value));
-            }} />
-            %
+      <div className="flex flex-col w-full justify-center gap-3 items-center">
+        <div className="wave-container">
+          <div class="sun">
           </div>
-          <Checkbox checked={checked} onChange={handleChange} />
-          Display predictions
+          <div class="wave-01"></div>
+          <div class="wave-02"></div>
+          <div class="wave-03"></div>
         </div>
+        <div className="water-text flex flex-col justify-center items-center">
+          <h2>Repercussion of pollution on the Oceans and its Biodiversity</h2>
+          <h2>Repercussion of pollution on the Oceans and its Biodiversity</h2>
+          <h1 className="mt-4 text-7xl bg-transparent text-transparent select-none">Repercussion of pollution on the Oceans and its Biodiversity</h1>
         </div>
-      <div className="w-10/12">
-        <Line options={options} data={displayData} />
+        <div className="w-11/12 flex flex-row gap-2 justify-center items-center">
+          <div className="w-8/12 flex flex-row gap-2 justify-center items-center">
+            <div className="w-full bg-red-100 border-2 border-red-200 pt-4 p-2 rounded-lg ">
+              <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">Graph Data 1</InputLabel>
+                <Select
+                  labelId="demo-simple-select-label"
+                  id="demo-simple-select"
+                  value={data1}
+                  label="Data 1"
+                  onChange={handleChange1}
+                >
+                  {selectData1.map((value) => (
+                    <MenuItem key={value} value={value}>
+                      {value}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </div>
+            <div className="w-full bg-blue-100 border-2 border-blue-200 pt-4 p-2 rounded-lg ">
+              <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">Graph Data 2</InputLabel>
+                <Select
+                  labelId="demo-simple-select-label"
+                  id="demo-simple-select"
+                  value={data2}
+                  label="Data 2"
+                  onChange={handleChange2}
+                >
+                  {selectData2.map((value) => (
+                    <MenuItem key={value} value={value}>
+                      {value}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center items-center bg-slate-100 rounded-md my-2 p-2 text-sm font-semibold text-slate-700">
+            <div className="flex flex-row gap-1 justify-center items-center px-2 pt-1">
+              <label className="" htmlFor="percentagePredi">Percentage for Prediction</label>
+              <input className=" font-light background-none text-center w-14 rounded" id="percentagePredi" type="number" defaultValue={changeFactor} onChange={(event) => {
+                changePercentagePredi(Number(event.target.value));
+              }} placeholder="100" min={1} max={1000} />
+              %
+            </div>
+            <div className="flex flex-row justify-center items-center">
+              <Checkbox checked={checked} onChange={handleChange} />
+              Display predictions
+            </div>
+          </div>
+        </div>
+        <div className="w-9/12 border-2 border-gray-200 bg-white p-8 rounded-xl">
+          <Line updateMode="resize" options={options} data={displayData} />
+        </div>
       </div>
-    </div>
     </>
   );
 }
