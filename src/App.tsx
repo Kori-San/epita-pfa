@@ -253,7 +253,7 @@ export const data = {
       tension: 0.4
     },    
     {
-      label: "Mollusk  (density per square/meter) Prediction",
+      label: "Mollusk (density per square/meter) Prediction",
       data: moulePredi,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
@@ -261,7 +261,7 @@ export const data = {
       borderDash: [1, 1],
     },
     {
-      label: "Mollusk  (density per square/meter) Prediction",
+      label: "Mollusk (density per square/meter) Prediction",
       data: moulePredi,
       borderColor: "rgb(242, 142, 234)",
       backgroundColor: "rgba(242, 142, 234, 0.5)",
