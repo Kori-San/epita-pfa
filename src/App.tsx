@@ -343,7 +343,7 @@ export default function App() {
     setChangeFactor(percentage);
     const coef = percentage / 100;
     
-    if (!data1 || !data2) {
+    if (!data1 || !data2 || !checked) {
       return;
     }
 
@@ -393,8 +393,11 @@ export default function App() {
     prediDataset1.data = predi1.map((x: number) => x * coef);
     prediDataset2.data = prediDataset1.data.map((x, index) => predi2[index] + ((Math.abs(predi1[index] - x)) * derive.slope));
 
-    updatePrevisions();
-    console.log(percentage, coef, data1, prediDataset1);
+    setDisplayData(
+      (prevData) => ({
+        labels: labels2,
+        datasets: [prevData.datasets[0], prevData.datasets[1], prediDataset1, prediDataset2],
+      }));
   }
 
   const selectData1 = [
