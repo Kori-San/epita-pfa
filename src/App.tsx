@@ -286,11 +286,6 @@ export default function App() {
       }));
     }
   };
-
-console.log(data.datasets.find(
-        (dataset) =>
-          dataset.label === "Ph Prediction"
-      ).data = phPredi.map(x => x / 2));
   
   const handleChange1 = (event: SelectChangeEvent) => {
     setData1(event.target.value as string);
